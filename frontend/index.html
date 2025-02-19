@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contract Monitoring Dashboard</h1>
+
+        <!-- Detected Contracts Section -->
+        <section>
+            <h2>Detected Contracts</h2>
+            <ul id="contracts-list"></ul>
+        </section>
+
+        <!-- Buy Transactions Section -->
+        <section>
+            <h2>Buy Transactions</h2>
+            <ul id="buy-transactions"></ul>
+        </section>
+
+        <!-- Logs Section -->
+        <section>
+            <h2>Logs</h2>
+            <ul id="logs-list"></ul>
+        </section>
+    </div>
+
+    <!-- Include Socket.IO library -->
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <!-- Include custom JavaScript -->
+    <script src="/frontend/script.js"></script>
+</body>
+</html>
