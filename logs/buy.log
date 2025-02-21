@@ -1,0 +1,980 @@
+2025-02-16 19:45:20,667 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-02-16 19:45:20,823 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-02-16 19:45:22,040 - INFO - Telegram monitoring started.
+2025-02-16 19:48:22,684 - INFO - Detected contract in Savannah Wakanda ℗: 7Edf7xkqcM4VWQrr7LMAhqmZjJpds8dyUSN8Nu6Qpump
+2025-02-16 19:48:22,687 - INFO - Attempting to buy token: 7Edf7xkqcM4VWQrr7LMAhqmZjJpds8dyUSN8Nu6Qpump
+2025-02-16 19:48:22,696 - ERROR - Error buying token: Transaction.__new__() missing 3 required positional arguments: 'from_keypairs', 'message', and 'recent_blockhash'
+2025-02-16 19:49:20,940 - INFO - No contract detected in 💰财来社区💰八方来财🔥.
+2025-02-16 19:49:21,200 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-16 19:52:21,069 - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-02-16 19:52:21,094 - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-02-17 07:30:34,539 - INFO - Loaded wallet with public key: AeRZm5GFSG8j5ZCVERfhJtwkMJGELFKyGC8Xt39ui6Hv
+2025-02-17 07:30:34,570 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-02-17 07:30:34,737 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-02-17 07:30:36,044 - INFO - Telegram monitoring started.
+2025-02-17 07:31:36,575 - INFO - Detected contract in Savannah Wakanda ℗: 5yPZeufRQLmR2Yg1VLDqjRq269vjjwdZUA3mXUpNpump
+2025-02-17 07:31:36,575 - INFO - Attempting to buy token: 5yPZeufRQLmR2Yg1VLDqjRq269vjjwdZUA3mXUpNpump
+2025-02-17 07:31:36,576 - ERROR - Error buying token: Transaction.__new__() missing 3 required positional arguments: 'from_keypairs', 'message', and 'recent_blockhash'
+2025-02-17 07:33:18,048 - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-02-17 07:33:18,103 - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-02-17 11:10:21,732 - INFO - Loaded wallet with public key: AeRZm5GFSG8j5ZCVERfhJtwkMJGELFKyGC8Xt39ui6Hv
+2025-02-17 11:10:21,762 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-02-17 11:10:21,923 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-02-17 11:10:22,965 - INFO - Telegram monitoring started.
+2025-02-17 11:11:23,169 - INFO - Detected contract in Savannah Wakanda ℗: D2jeFSwJWKXWR2gD1gaT2RzGPdeMAJzgNcXyb1Uxpump
+2025-02-17 11:11:23,171 - INFO - Attempting to buy token: D2jeFSwJWKXWR2gD1gaT2RzGPdeMAJzgNcXyb1Uxpump
+2025-02-17 11:11:23,182 - ERROR - Error buying token: Transaction.__new__() missing 3 required positional arguments: 'from_keypairs', 'message', and 'recent_blockhash'
+2025-02-17 11:11:23,301 - INFO - Detected contract in Savannah Wakanda ℗: Hi5nE7C5AQdsP6Mw8i738iV44U3yRpod7VnL1Si2pump
+2025-02-17 11:11:23,301 - INFO - Attempting to buy token: Hi5nE7C5AQdsP6Mw8i738iV44U3yRpod7VnL1Si2pump
+2025-02-17 11:11:23,302 - ERROR - Error buying token: Transaction.__new__() missing 3 required positional arguments: 'from_keypairs', 'message', and 'recent_blockhash'
+2025-02-17 11:12:08,024 - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-02-17 11:12:08,025 - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-02-17 16:26:09,211 - INFO - Loaded wallet with public key: AeRZm5GFSG8j5ZCVERfhJtwkMJGELFKyGC8Xt39ui6Hv
+2025-02-17 16:28:30,661 - INFO - Loaded wallet with public key: AeRZm5GFSG8j5ZCVERfhJtwkMJGELFKyGC8Xt39ui6Hv
+2025-02-17 16:29:53,286 - INFO - Loaded wallet with public key: AeRZm5GFSG8j5ZCVERfhJtwkMJGELFKyGC8Xt39ui6Hv
+2025-02-17 16:31:32,875 - INFO - Loaded wallet with public key: AeRZm5GFSG8j5ZCVERfhJtwkMJGELFKyGC8Xt39ui6Hv
+2025-02-17 16:31:32,897 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-02-17 16:31:33,075 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-02-17 16:31:34,038 - INFO - Telegram monitoring started.
+2025-02-17 16:37:18,250 - INFO - No contract detected in DegenDan PLAYS.
+2025-02-17 16:38:01,958 - INFO - No contract detected in 伟哥社区 · SOL日常交流.
+2025-02-17 16:38:14,558 - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-02-17 16:38:14,561 - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-02-17 16:39:36,134 - INFO - Loaded wallet with public key: AeRZm5GFSG8j5ZCVERfhJtwkMJGELFKyGC8Xt39ui6Hv
+2025-02-17 16:39:36,165 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-02-17 16:39:36,307 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-02-17 16:39:37,222 - INFO - Telegram monitoring started.
+2025-02-17 16:42:37,780 - INFO - Detected contract in 4AM Solana Volume Signal: 13Dcce9KRt7gRkwDKQjfFHAUqvDmdsBhAuT6v1Eopump
+2025-02-17 16:42:37,783 - INFO - Attempting to buy token: 13Dcce9KRt7gRkwDKQjfFHAUqvDmdsBhAuT6v1Eopump
+2025-02-17 16:42:37,784 - ERROR - Error buying token: name 'get_recent_blockhash' is not defined
+2025-02-17 16:47:26,739 - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-02-17 16:47:26,745 - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-02-17 20:40:37,658 - INFO - Loaded wallet with public key: AeRZm5GFSG8j5ZCVERfhJtwkMJGELFKyGC8Xt39ui6Hv
+2025-02-17 20:40:39,775 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-02-17 20:40:40,282 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-02-17 20:40:43,326 - INFO - Telegram monitoring started.
+2025-02-17 20:55:43,797 - INFO - Got difference for channel 2230610122 updates
+2025-02-17 20:55:44,129 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 20:56:14,470 - INFO - Detected contract in 4AM Solana Volume Signal: 3wF1ZL3ED2SRqF9LMszwhGz3iCh5ZKPkCrdREzMSpump
+2025-02-17 20:56:14,471 - INFO - Attempting to buy token: 3wF1ZL3ED2SRqF9LMszwhGz3iCh5ZKPkCrdREzMSpump
+2025-02-17 20:56:14,472 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-17 20:56:14,472 - ERROR - Error buying token: 'AsyncClient' object has no attribute 'get_recent_blockhash'
+2025-02-17 20:56:15,251 - INFO - Got difference for channel 2420363777 updates
+2025-02-17 20:56:42,936 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 20:57:45,164 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 20:58:45,758 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 20:59:45,202 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:00:45,088 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:01:45,221 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:02:45,301 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:04:45,307 - INFO - Got difference for channel 2230610122 updates
+2025-02-17 21:04:45,776 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:05:45,519 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:06:45,525 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:07:45,643 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:08:41,482 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:09:44,963 - INFO - Detected contract in 4AM Solana Volume Signal: 5VTTPF5ChjTkspmMYkS1pqKbJcuM6oc3r88KaSADpump
+2025-02-17 21:09:44,964 - INFO - Attempting to buy token: 5VTTPF5ChjTkspmMYkS1pqKbJcuM6oc3r88KaSADpump
+2025-02-17 21:09:44,965 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-17 21:09:44,966 - ERROR - Error buying token: 'AsyncClient' object has no attribute 'get_recent_blockhash'
+2025-02-17 21:09:45,593 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:10:44,208 - INFO - Got difference for channel 2333406905 updates
+2025-02-17 21:10:44,476 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:11:15,617 - INFO - Detected contract in 4AM Solana Volume Signal: 139umgeVfmwa9sfAJHVLuRqy74mRiKqbBw2zj1nkpump
+2025-02-17 21:11:15,618 - INFO - Attempting to buy token: 139umgeVfmwa9sfAJHVLuRqy74mRiKqbBw2zj1nkpump
+2025-02-17 21:11:15,619 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-17 21:11:15,619 - ERROR - Error buying token: 'AsyncClient' object has no attribute 'get_recent_blockhash'
+2025-02-17 21:11:45,647 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:12:45,755 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:13:45,744 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:14:46,092 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:15:45,933 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:16:46,075 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:17:32,010 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:18:43,208 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:19:37,972 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:20:45,208 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-17 21:20:46,093 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:21:36,447 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:22:46,289 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:23:46,208 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 21:24:13,996 - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-02-17 21:24:13,997 - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-02-17 21:26:09,862 - INFO - Loaded wallet with public key: AeRZm5GFSG8j5ZCVERfhJtwkMJGELFKyGC8Xt39ui6Hv
+2025-02-17 21:26:11,821 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-02-17 21:26:12,017 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-02-17 21:26:13,184 - INFO - Telegram monitoring started.
+2025-02-17 21:27:10,900 - INFO - Detected contract in 4AM Solana Volume Signal: Ffz8KYSC4DMy5zaJeRQreH75pTxBMQcVrNqXVx3Epump
+2025-02-17 21:27:10,901 - INFO - Attempting to buy token: Ffz8KYSC4DMy5zaJeRQreH75pTxBMQcVrNqXVx3Epump
+2025-02-17 21:27:10,902 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-17 21:27:11,892 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-17 21:27:11,915 - ERROR - Error buying token: argument 'accounts': 'Pubkey' object cannot be converted to 'AccountMeta'
+2025-02-17 21:27:24,274 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-17 21:29:13,694 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-17 21:40:16,994 - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-02-17 21:40:17,001 - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-02-17 21:47:43,300 - INFO - Loaded wallet with public key: AeRZm5GFSG8j5ZCVERfhJtwkMJGELFKyGC8Xt39ui6Hv
+2025-02-17 21:47:45,498 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-02-17 21:47:45,697 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-02-17 21:47:46,845 - INFO - Telegram monitoring started.
+2025-02-17 21:56:35,359 - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-02-17 21:56:35,369 - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-02-17 21:56:54,990 - INFO - Loaded wallet with public key: AeRZm5GFSG8j5ZCVERfhJtwkMJGELFKyGC8Xt39ui6Hv
+2025-02-17 21:56:57,161 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-02-17 21:56:57,385 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-02-17 21:56:58,615 - INFO - Telegram monitoring started.
+2025-02-17 21:58:58,945 - INFO - Detected contract in 4AM Solana Volume Signal: 3z7AY3g9pcjqnHdjpjQwawKGsUz6x9rLeVSAJ5xGpump
+2025-02-17 21:58:58,947 - INFO - Attempting to buy token: 3z7AY3g9pcjqnHdjpjQwawKGsUz6x9rLeVSAJ5xGpump
+2025-02-17 21:58:58,950 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-17 21:58:59,851 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-17 21:59:00,140 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-17 21:59:00,152 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-17 22:02:58,994 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-17 22:11:58,667 - INFO - Got difference for account updates
+2025-02-17 22:12:59,045 - INFO - Got difference for channel 2333406905 updates
+2025-02-17 22:12:59,856 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:14:58,567 - INFO - Got difference for channel 1835067347 updates
+2025-02-17 22:14:59,366 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:15:06,923 - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-02-17 22:15:06,924 - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-02-17 22:16:59,779 - INFO - Loaded wallet with public key: AeRZm5GFSG8j5ZCVERfhJtwkMJGELFKyGC8Xt39ui6Hv
+2025-02-17 22:17:02,040 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-02-17 22:17:02,194 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-02-17 22:17:03,067 - INFO - Telegram monitoring started.
+2025-02-17 22:32:03,548 - INFO - Got difference for account updates
+2025-02-17 22:32:03,918 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:33:04,189 - INFO - Got difference for channel 2333406905 updates
+2025-02-17 22:33:33,924 - INFO - Got difference for channel 2230610122 updates
+2025-02-17 22:33:34,328 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:34:05,031 - INFO - Got difference for channel 2230610122 updates
+2025-02-17 22:34:05,282 - INFO - Got difference for channel 1835067347 updates
+2025-02-17 22:34:05,598 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:36:05,296 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:37:05,246 - INFO - Got difference for channel 2230610122 updates
+2025-02-17 22:37:05,699 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:39:05,365 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:40:04,809 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-17 22:40:05,497 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:42:05,725 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:43:05,722 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:45:05,750 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:46:05,944 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:47:04,058 - INFO - Got difference for account updates
+2025-02-17 22:47:04,062 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-17 22:47:04,345 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:48:04,918 - INFO - Got difference for channel 2333406905 updates
+2025-02-17 22:48:04,926 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-17 22:48:35,017 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:49:05,577 - INFO - Got difference for channel 1835067347 updates
+2025-02-17 22:50:06,424 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:52:06,267 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:53:05,565 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-17 22:54:06,106 - INFO - Got difference for channel 1835067347 updates
+2025-02-17 22:54:06,436 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:55:06,022 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:56:05,440 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-17 22:57:06,356 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 22:58:06,224 - INFO - Got difference for channel 2230610122 updates
+2025-02-17 22:58:06,568 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:00:05,801 - INFO - Detected contract in 4AM Solana Volume Signal: 7Jz6NyEpW5LQ7NMgU1d1m4efLdZTBzn4zumsD8HKpump
+2025-02-17 23:00:05,803 - INFO - Attempting to buy token: 7Jz6NyEpW5LQ7NMgU1d1m4efLdZTBzn4zumsD8HKpump
+2025-02-17 23:00:05,803 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-17 23:00:06,324 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:00:06,797 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-17 23:00:07,036 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-17 23:00:07,047 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-17 23:01:06,546 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:02:04,772 - INFO - Got difference for account updates
+2025-02-17 23:02:05,022 - INFO - Got difference for channel 2230610122 updates
+2025-02-17 23:02:05,281 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:03:05,523 - INFO - Got difference for channel 2333406905 updates
+2025-02-17 23:03:26,614 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:05:07,003 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:06:06,795 - INFO - Got difference for channel 1835067347 updates
+2025-02-17 23:07:06,637 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:09:06,394 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-17 23:09:06,958 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:10:06,455 - INFO - Got difference for channel 2230610122 updates
+2025-02-17 23:10:06,729 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:12:07,190 - INFO - Got difference for channel 2230610122 updates
+2025-02-17 23:12:07,959 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:13:07,524 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:15:03,793 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:16:07,464 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:17:05,417 - INFO - Got difference for account updates
+2025-02-17 23:17:05,684 - INFO - Got difference for channel 2230610122 updates
+2025-02-17 23:17:06,069 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:18:06,220 - INFO - Got difference for channel 2333406905 updates
+2025-02-17 23:18:34,565 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:20:07,507 - INFO - Got difference for channel 2230610122 updates
+2025-02-17 23:20:07,767 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:22:07,024 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:24:07,741 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:25:07,101 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:26:07,729 - INFO - Got difference for channel 2230610122 updates
+2025-02-17 23:27:07,815 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:28:07,959 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:29:07,678 - INFO - Got difference for channel 2230610122 updates
+2025-02-17 23:30:07,527 - INFO - Detected contract in 4AM Solana Volume Signal: HqAh11JoKU1UDuyMEd87bVQt1GFcLPz74nLN8HeApump
+2025-02-17 23:30:07,528 - INFO - Attempting to buy token: HqAh11JoKU1UDuyMEd87bVQt1GFcLPz74nLN8HeApump
+2025-02-17 23:30:07,529 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-17 23:30:08,080 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:30:08,228 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-17 23:30:08,275 - INFO - Got difference for channel 2230610122 updates
+2025-02-17 23:30:08,417 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-17 23:30:08,425 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-17 23:31:08,162 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:32:05,895 - INFO - Got difference for account updates
+2025-02-17 23:32:05,900 - INFO - Detected contract in 4AM Solana Volume Signal: GZvBaXokFgtn7jC51DRZQzyC2rX27F1fmP5r6mykpump
+2025-02-17 23:32:05,901 - INFO - Attempting to buy token: GZvBaXokFgtn7jC51DRZQzyC2rX27F1fmP5r6mykpump
+2025-02-17 23:32:05,901 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-17 23:32:06,083 - INFO - Got difference for channel 2230610122 updates
+2025-02-17 23:32:06,376 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:32:06,698 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-17 23:32:06,922 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-17 23:32:06,932 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-17 23:33:06,807 - INFO - Got difference for channel 2333406905 updates
+2025-02-17 23:33:34,805 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:35:08,314 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:36:07,642 - INFO - Got difference for channel 1835067347 updates
+2025-02-17 23:37:07,423 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:39:07,715 - INFO - Detected contract in 4AM Solana Volume Signal: ApFGN5c6ntxp2hftsL1e9FsxWJWs9aLiJbvEDrHCpump
+2025-02-17 23:39:07,716 - INFO - Attempting to buy token: ApFGN5c6ntxp2hftsL1e9FsxWJWs9aLiJbvEDrHCpump
+2025-02-17 23:39:07,717 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-17 23:39:08,284 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:39:08,488 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-17 23:39:08,702 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-17 23:39:08,710 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-17 23:40:07,517 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:40:08,211 - INFO - Got difference for channel 2230610122 updates
+2025-02-17 23:42:08,505 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:43:08,463 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:45:08,639 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:46:08,885 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:47:06,424 - INFO - Got difference for account updates
+2025-02-17 23:47:06,621 - INFO - Got difference for channel 2230610122 updates
+2025-02-17 23:47:06,815 - INFO - Got difference for channel 1988420013 updates
+2025-02-17 23:47:07,034 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:48:07,296 - INFO - Got difference for channel 2333406905 updates
+2025-02-17 23:48:35,187 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:49:08,692 - INFO - Got difference for channel 2230610122 updates
+2025-02-17 23:50:08,362 - INFO - Detected contract in 4AM Solana Volume Signal: 4pTn5EgyefGWW14wEcCGGyHugaXgzU6bw47CEpycpump
+2025-02-17 23:50:08,363 - INFO - Attempting to buy token: 4pTn5EgyefGWW14wEcCGGyHugaXgzU6bw47CEpycpump
+2025-02-17 23:50:08,364 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-17 23:50:08,980 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:50:09,195 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-17 23:50:09,424 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-17 23:50:09,434 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-17 23:52:08,316 - INFO - Detected contract in 4AM Solana Volume Signal: JCfJzqnwiZeSiHp1rvtmW1ME2EhDBMZ7Lz8oovM1pump
+2025-02-17 23:52:08,318 - INFO - Attempting to buy token: JCfJzqnwiZeSiHp1rvtmW1ME2EhDBMZ7Lz8oovM1pump
+2025-02-17 23:52:08,319 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-17 23:52:08,943 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:52:09,182 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-17 23:52:09,480 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-17 23:52:09,486 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-17 23:53:08,477 - INFO - Detected contract in 4AM Solana Volume Signal: FYg4pi85YNvQQQ81ktYw9d2tr3cvV94jDr9vdAHupump
+2025-02-17 23:53:08,478 - INFO - Attempting to buy token: FYg4pi85YNvQQQ81ktYw9d2tr3cvV94jDr9vdAHupump
+2025-02-17 23:53:08,478 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-17 23:53:09,066 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:53:09,203 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-17 23:53:09,446 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-17 23:53:09,452 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-17 23:55:08,408 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:57:09,066 - INFO - Got difference for channel 2099286836 updates
+2025-02-17 23:58:09,306 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:00:09,254 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:01:09,367 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:02:07,062 - INFO - Got difference for account updates
+2025-02-18 00:02:07,332 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 00:03:07,784 - INFO - Got difference for channel 2333406905 updates
+2025-02-18 00:03:08,644 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:03:09,370 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 00:03:35,503 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:05:09,587 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:06:08,803 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 00:07:09,644 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:08:09,115 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 00:08:09,586 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:10:09,161 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:11:09,786 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:12:09,992 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 00:13:09,993 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:15:03,568 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:16:10,127 - INFO - Got difference for channel 1835067347 updates
+2025-02-18 00:16:10,421 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:17:07,610 - INFO - Got difference for account updates
+2025-02-18 00:17:07,818 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 00:17:08,076 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:18:08,295 - INFO - Got difference for channel 2333406905 updates
+2025-02-18 00:18:35,899 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:18:36,111 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 00:19:10,273 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:20:10,280 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:22:10,603 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:23:10,650 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:24:10,251 - INFO - Detected contract in 4AM Solana Volume Signal: HjuDtduwF8a6o6u2aT3JZfwT3F4Y9G88xcoMxVArpump
+2025-02-18 00:24:10,252 - INFO - Attempting to buy token: HjuDtduwF8a6o6u2aT3JZfwT3F4Y9G88xcoMxVArpump
+2025-02-18 00:24:10,253 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 00:24:11,275 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 00:24:11,514 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 00:24:11,522 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 00:25:10,361 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:26:10,602 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:28:10,844 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:30:10,954 - INFO - Got difference for channel 1835067347 updates
+2025-02-18 00:30:11,189 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:32:08,262 - INFO - Got difference for account updates
+2025-02-18 00:32:08,485 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 00:32:08,796 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:33:08,856 - INFO - Got difference for channel 2333406905 updates
+2025-02-18 00:33:36,212 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:35:11,199 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:36:27,357 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:37:11,097 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:38:33,052 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:39:11,064 - INFO - Got difference for channel 1835067347 updates
+2025-02-18 00:39:22,693 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 00:39:22,921 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:40:09,946 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:40:14,186 - INFO - Got difference for channel 2020833470 updates
+2025-02-18 00:41:44,190 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:43:10,733 - INFO - Detected contract in 4AM Solana Volume Signal: 5TzVna6Xd8V3HUKfUdCjUHGNhmabBAUZdsgT1ud2pump
+2025-02-18 00:43:10,734 - INFO - Attempting to buy token: 5TzVna6Xd8V3HUKfUdCjUHGNhmabBAUZdsgT1ud2pump
+2025-02-18 00:43:10,735 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 00:43:11,408 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:43:11,654 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 00:43:11,882 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 00:43:11,896 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 00:44:10,799 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 00:45:11,503 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:46:11,557 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:47:08,946 - INFO - Got difference for account updates
+2025-02-18 00:47:09,154 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 00:47:09,371 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:48:09,384 - INFO - Got difference for channel 2333406905 updates
+2025-02-18 00:48:36,603 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:49:11,519 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 00:49:11,724 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:51:11,735 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:52:11,768 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:54:12,366 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:55:09,491 - INFO - Got difference for channel 2265463352 updates
+2025-02-18 00:55:09,494 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 00:55:10,264 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:57:11,972 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:58:12,107 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 00:59:12,092 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:00:11,699 - INFO - Detected contract in 4AM Solana Volume Signal: DtEfhy16iwbV4GgW1NSGVtgzEAFApTasrBooNZr5pump
+2025-02-18 01:00:11,700 - INFO - Attempting to buy token: DtEfhy16iwbV4GgW1NSGVtgzEAFApTasrBooNZr5pump
+2025-02-18 01:00:11,701 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 01:00:12,165 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 01:00:12,520 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 01:00:12,739 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 01:00:12,748 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 01:01:12,488 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:02:09,471 - INFO - Got difference for account updates
+2025-02-18 01:02:09,666 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 01:02:09,869 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:03:09,891 - INFO - Got difference for channel 2333406905 updates
+2025-02-18 01:03:36,929 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:05:12,429 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:05:12,640 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 01:06:12,545 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:07:12,878 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:08:11,906 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 01:08:12,578 - INFO - Got difference for channel 1835067347 updates
+2025-02-18 01:08:12,815 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:09:12,076 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 01:10:10,756 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:11:12,333 - INFO - Detected contract in 4AM Solana Volume Signal: ExpHCpJUddUmVkWAaxbG6SmKJT4K2Jyw2ugJbpH3pump
+2025-02-18 01:11:12,334 - INFO - Attempting to buy token: ExpHCpJUddUmVkWAaxbG6SmKJT4K2Jyw2ugJbpH3pump
+2025-02-18 01:11:12,334 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 01:11:12,725 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:11:13,101 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 01:11:13,511 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 01:11:13,518 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 01:13:13,019 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:14:13,013 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 01:14:13,233 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:16:13,319 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:17:09,956 - INFO - Got difference for account updates
+2025-02-18 01:17:10,454 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:18:10,367 - INFO - Got difference for channel 2333406905 updates
+2025-02-18 01:18:37,232 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:20:13,439 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:21:13,349 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:22:13,625 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:23:13,832 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:24:13,650 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:24:13,942 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 01:25:11,545 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:27:14,001 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:28:13,997 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:29:13,979 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:30:13,894 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 01:31:14,100 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:32:10,544 - INFO - Got difference for account updates
+2025-02-18 01:32:10,769 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 01:32:11,080 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:33:10,667 - INFO - Detected contract in 4AM Solana Volume Signal: DCqXDXswgQXPHjsp8WwjAJYuLMYX4B3hbqTpSxwcpump
+2025-02-18 01:33:10,668 - INFO - Attempting to buy token: DCqXDXswgQXPHjsp8WwjAJYuLMYX4B3hbqTpSxwcpump
+2025-02-18 01:33:10,669 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 01:33:11,358 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 01:33:11,412 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 01:33:11,583 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 01:33:11,591 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 01:33:12,168 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:33:37,526 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:35:14,333 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:36:13,629 - INFO - Detected contract in 4AM Solana Volume Signal: BFPAxDJxvfpS1fayha9QLzEDH6nkRHF6LFs2mq9Epump
+2025-02-18 01:36:13,630 - INFO - Attempting to buy token: BFPAxDJxvfpS1fayha9QLzEDH6nkRHF6LFs2mq9Epump
+2025-02-18 01:36:13,631 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 01:36:14,350 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:36:14,361 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 01:36:14,542 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 01:36:14,549 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 01:37:14,230 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:38:14,320 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:39:14,507 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 01:39:14,703 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:40:11,785 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:42:14,589 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:43:14,587 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:44:14,558 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:45:15,082 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:47:10,980 - INFO - Got difference for account updates
+2025-02-18 01:47:11,383 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:48:11,043 - INFO - Got difference for channel 2333406905 updates
+2025-02-18 01:48:11,793 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:48:38,101 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:49:14,669 - INFO - Got difference for channel 1835067347 updates
+2025-02-18 01:50:14,751 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:51:14,400 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 01:51:14,964 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:52:14,897 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:53:15,013 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:54:15,204 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:55:13,022 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:56:16,123 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:57:16,185 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 01:59:16,238 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:01:15,889 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 02:01:16,143 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:02:12,462 - INFO - Got difference for account updates
+2025-02-18 02:02:12,661 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 02:02:12,962 - INFO - Got difference for channel 1988420013 updates
+2025-02-18 02:02:17,853 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:03:11,384 - INFO - Got difference for channel 2333406905 updates
+2025-02-18 02:03:38,057 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:05:16,899 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:07:17,587 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:08:16,542 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:09:16,679 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 02:10:11,758 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:10:32,398 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 02:11:16,541 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 02:11:16,736 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:13:17,098 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:15:15,979 - INFO - Detected contract in 4AM Solana Volume Signal: EHezYD84Zhstr6ji3JYY7Gm3tq4ieuLK5zJun2EFpump
+2025-02-18 02:15:15,979 - INFO - Attempting to buy token: EHezYD84Zhstr6ji3JYY7Gm3tq4ieuLK5zJun2EFpump
+2025-02-18 02:15:15,985 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 02:15:16,437 - INFO - Got difference for channel 1988420013 updates
+2025-02-18 02:15:16,773 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 02:15:16,827 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:15:17,014 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 02:15:17,033 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 02:15:22,696 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 02:15:47,093 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:17:13,087 - INFO - Got difference for account updates
+2025-02-18 02:17:13,291 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 02:17:13,469 - INFO - Got difference for channel 1988420013 updates
+2025-02-18 02:17:13,722 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:18:11,759 - INFO - Got difference for channel 2333406905 updates
+2025-02-18 02:18:38,418 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:19:15,952 - INFO - Got difference for channel 1835067347 updates
+2025-02-18 02:20:16,761 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:22:16,878 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:23:16,987 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:25:13,555 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 02:25:13,829 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:26:17,212 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:27:17,333 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:28:17,182 - INFO - Got difference for channel 1835067347 updates
+2025-02-18 02:28:17,510 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:30:17,389 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:31:17,401 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:32:13,597 - INFO - Got difference for account updates
+2025-02-18 02:32:13,774 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 02:32:14,045 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:33:12,241 - INFO - Got difference for channel 2333406905 updates
+2025-02-18 02:33:12,259 - INFO - Detected contract in 4AM Solana Volume Signal: GxacsFRbZ795icuxAPLDTNEeRCpcRWuPWYZ2PJbepump
+2025-02-18 02:33:12,260 - INFO - Attempting to buy token: GxacsFRbZ795icuxAPLDTNEeRCpcRWuPWYZ2PJbepump
+2025-02-18 02:33:12,260 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 02:33:13,024 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 02:33:13,279 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 02:33:13,287 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 02:33:17,341 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:33:38,707 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:34:17,468 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 02:35:17,578 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:37:17,717 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:38:17,747 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:38:17,983 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 02:39:17,740 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 02:39:18,065 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:40:14,069 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:41:17,778 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:42:17,863 - INFO - Got difference for channel 1835067347 updates
+2025-02-18 02:42:18,117 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:43:18,076 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:44:18,055 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:45:18,042 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:45:31,562 - INFO - Got difference for channel 1835067347 updates
+2025-02-18 02:47:14,100 - INFO - Got difference for account updates
+2025-02-18 02:47:14,479 - INFO - Got difference for channel 1988420013 updates
+2025-02-18 02:47:14,741 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:48:18,136 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:48:38,415 - INFO - Detected contract in 4AM Solana Volume Signal: 8dWyGQ6bVYzwykSHtjBpfJVXExP5DG8spVXAqQeFpump
+2025-02-18 02:48:38,416 - INFO - Attempting to buy token: 8dWyGQ6bVYzwykSHtjBpfJVXExP5DG8spVXAqQeFpump
+2025-02-18 02:48:38,417 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 02:48:39,150 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:48:39,161 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 02:48:39,337 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 02:48:39,346 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 02:50:10,482 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:51:18,544 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:52:18,433 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:53:18,688 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:54:25,986 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:56:18,554 - INFO - Got difference for channel 1835067347 updates
+2025-02-18 02:56:18,860 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 02:58:18,739 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:00:18,236 - INFO - Detected contract in 4AM Solana Volume Signal: EHsqG8acRJLCPXiRDTaEuGhgHHD81FcfBa7jsn1Wpump
+2025-02-18 03:00:18,237 - INFO - Attempting to buy token: EHsqG8acRJLCPXiRDTaEuGhgHHD81FcfBa7jsn1Wpump
+2025-02-18 03:00:18,237 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 03:00:18,842 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:00:18,856 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 03:00:19,094 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 03:00:19,102 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 03:02:14,593 - INFO - Got difference for account updates
+2025-02-18 03:02:14,794 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 03:02:15,006 - INFO - Got difference for channel 1988420013 updates
+2025-02-18 03:02:15,717 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:03:13,007 - INFO - Got difference for channel 2333406905 updates
+2025-02-18 03:03:39,393 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:05:19,271 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:06:18,555 - INFO - Detected contract in 4AM Solana Volume Signal: C2cyCBrwzkDR98AnjsKJHe4QKK7w1kfRv4CDJY8Hpump
+2025-02-18 03:06:18,556 - INFO - Attempting to buy token: C2cyCBrwzkDR98AnjsKJHe4QKK7w1kfRv4CDJY8Hpump
+2025-02-18 03:06:18,556 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 03:06:19,269 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:06:19,321 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 03:06:19,564 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 03:06:19,574 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 03:07:19,292 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:08:19,325 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:09:19,412 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 03:09:19,651 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:10:14,791 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:11:19,478 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:12:18,927 - INFO - Detected contract in 4AM Solana Volume Signal: 62B6LfUXSHrykjvxft6aKq4gxDrcM2vEdso1Kmk3pump
+2025-02-18 03:12:18,927 - INFO - Attempting to buy token: 62B6LfUXSHrykjvxft6aKq4gxDrcM2vEdso1Kmk3pump
+2025-02-18 03:12:18,928 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 03:12:19,644 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 03:12:19,817 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 03:12:19,824 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 03:13:19,577 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:14:19,631 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:16:19,804 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:17:15,370 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:17:16,237 - INFO - Got difference for channel 2158204601 updates
+2025-02-18 03:18:19,800 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:18:39,776 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:19:19,949 - INFO - Got difference for channel 1835067347 updates
+2025-02-18 03:20:20,071 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:22:20,164 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:23:20,104 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 03:23:20,301 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:24:20,204 - INFO - Got difference for channel 1835067347 updates
+2025-02-18 03:25:15,119 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:26:19,969 - INFO - Detected contract in 4AM Solana Volume Signal: Ccgn1QqhG3FJpCH6BwhVQ2JJqKr8n72AATnFp1Empump
+2025-02-18 03:26:19,969 - INFO - Attempting to buy token: Ccgn1QqhG3FJpCH6BwhVQ2JJqKr8n72AATnFp1Empump
+2025-02-18 03:26:19,970 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 03:26:20,526 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:26:20,674 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 03:26:20,915 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 03:26:20,923 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 03:28:20,541 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:29:20,647 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:30:20,831 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:31:20,775 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 03:31:21,068 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:31:59,210 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:31:59,221 - INFO - Detected contract in 4AM Solana Volume Signal: 5oBPNLCSMEavkqQYFtbjr2JEm3pc2VAHMo2fsYdcpump
+2025-02-18 03:31:59,222 - INFO - Attempting to buy token: 5oBPNLCSMEavkqQYFtbjr2JEm3pc2VAHMo2fsYdcpump
+2025-02-18 03:31:59,222 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 03:31:59,912 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 03:32:00,141 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 03:32:00,149 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 03:32:15,390 - INFO - Got difference for account updates
+2025-02-18 03:33:13,839 - INFO - Got difference for channel 2333406905 updates
+2025-02-18 03:33:14,584 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:33:40,014 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:34:20,935 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:35:21,014 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:37:21,536 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:38:21,414 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 03:38:21,709 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:40:14,831 - INFO - Got difference for channel 2265463352 updates
+2025-02-18 03:40:14,836 - INFO - Detected contract in 4AM Solana Volume Signal: AisSAUjP15GaYbNpbz1s3bZE4PQtARHLtefKqh7Dpump
+2025-02-18 03:40:14,837 - INFO - Attempting to buy token: AisSAUjP15GaYbNpbz1s3bZE4PQtARHLtefKqh7Dpump
+2025-02-18 03:40:14,838 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 03:40:15,674 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:40:15,683 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 03:40:15,892 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 03:40:15,900 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 03:40:18,329 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 03:42:21,483 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:42:59,164 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:44:21,447 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:45:21,486 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:46:21,599 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:47:15,950 - INFO - Got difference for account updates
+2025-02-18 03:47:16,128 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 03:47:16,423 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:48:14,492 - INFO - Got difference for channel 2333406905 updates
+2025-02-18 03:48:14,500 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 03:48:25,451 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:48:40,682 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:50:21,057 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 03:50:21,949 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:51:21,726 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:51:21,936 - INFO - Got difference for channel 1835067347 updates
+2025-02-18 03:52:21,875 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:53:21,767 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:54:21,796 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:54:52,619 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:56:21,912 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:58:21,375 - INFO - Detected contract in 4AM Solana Volume Signal: 4NBTf8PfLH4oLFnwf3knv46FY9i5oXjDxffCetXRpump
+2025-02-18 03:58:21,376 - INFO - Attempting to buy token: 4NBTf8PfLH4oLFnwf3knv46FY9i5oXjDxffCetXRpump
+2025-02-18 03:58:21,377 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 03:58:21,985 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:58:22,111 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 03:58:22,357 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 03:58:22,365 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 03:59:21,977 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 03:59:22,171 - INFO - Got difference for channel 1835067347 updates
+2025-02-18 04:01:21,676 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 04:01:22,249 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:02:16,474 - INFO - Got difference for account updates
+2025-02-18 04:02:16,480 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 04:02:16,680 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 04:02:16,913 - INFO - Got difference for channel 2333406905 updates
+2025-02-18 04:02:17,568 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:02:17,781 - INFO - Got difference for channel 2158204601 updates
+2025-02-18 04:03:21,533 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 04:05:22,283 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:07:22,466 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:09:22,524 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:10:16,447 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:10:16,652 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 04:10:18,057 - INFO - Got difference for channel 2020833470 updates
+2025-02-18 04:11:22,751 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:12:22,163 - INFO - Detected contract in 4AM Solana Volume Signal: EJvKHyUUFrwgAKmpdQ8uLYQBtD6rSG4fDVHMYF4zpump
+2025-02-18 04:12:22,164 - INFO - Attempting to buy token: EJvKHyUUFrwgAKmpdQ8uLYQBtD6rSG4fDVHMYF4zpump
+2025-02-18 04:12:22,164 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 04:12:22,173 - INFO - Detected contract in 4AM Solana Volume Signal: 3x2kjCFYTcmZLJ1onFE32QnYDkEDsZVZU7RnHdKqpump
+2025-02-18 04:12:22,175 - INFO - Attempting to buy token: 3x2kjCFYTcmZLJ1onFE32QnYDkEDsZVZU7RnHdKqpump
+2025-02-18 04:12:22,176 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 04:12:22,948 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 04:12:23,037 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 04:12:23,159 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 04:12:23,168 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 04:12:23,241 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 04:12:23,249 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 04:13:22,814 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:14:22,707 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 04:14:23,191 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:15:23,115 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:16:22,914 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:17:16,987 - INFO - Got difference for account updates
+2025-02-18 04:17:17,265 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:18:23,128 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:19:22,988 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:20:23,149 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:21:57,338 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:22:07,122 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:23:23,095 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:23:23,301 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 04:24:23,344 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 04:24:23,608 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:25:16,728 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:26:23,478 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:27:23,482 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:28:23,372 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:29:23,561 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:30:23,522 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:31:23,809 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:32:17,762 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 04:32:18,109 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:33:23,782 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:33:41,730 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:34:22,842 - INFO - Detected contract in 4AM Solana Volume Signal: Dhh1ErGGEoNUdNowXKcaiXWhPbppfNHnZAPiyz9cpump
+2025-02-18 04:34:22,843 - INFO - Attempting to buy token: Dhh1ErGGEoNUdNowXKcaiXWhPbppfNHnZAPiyz9cpump
+2025-02-18 04:34:22,844 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 04:34:23,630 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 04:34:23,857 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 04:34:23,865 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 04:34:39,821 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:35:23,683 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:36:23,953 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:36:24,642 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 04:37:23,817 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:37:55,613 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:38:23,882 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:40:17,318 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:42:24,071 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:43:24,124 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:44:24,433 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:45:24,552 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:46:24,497 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:47:18,088 - INFO - Got difference for account updates
+2025-02-18 04:47:18,352 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:48:24,581 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:48:41,905 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:50:24,753 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:50:24,936 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 04:51:23,996 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 04:51:24,518 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 04:52:24,816 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:53:24,847 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:54:24,884 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:54:25,134 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 04:55:16,929 - INFO - Got difference for channel 2265463352 updates
+2025-02-18 04:55:16,933 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 04:55:17,722 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:56:24,945 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:58:24,235 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 04:58:25,043 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 04:59:24,891 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 04:59:25,133 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:00:24,341 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 05:00:28,638 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:01:24,598 - INFO - Detected contract in 4AM Solana Volume Signal: DRspvwEDzUAdXXZQ1MEMSSFsP7gx1tVWh6HVR9iSpump
+2025-02-18 05:01:24,599 - INFO - Attempting to buy token: DRspvwEDzUAdXXZQ1MEMSSFsP7gx1tVWh6HVR9iSpump
+2025-02-18 05:01:24,600 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 05:01:25,399 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 05:01:25,639 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 05:01:25,647 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 05:02:18,573 - INFO - Got difference for account updates
+2025-02-18 05:02:18,782 - INFO - Got difference for channel 1988420013 updates
+2025-02-18 05:02:19,666 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:02:22,203 - INFO - Got difference for channel 2020833470 updates
+2025-02-18 05:03:25,459 - INFO - Got difference for channel 2020833470 updates
+2025-02-18 05:04:45,981 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:05:25,316 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:05:25,697 - INFO - Got difference for channel 2020833470 updates
+2025-02-18 05:07:24,721 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 05:07:25,622 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:09:25,848 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:10:11,047 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:11:25,734 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:11:43,223 - INFO - Got difference for channel 2020833470 updates
+2025-02-18 05:13:25,955 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:14:25,274 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 05:15:25,958 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:16:26,051 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:17:19,210 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 05:17:19,406 - INFO - Got difference for channel 1988420013 updates
+2025-02-18 05:17:19,635 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:18:26,158 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:18:42,491 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:20:25,727 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 05:20:26,196 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 05:20:26,464 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:22:26,379 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:23:26,038 - INFO - Detected contract in 4AM Solana Volume Signal: 3esX1WF1RsmAAXxvkb95oRouNnYLRXssQG3GvaEYpump
+2025-02-18 05:23:26,039 - INFO - Attempting to buy token: 3esX1WF1RsmAAXxvkb95oRouNnYLRXssQG3GvaEYpump
+2025-02-18 05:23:26,040 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 05:23:26,518 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:23:26,870 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 05:23:27,097 - INFO - HTTP Request: POST https://api.devnet.solana.com "HTTP/1.1 200 OK"
+2025-02-18 05:23:27,105 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: This program may not be used for executing instructions", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(InvalidProgramForExecution), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 05:24:26,552 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:25:18,486 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:25:26,633 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 05:26:26,866 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:26:43,535 - INFO - Got difference for channel 2020833470 updates
+2025-02-18 05:27:26,715 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:28:26,730 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:29:25,148 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 05:29:25,884 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:29:26,578 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 05:30:27,033 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:31:27,027 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:31:27,221 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 05:32:19,467 - INFO - Got difference for account updates
+2025-02-18 05:32:19,470 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 05:32:19,697 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 05:32:19,927 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:33:26,956 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:33:42,852 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:35:26,587 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 05:35:27,174 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:36:27,357 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:38:21,833 - INFO - Got difference for channel 2020833470 updates
+2025-02-18 05:38:22,085 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:39:27,291 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:40:18,783 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:41:27,440 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 05:42:24,174 - INFO - Got difference for channel 2020833470 updates
+2025-02-18 05:43:11,579 - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-02-18 05:43:11,581 - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-02-18 05:50:23,630 - INFO - Loaded wallet with public key: AeRZm5GFSG8j5ZCVERfhJtwkMJGELFKyGC8Xt39ui6Hv
+2025-02-18 05:50:25,928 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-02-18 05:50:26,098 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-02-18 05:50:27,047 - INFO - Telegram monitoring started.
+2025-02-18 06:05:27,496 - INFO - Got difference for account updates
+2025-02-18 06:05:28,034 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 06:05:31,576 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:06:28,598 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 06:07:27,433 - INFO - Got difference for channel 2333406905 updates
+2025-02-18 06:08:28,901 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:09:28,967 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:09:58,011 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:11:28,955 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 06:11:29,327 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:12:29,127 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:13:28,988 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:14:28,518 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 06:14:29,036 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:15:29,077 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 06:15:29,387 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:16:29,147 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:17:10,235 - WARNING - Server closed the connection: [Errno 103] Software caused connection abort
+2025-02-18 06:17:10,254 - INFO - Connection closed while receiving data: [Errno 103] Software caused connection abort
+2025-02-18 06:17:10,256 - INFO - Closing current connection to begin reconnect...
+2025-02-18 06:17:10,288 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-02-18 06:17:10,312 - INFO - <class 'ConnectionAbortedError'> during disconnect: [Errno 103] Software caused connection abort
+2025-02-18 06:17:10,314 - WARNING - Attempt 1 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:11,321 - WARNING - Attempt 2 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:12,328 - WARNING - Attempt 3 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:13,335 - WARNING - Attempt 4 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:14,342 - WARNING - Attempt 5 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:15,349 - WARNING - Attempt 6 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:16,352 - INFO - Failed reconnection attempt 1 with ConnectionError
+2025-02-18 06:17:17,355 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-02-18 06:17:17,360 - WARNING - Attempt 1 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:18,367 - WARNING - Attempt 2 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:19,375 - WARNING - Attempt 3 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:20,383 - WARNING - Attempt 4 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:21,390 - WARNING - Attempt 5 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:22,395 - WARNING - Attempt 6 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:23,398 - INFO - Failed reconnection attempt 2 with ConnectionError
+2025-02-18 06:17:24,401 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-02-18 06:17:24,407 - WARNING - Attempt 1 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:25,416 - WARNING - Attempt 2 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:26,425 - WARNING - Attempt 3 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:27,432 - WARNING - Attempt 4 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:28,438 - WARNING - Attempt 5 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:29,450 - WARNING - Attempt 6 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:30,454 - INFO - Failed reconnection attempt 3 with ConnectionError
+2025-02-18 06:17:31,457 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-02-18 06:17:31,461 - WARNING - Attempt 1 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:32,465 - WARNING - Attempt 2 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:33,470 - WARNING - Attempt 3 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:34,475 - WARNING - Attempt 4 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:35,480 - WARNING - Attempt 5 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:36,487 - WARNING - Attempt 6 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:37,492 - INFO - Failed reconnection attempt 4 with ConnectionError
+2025-02-18 06:17:38,494 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-02-18 06:17:38,498 - WARNING - Attempt 1 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:39,504 - WARNING - Attempt 2 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:40,509 - WARNING - Attempt 3 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:41,514 - WARNING - Attempt 4 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:42,518 - WARNING - Attempt 5 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:43,523 - WARNING - Attempt 6 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-18 06:17:44,525 - INFO - Failed reconnection attempt 5 with ConnectionError
+2025-02-18 06:17:45,528 - ERROR - Automatic reconnection failed 5 time(s)
+2025-02-18 06:17:45,529 - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-02-18 06:17:45,529 - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-02-18 06:17:45,531 - INFO - Not disconnecting (already have no connection)
+2025-02-18 06:21:38,156 - INFO - Loaded wallet with public key: AeRZm5GFSG8j5ZCVERfhJtwkMJGELFKyGC8Xt39ui6Hv
+2025-02-18 06:21:40,234 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-02-18 06:21:40,406 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-02-18 06:21:41,489 - INFO - Telegram monitoring started.
+2025-02-18 06:36:41,531 - INFO - Got difference for account updates
+2025-02-18 06:36:42,307 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:37:43,474 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:38:25,118 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:39:42,877 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:40:43,646 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:41:43,607 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:42:43,862 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:43:43,865 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:44:43,731 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:45:45,526 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:46:43,940 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:47:44,154 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:48:44,028 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:49:44,124 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:50:44,217 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:51:31,050 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:51:41,769 - INFO - Got difference for account updates
+2025-02-18 06:51:44,139 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:52:44,258 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:53:44,258 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:54:15,093 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:54:35,683 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:54:45,842 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:55:45,232 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:56:44,416 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:57:34,911 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:57:43,666 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:58:44,496 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 06:59:18,224 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 07:01:12,026 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 07:02:44,706 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 07:03:44,020 - INFO - Detected contract in 4AM Solana Volume Signal: 9xdaYcKd6AXAKbd2hXtsknkNMRziNXJtuttvanv6pump
+2025-02-18 07:03:44,023 - INFO - Attempting to buy token: 9xdaYcKd6AXAKbd2hXtsknkNMRziNXJtuttvanv6pump
+2025-02-18 07:03:44,025 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-18 07:03:45,057 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-02-18 07:03:45,365 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-02-18 07:03:45,377 - ERROR - Error buying token: SendTransactionPreflightFailureMessage { message: "Transaction simulation failed: Attempt to debit an account but found no record of a prior credit.", data: RpcSimulateTransactionResult(RpcSimulateTransactionResult { err: Some(AccountNotFound), logs: Some([]), accounts: None, units_consumed: Some(0), return_data: None, inner_instructions: None, replacement_blockhash: None }) }
+2025-02-18 07:04:44,929 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 07:05:44,750 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 07:06:31,344 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 07:06:42,053 - INFO - Got difference for account updates
+2025-02-18 07:06:42,758 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 07:06:43,572 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 07:07:45,135 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 07:08:44,947 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 07:08:45,135 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 07:09:42,702 - INFO - Got difference for channel 2333406905 updates
+2025-02-18 07:09:43,488 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 07:10:45,133 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 07:11:44,368 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 07:11:44,371 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 07:11:44,989 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 07:12:45,153 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 07:13:45,158 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 07:14:45,155 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 07:40:30,580 - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-02-18 07:40:30,838 - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-02-18 07:40:31,930 - INFO - Telegram monitoring started.
+2025-02-18 07:49:32,521 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-18 07:54:33,084 - INFO - Detected contract in 4AM Solana Volume Signal: 4RPWH9fq9coS8PSkzrRXJA4M1nrm9BhqSgrLMpFYpump
+2025-02-18 07:54:33,085 - INFO - Attempting to buy: 4RPWH9fq9coS8PSkzrRXJA4M1nrm9BhqSgrLMpFYpump
+2025-02-18 07:54:33,116 - INFO - Loaded wallet: AeRZm5GFSG8j5ZCVERfhJtwkMJGELFKyGC8Xt39ui6Hv
+2025-02-18 07:54:35,003 - ERROR - Transaction error: type object 'solders.transaction.Transaction' has no attribute 'deserialize'
+2025-02-18 07:54:35,004 - ERROR - Error buying token: Failed to send transaction
+2025-02-18 07:55:32,159 - INFO - Got difference for account updates
+2025-02-18 07:55:32,941 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 07:56:33,854 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 07:57:33,927 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 07:58:34,136 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 07:59:33,985 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 07:59:34,259 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 08:00:34,078 - INFO - Got difference for channel 2230610122 updates
+2025-02-18 08:00:34,511 - INFO - Got difference for channel 2099286836 updates
+2025-02-18 08:01:27,893 - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-02-18 08:01:27,894 - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
