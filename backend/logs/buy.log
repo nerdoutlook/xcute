@@ -1584,3 +1584,381 @@ KeyboardInterrupt
 2025-02-21 12:16:22,548 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
 2025-02-21 12:16:22,549 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
 2025-02-21 12:16:22,552 - INFO - Not disconnecting (already have no connection)
+2025-02-21 14:04:52,156 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-21 14:04:55,354 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-21 14:04:55,854 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-02-21 14:05:02,733 - INFO - Telegram monitoring started.
+2025-02-21 14:06:04,162 - INFO - Detected contract in 4AM Solana Volume Signal: 6U9jg6i8SBA7TcQc1maM5CxJP5ZcfEZxKBy2CGBLpump
+2025-02-21 14:06:04,438 - INFO - Attempting to buy token: 6U9jg6i8SBA7TcQc1maM5CxJP5ZcfEZxKBy2CGBLpump
+2025-02-21 14:06:04,440 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-21 14:06:06,111 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-02-21 14:06:06,365 - ERROR - Error buying token: 'message' is an invalid keyword argument for Transaction
+2025-02-21 14:09:13,233 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-02-21 14:09:13,248 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-02-21 14:14:16,339 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-21 14:14:17,960 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-21 14:14:18,273 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-02-21 14:14:19,913 - INFO - Telegram monitoring started.
+2025-02-21 14:18:20,014 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 14:19:20,097 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 14:19:20,111 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 14:20:20,061 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 14:26:20,859 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 14:29:20,015 - INFO - Got difference for account updates
+2025-02-21 14:29:20,380 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:29:47,442 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 14:31:22,150 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:32:22,038 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:33:22,232 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:34:22,169 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:34:22,421 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 14:35:22,303 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:36:21,629 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 14:36:22,382 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:37:22,594 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:38:22,477 - INFO - Got difference for channel 1835067347 updates
+2025-02-21 14:39:14,155 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:40:23,052 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:41:22,943 - INFO - Got difference for channel 1835067347 updates
+2025-02-21 14:41:23,206 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:42:23,101 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 14:43:23,197 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:44:20,718 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 14:44:20,974 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:45:03,994 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 14:45:23,102 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:46:23,315 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:47:23,308 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:48:24,087 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:49:22,671 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 14:49:23,598 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:50:23,503 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:52:22,445 - INFO - Closing current connection to begin reconnect...
+2025-02-21 14:52:22,451 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-21 14:52:25,777 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-02-21 14:53:23,670 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 14:53:24,646 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:53:24,928 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 14:54:22,991 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 14:54:23,890 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:55:24,231 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:56:23,137 - INFO - Got difference for channel 1835067347 updates
+2025-02-21 14:56:23,946 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:58:24,183 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 14:59:21,130 - INFO - Got difference for account updates
+2025-02-21 14:59:21,423 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:01:24,488 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:02:24,866 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:03:24,195 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 15:03:24,460 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:04:24,812 - INFO - Got difference for channel 1835067347 updates
+2025-02-21 15:05:17,627 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:07:24,353 - INFO - Got difference for channel 1835067347 updates
+2025-02-21 15:07:24,684 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:09:24,695 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 15:09:24,922 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:10:24,887 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:11:25,109 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 15:11:25,317 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:12:26,084 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:13:29,209 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:14:22,116 - INFO - Got difference for account updates
+2025-02-21 15:14:22,302 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 15:14:22,473 - INFO - Got difference for channel 1835067347 updates
+2025-02-21 15:14:22,912 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:15:27,573 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:16:27,744 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:17:27,013 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 15:17:27,817 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:19:27,273 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:20:19,995 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:21:20,455 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:22:28,002 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:23:25,431 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 15:23:25,527 - INFO - Detected contract in 4AM Solana Volume Signal: 591sd9jLBvySx8GLip3zuyHB5XDQ7am96pRJb9qopump
+2025-02-21 15:23:25,631 - INFO - Attempting to buy token: 591sd9jLBvySx8GLip3zuyHB5XDQ7am96pRJb9qopump
+2025-02-21 15:23:25,632 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-21 15:23:26,138 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:23:27,590 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-02-21 15:23:27,664 - ERROR - Error buying token: 'Transaction' object has no attribute 'add'
+2025-02-21 15:24:27,928 - INFO - Got difference for channel 1835067347 updates
+2025-02-21 15:24:28,152 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:25:28,106 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:26:28,146 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:26:28,320 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 15:28:28,354 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:29:22,632 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 15:29:22,852 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:29:23,071 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 15:30:28,752 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:31:28,704 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:32:25,425 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:33:28,565 - INFO - Got difference for channel 1835067347 updates
+2025-02-21 15:33:28,808 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:34:28,748 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:35:28,740 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:37:28,105 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 15:37:28,712 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 15:37:28,961 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:38:28,871 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:39:29,019 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:39:41,854 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:40:29,553 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:41:29,567 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:41:29,755 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 15:43:29,245 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:44:17,530 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:44:22,863 - INFO - Got difference for account updates
+2025-02-21 15:44:23,294 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 15:45:30,360 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 15:46:31,273 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:47:30,016 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:48:29,713 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:49:05,239 - INFO - Got difference for channel 2020833470 updates
+2025-02-21 15:49:05,488 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:49:05,685 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 15:50:30,224 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:51:30,233 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:52:30,131 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 15:52:30,379 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:53:29,748 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 15:53:30,365 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:54:30,464 - INFO - Got difference for channel 1988420013 updates
+2025-02-21 15:54:30,682 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:54:49,428 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:56:12,322 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 15:57:22,833 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-02-21 15:57:22,893 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-02-21 16:13:53,501 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-21 16:13:55,610 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-21 16:13:55,856 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-02-21 16:13:57,185 - INFO - Telegram monitoring started.
+2025-02-21 16:20:57,887 - INFO - Detected contract in 4AM Solana Volume Signal: 7vGQxnACKAogWbSE1uEjdPuEJ5trvqzYVzU2VW42pump
+2025-02-21 16:20:58,010 - INFO - Attempting to buy token: 7vGQxnACKAogWbSE1uEjdPuEJ5trvqzYVzU2VW42pump
+2025-02-21 16:20:58,011 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-21 16:20:58,823 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-02-21 16:20:58,888 - ERROR - Error buying token: 'instructions' is an invalid keyword argument for Transaction
+2025-02-21 16:28:57,509 - INFO - Got difference for account updates
+2025-02-21 16:28:57,789 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 16:29:59,907 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 16:30:58,322 - INFO - Detected contract in 4AM Solana Volume Signal: CPVGThx7SidJkAvuSAVeNhg76uZc8NeBsEoBz4YZpump
+2025-02-21 16:30:58,386 - INFO - Attempting to buy token: CPVGThx7SidJkAvuSAVeNhg76uZc8NeBsEoBz4YZpump
+2025-02-21 16:30:58,386 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-21 16:30:59,109 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 16:31:05,045 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-02-21 16:31:05,119 - ERROR - Error buying token: 'instructions' is an invalid keyword argument for Transaction
+2025-02-21 16:31:59,845 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 16:32:59,522 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 16:33:52,985 - INFO - Got difference for channel 1835067347 updates
+2025-02-21 16:33:54,191 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 16:34:59,639 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 16:35:59,409 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 16:36:37,975 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-02-21 16:36:37,983 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-02-21 16:37:47,349 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-21 16:37:50,979 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-21 16:37:51,156 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-02-21 16:37:52,140 - INFO - Telegram monitoring started.
+2025-02-21 16:38:52,372 - INFO - Detected contract in 4AM Solana Volume Signal: 4LNavBLJVdEbo4S9hpwtrbkQBAmqau8AC5uhA7BUpump
+2025-02-21 16:38:52,474 - INFO - Attempting to buy token: 4LNavBLJVdEbo4S9hpwtrbkQBAmqau8AC5uhA7BUpump
+2025-02-21 16:38:52,475 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-21 16:38:53,244 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-02-21 16:38:53,307 - ERROR - Error buying token: 'message' is an invalid keyword argument for Transaction
+2025-02-21 16:42:52,541 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 16:45:42,621 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-02-21 16:45:42,625 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-02-21 16:52:33,800 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-21 16:52:35,492 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-21 16:52:35,642 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-02-21 16:52:36,512 - INFO - Telegram monitoring started.
+2025-02-21 17:07:36,682 - INFO - Got difference for account updates
+2025-02-21 17:07:36,766 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 17:07:36,940 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 17:07:37,983 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:08:37,070 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 17:08:37,874 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:09:38,790 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:10:39,293 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:11:38,959 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:12:39,052 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:13:38,377 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 17:13:39,095 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:14:38,517 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 17:14:39,243 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:15:37,818 - INFO - Got difference for channel 1835067347 updates
+2025-02-21 17:15:38,792 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:16:39,347 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:17:09,572 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:18:39,243 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 17:18:39,498 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:19:39,473 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:20:40,122 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:21:40,689 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:22:37,409 - INFO - Got difference for account updates
+2025-02-21 17:22:38,771 - INFO - Got difference for channel 2020833470 updates
+2025-02-21 17:22:39,048 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:23:09,981 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:23:10,782 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 17:23:39,382 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 17:24:40,021 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:25:39,797 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:26:40,443 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:27:41,156 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:28:12,996 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:29:27,610 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:30:02,450 - INFO - Got difference for channel 2020833470 updates
+2025-02-21 17:30:39,884 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:31:40,247 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 17:31:41,137 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:32:29,954 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 17:32:30,137 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:33:40,447 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:33:40,706 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 17:34:40,869 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:35:40,621 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:36:37,752 - INFO - Got difference for channel 2020833470 updates
+2025-02-21 17:36:39,257 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:36:55,119 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:37:37,950 - INFO - Got difference for account updates
+2025-02-21 17:37:38,774 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:38:38,583 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 17:38:39,368 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:39:32,725 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:40:40,547 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:41:30,509 - INFO - Got difference for channel 1835067347 updates
+2025-02-21 17:41:30,789 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:41:31,059 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 17:42:40,864 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:43:13,037 - INFO - Got difference for channel 2287665802 updates
+2025-02-21 17:43:13,094 - INFO - Detected contract in 4AM Solana Volume Signal: EixRoyVqcVRZHv56GVhnUUjzF23shGsXJVKp2rPspump
+2025-02-21 17:43:13,235 - INFO - Attempting to buy token: EixRoyVqcVRZHv56GVhnUUjzF23shGsXJVKp2rPspump
+2025-02-21 17:43:13,236 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-21 17:43:14,540 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-02-21 17:43:14,608 - ERROR - Error buying token: type object 'Transaction' has no attribute 'new_unsigned'
+2025-02-21 17:43:28,376 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 17:43:40,023 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:44:10,142 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:44:10,613 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 17:45:41,244 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:46:41,346 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:46:41,602 - INFO - Got difference for channel 2020833470 updates
+2025-02-21 17:47:12,096 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:48:28,771 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:48:41,180 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:49:28,977 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:50:41,224 - INFO - Got difference for channel 2020833470 updates
+2025-02-21 17:50:41,446 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:51:07,317 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:51:41,416 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:51:56,756 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 17:52:38,322 - INFO - Got difference for account updates
+2025-02-21 17:52:39,072 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:53:39,240 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 17:53:40,130 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:54:35,628 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:55:41,885 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:56:31,752 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:57:42,196 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 17:58:10,507 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-02-21 17:58:10,510 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-02-21 17:59:22,281 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-21 17:59:24,541 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-21 17:59:26,293 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-02-21 17:59:34,008 - INFO - Telegram monitoring started.
+2025-02-21 18:01:29,286 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 18:02:29,696 - INFO - Detected contract in 4AM Solana Volume Signal: 4Qx25UE4YzQaSn5M3M9Fo1kpEwAnifisoivKWFvmpump
+2025-02-21 18:02:29,755 - INFO - Attempting to buy token: 4Qx25UE4YzQaSn5M3M9Fo1kpEwAnifisoivKWFvmpump
+2025-02-21 18:02:29,758 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-21 18:02:30,566 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-02-21 18:02:30,645 - ERROR - Error buying token: type object 'Transaction' has no attribute 'new_unsigned'
+2025-02-21 18:14:29,863 - INFO - Got difference for account updates
+2025-02-21 18:14:30,154 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 18:14:40,912 - INFO - Got difference for channel 1835067347 updates
+2025-02-21 18:15:45,730 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:16:31,200 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:17:21,885 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:18:31,351 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:19:31,415 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:20:32,196 - INFO - Got difference for channel 1835067347 updates
+2025-02-21 18:20:32,482 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:21:31,623 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:22:31,743 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:23:31,822 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:24:31,802 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 18:24:32,415 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:25:31,764 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:26:31,959 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:27:32,433 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:28:07,619 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:29:30,469 - INFO - Got difference for account updates
+2025-02-21 18:29:30,758 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:29:31,161 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 18:30:32,047 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:30:46,042 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:31:32,892 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 18:31:40,155 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:32:32,535 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:33:32,179 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:34:32,579 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:35:32,419 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:36:33,276 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:37:32,843 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:37:42,199 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 18:38:33,580 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:39:33,130 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 18:39:33,943 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 18:39:34,318 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:40:17,435 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:41:33,336 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 18:41:33,723 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:42:33,662 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:43:33,647 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:44:32,130 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:44:32,313 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 18:45:32,280 - INFO - Detected contract in 4AM Solana Volume Signal: 6i6CLZKqfWF2jjLiGEiAugcAdT6N2RUVTahxkaNVpump
+2025-02-21 18:45:32,333 - INFO - Attempting to buy token: 6i6CLZKqfWF2jjLiGEiAugcAdT6N2RUVTahxkaNVpump
+2025-02-21 18:45:32,334 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-21 18:45:32,964 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:45:33,096 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-02-21 18:45:33,155 - ERROR - Error buying token: type object 'Transaction' has no attribute 'new_unsigned'
+2025-02-21 18:45:41,834 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:47:14,983 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:48:33,816 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:49:35,091 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 18:49:35,394 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:50:34,031 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:51:34,041 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:52:33,881 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:53:35,852 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:53:36,013 - INFO - Detected contract in 4AM Solana Volume Signal: DjAj9MHwHY2Gs5sVbZfsjs15fWEMbTcpCaTbmg9fpump
+2025-02-21 18:53:36,157 - INFO - Attempting to buy token: DjAj9MHwHY2Gs5sVbZfsjs15fWEMbTcpCaTbmg9fpump
+2025-02-21 18:53:36,158 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-21 18:53:37,309 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-02-21 18:53:37,346 - ERROR - Error buying token: type object 'Transaction' has no attribute 'new_unsigned'
+2025-02-21 18:54:33,389 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 18:55:34,102 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:55:48,336 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 18:55:48,634 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:56:34,109 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:57:34,151 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:58:34,176 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 18:58:34,544 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:59:32,955 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 18:59:33,248 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 18:59:33,551 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 19:01:34,268 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 19:02:34,530 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 19:02:34,819 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 19:03:34,617 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 19:04:34,743 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 19:04:35,115 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 19:05:34,730 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 19:06:34,948 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 19:07:35,014 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 19:08:34,759 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 19:09:35,254 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 19:09:36,034 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 19:10:35,164 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 19:11:35,080 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 19:12:06,517 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-02-21 19:12:06,521 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!

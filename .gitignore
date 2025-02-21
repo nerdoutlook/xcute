@@ -9,3 +9,64 @@ frontend/yarn.lock
 frontend/node_modules/
 frontend/build/
 __pycache__/
+
+
+
+# Node.js / React (Frontend)
+frontend/node_modules/
+frontend/build/
+frontend/.yarn/
+frontend/.yarnrc
+frontend/.pnp.*
+frontend/.yarn-integrity
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Python / Flask (Backend)
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/*.db
+backend/*.sqlite3
+backend/.env
+backend/venv/
+backend/env/
+backend/.venv/
+backend/*.egg-info/
+backend/*.swp
+backend/*.swo
+
+# Logs
+logs/
+*.log
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Misc
+*.bak
+*.sublime-workspace
+*.sublime-project

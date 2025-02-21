@@ -81,124 +81,7 @@ def create_raydium_swap_instructions(
     )
     return swap_instruction
 
-'''1st buy token code
-async def buy_token(token_address: str):
-    try:
-        logging.info(f"Attempting to buy token: {token_address}")
-
-        # Step 1: Get the token price in USD
-        token_price = await get_token_price(token_address)
-        if token_price <= 0:
-            raise ValueError("Invalid token price")
-
-        # Step 2: Calculate the amount of tokens to buy based on dollar value
-        dollar_value = 1  # Example: $1 worth of tokens
-        amount_in_tokens = dollar_value / token_price
-        logging.info(f"Buying {amount_in_tokens} tokens (${dollar_value} worth)")
-
-        # Step 3: Get a recent blockhash
-        recent_blockhash = await get_recent_blockhash()
-
-        # Step 4: Create Raydium swap instructions
-        amount_in_sol = dollar_value  # Example: Assume 1 SOL = $100
-        swap_instruction = create_raydium_swap_instructions(
-            token_address, amount_in_sol, wallet.pubkey()
-        )
-
-        # Step 5: Create the transaction message
-        message = Message([swap_instruction])
-
-        # Step 6: Create the transaction
-        transaction = Transaction(
-            message=message,
-            from_keypairs=[wallet],
-            recent_blockhash=recent_blockhash,
-        )
-
-        # Step 7: Send the transaction
-        signature = await solana_client.send_transaction(transaction)
-        logging.info(f"Transaction sent with signature: {signature}")
-
-        # Step 8: Log the buy transaction
-        buy_details = {
-            "token_bought": token_address,
-            "amount_bought": dollar_value,
-            "slippage_paid": 0.5,
-            "wallet_balance_after": await solana_client.get_balance(wallet.pubkey()),
-            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        }
-        logging.info(f"Buy transaction details: {buy_details}")
-
-        # Step 9: Save transaction to database
-        new_transaction = Transaction(
-            token_bought=token_address,
-            amount_bought=dollar_value,
-            slippage_paid=0.5,
-            wallet_balance_after=await solana_client.get_balance(wallet.pubkey()),
-        )
-        db.session.add(new_transaction)
-        db.session.commit()
-
-        # Step 10: Broadcast buy transaction data to WebSocket clients
-        socketio.emit("buy", buy_details)
-    except Exception as e:
-        logging.error(f"Error buying token: {e}")
 '''
-
-''' 2nd buy token code
-async def buy_token(token_address: str):
-    try:
-        logging.info(f"Attempting to buy token: {token_address}")
-
-        # Step 1: Get the token price in USD
-        token_price = await get_token_price(token_address)
-        if token_price <= 0:
-            raise ValueError("Invalid token price")
-
-        # Step 2: Calculate the amount of tokens to buy based on dollar value
-        dollar_value = 1  # Example: $1 worth of tokens
-        amount_in_tokens = dollar_value / token_price
-        logging.info(f"Buying {amount_in_tokens} tokens (${dollar_value} worth)")
-
-        # Step 3: Get a recent blockhash
-        recent_blockhash = await get_recent_blockhash()
-
-        # Step 4: Create Raydium swap instructions
-        amount_in_sol = dollar_value  # Example: Assume 1 SOL = $100
-        swap_instruction = create_raydium_swap_instructions(
-            token_address, amount_in_sol, wallet.pubkey()
-        )
-
-        # Step 5: Create the transaction message
-        message = Message([swap_instruction])
-
-        # Step 6: Create the transaction
-        transaction = Transaction(
-            message=message,  # Pass the Message object here
-            from_keypairs=[wallet],
-            recent_blockhash=recent_blockhash,
-        )
-
-        # Step 7: Send the transaction
-        signature = await solana_client.send_transaction(transaction)
-        logging.info(f"Transaction sent with signature: {signature}")
-
-        # Step 8: Log the buy transaction
-        buy_details = {
-            "token_bought": token_address,
-            "amount_bought": dollar_value,  # Dollar value of tokens bought
-            "slippage_paid": 0.5,  # Example: 0.5% slippage
-            "wallet_balance_after": await solana_client.get_balance(wallet.pubkey()),
-            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        }
-        logging.info(f"Buy transaction details: {buy_details}")
-
-        # Step 9: Broadcast buy transaction data to WebSocket clients
-        socketio.emit("buy", buy_details)
-    except Exception as e:
-        logging.error(f"Error buying token: {e}")
-'''
-
 async def buy_token(token_address: str):
     try:
         logging.info(f"Attempting to buy token: {token_address}")
@@ -226,17 +109,16 @@ async def buy_token(token_address: str):
         message = Message([swap_instruction])  # Create a Message object
 
         # Step 6: Create the transaction
-        transaction = Transaction(
-            message=message,  # Pass the Message object here
-            from_keypairs=[wallet],
-            recent_blockhash=recent_blockhash,
-        )
+        transaction = Transaction.new_unsigned(message)  # Create an unsigned transaction
 
-        # Step 7: Send the transaction
+        # Step 7: Sign the transaction
+        transaction.sign([wallet], recent_blockhash)  # Sign the transaction with the wallet
+
+        # Step 8: Send the transaction
         signature = await solana_client.send_transaction(transaction)
         logging.info(f"Transaction sent with signature: {signature}")
 
-        # Step 8: Log the buy transaction
+        # Step 9: Log the buy transaction
         buy_details = {
             "token_bought": token_address,
             "amount_bought": dollar_value,  # Dollar value of tokens bought
@@ -246,7 +128,63 @@ async def buy_token(token_address: str):
         }
         logging.info(f"Buy transaction details: {buy_details}")
 
-        # Step 9: Broadcast buy transaction data to WebSocket clients
+        # Step 10: Broadcast buy transaction data to WebSocket clients
+        socketio.emit("buy", buy_details)
+    except Exception as e:
+        logging.error(f"Error buying token: {e}")
+'''
+
+async def buy_token(token_address: str):
+    try:
+        logging.info(f"Attempting to buy token: {token_address}")
+
+        # Step 1: Get the token price in USD
+        token_price = await get_token_price(token_address)
+        if token_price <= 0:
+            raise ValueError("Invalid token price")
+
+        # Step 2: Calculate the amount of tokens to buy based on dollar value
+        dollar_value = 1  # Example: $1 worth of tokens
+        amount_in_tokens = dollar_value / token_price
+        logging.info(f"Buying {amount_in_tokens} tokens (${dollar_value} worth)")
+
+        # Step 3: Get a recent blockhash
+        recent_blockhash = await get_recent_blockhash()
+
+        # Step 4: Create Raydium swap instructions
+        amount_in_sol = dollar_value  # Example: Assume 1 SOL = $100
+        swap_instruction = create_raydium_swap_instructions(
+            token_address, amount_in_sol, wallet.pubkey()
+        )
+
+        # Step 5: Create the transaction message
+        message = Message.new_with_blockhash(
+            [swap_instruction],  # List of instructions
+            payer=wallet.pubkey(),  # Payer's public key
+            blockhash=recent_blockhash,  # Recent blockhash
+        )
+
+        # Step 6: Create the transaction
+        transaction = Transaction.new_unsigned(message)  # Create an unsigned transaction
+
+        # Step 7: Sign the transaction
+        transaction.sign([wallet], recent_blockhash)  # Sign the transaction with the wallet
+
+        # Step 8: Send the transaction
+        signature = await solana_client.send_transaction(transaction)
+        logging.info(f"Transaction sent with signature: {signature}")
+
+        # Step 9: Log the buy transaction
+        buy_details = {
+            "token_bought": token_address,
+            "amount_bought": dollar_value,  # Dollar value of tokens bought
+            "slippage_paid": 0.5,  # Example: 0.5% slippage
+            "wallet_balance_after": await solana_client.get_balance(wallet.pubkey()),
+            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        }
+        logging.info(f"Buy transaction details: {buy_details}")
+
+        # Step 10: Broadcast buy transaction data to WebSocket clients
         socketio.emit("buy", buy_details)
     except Exception as e:
         logging.error(f"Error buying token: {e}")
