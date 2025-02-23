@@ -1,12 +1,18 @@
-from flask import Flask, render_template, jsonify
-from websocket_manager import socketio, app, db
 import logging
 import asyncio
+import os
+from flask import Flask, request, jsonify, send_from_directory
+from flask_cors import CORS
+from websocket_manager import socketio, app, db, init_db
 from telegram_monitor import start_monitoring
 from config import settings
-from flask import Flask, render_template, send_from_directory
+from models import Contract, Transaction
 
-# Initialize logging
+CORS(app, supports_credentials=True)
+
+app.static_folder = os.path.abspath("../frontend/build")
+app.template_folder = os.path.abspath("../frontend/build")
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
@@ -16,55 +22,82 @@ logging.basicConfig(
     ],
 )
 
-app = Flask(__name__, static_folder="../frontend/build/static", template_folder="../frontend/build")
+logging.info(f"Static folder: {app.static_folder}")
+logging.info(f"Template folder: {app.template_folder}")
 
-# Serve static files from the React build directory
-@app.route("/static/<path:path>")
-def serve_static(path):
-    return send_from_directory(app.static_folder, path)
+@app.route("/_next/<path:path>")
+def serve_next_static(path):
+    full_path = os.path.join(app.static_folder, "_next", path)
+    logging.info(f"Serving static file: {full_path}")
+    return send_from_directory(os.path.join(app.static_folder, "_next"), path)
 
-# Serve the frontend
-@app.route("/")
-def serve_home():
-    return render_template("index.html")
+@app.route("/favicon.ico")
+def serve_favicon():
+    full_path = os.path.join(app.static_folder, "favicon.ico")
+    logging.info(f"Serving favicon: {full_path}")
+    return send_from_directory(app.static_folder, "favicon.ico")
 
-# API endpoints
+@app.route("/", defaults={"path": ""})
+@app.route("/<path:path>")
+def serve_home(path):
+    file_name = f"{path}.html" if path else "index.html"
+    full_path = os.path.join(app.template_folder, file_name)
+    logging.info(f"Serving page: {full_path}")
+    try:
+        return send_from_directory(app.template_folder, file_name)
+    except FileNotFoundError:
+        logging.info(f"Fallback to index.html: {os.path.join(app.template_folder, 'index.html')}")
+        return send_from_directory(app.template_folder, "index.html")
+
 @app.route("/api/contracts")
 def get_contracts():
-    contracts = Contract.query.order_by(Contract.timestamp.desc()).all()
-    return jsonify([{
-        "address": contract.address,
-        "group": contract.group,
-        "timestamp": contract.timestamp
-    } for contract in contracts])
+    with app.app_context():
+        contracts = Contract.query.order_by(Contract.timestamp.desc()).all()
+        return jsonify([{
+            "id": contract.id,
+            "address": contract.address,
+            "group": contract.group,
+            "status": contract.status,
+            "timestamp": contract.timestamp.isoformat(),
+            "details": contract.details
+        } for contract in contracts])
 
 @app.route("/api/transactions")
 def get_transactions():
-    transactions = Transaction.query.order_by(Transaction.timestamp.desc()).all()
-    return jsonify([{
-        "token_bought": transaction.token_bought,
-        "amount_bought": transaction.amount_bought,
-        "slippage_paid": transaction.slippage_paid,
-        "wallet_balance_after": transaction.wallet_balance_after,
-        "timestamp": transaction.timestamp
-    } for transaction in transactions])
+    with app.app_context():
+        transactions = Transaction.query.order_by(Transaction.timestamp.desc()).all()
+        return jsonify([{
+            "id": transaction.id,
+            "contract_id": transaction.contract_id,
+            "token_address": transaction.token_address,
+            "transaction_type": transaction.transaction_type,
+            "amount_in_dollars": transaction.amount_in_dollars,
+            "amount_in_sol": transaction.amount_in_sol,
+            "slippage_tolerance": transaction.slippage_tolerance,
+            "wallet_balance_after": transaction.wallet_balance_after,
+            "timestamp": transaction.timestamp.isoformat()
+        } for transaction in transactions])
 
-# WebSocket events
 @socketio.on("connect")
 def handle_connect():
     logging.info("Client connected")
+    print("WebSocket client connected")
     socketio.emit("log", {"message": "WebSocket connection established."})
 
 @socketio.on("disconnect")
 def handle_disconnect():
     logging.info("Client disconnected")
+    print("WebSocket client disconnected")
 
-# Start the Telegram monitor when the server starts
-def start_background_tasks():
-    asyncio.run(start_monitoring())
-
-# Start the background task when the app starts
-start_background_tasks()
+async def start_background_tasks():
+    logging.info("Starting background tasks...")
+    print("Initializing database and starting Telegram monitoring...")
+    init_db()
+    asyncio.create_task(start_monitoring())
+    logging.info("Telegram monitoring task scheduled.")
+    print("Telegram monitoring started.")
 
 if __name__ == "__main__":
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(start_background_tasks())
     socketio.run(app, host="0.0.0.0", port=8000, debug=True)

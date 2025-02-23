@@ -1962,3 +1962,2163 @@ KeyboardInterrupt
 2025-02-21 19:11:35,080 - INFO - Got difference for channel 2099286836 updates
 2025-02-21 19:12:06,517 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
 2025-02-21 19:12:06,521 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-02-21 21:17:07,342 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-21 21:17:10,362 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-21 21:17:10,555 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-02-21 21:17:11,554 - INFO - Telegram monitoring started.
+2025-02-21 21:31:12,614 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 21:32:12,066 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 21:32:12,744 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 21:32:12,938 - INFO - Got difference for channel 2158204601 updates
+2025-02-21 21:34:13,958 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 21:36:13,916 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 21:36:14,141 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 21:37:13,179 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 21:37:13,981 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 21:39:14,157 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 21:40:14,084 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 21:40:14,407 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 21:42:14,340 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 21:43:14,595 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 21:45:14,577 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 21:46:13,692 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 21:47:12,157 - INFO - Got difference for account updates
+2025-02-21 21:47:12,474 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 21:49:15,686 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 21:50:14,959 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 21:51:14,971 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 21:52:15,089 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 21:54:15,274 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 21:55:15,233 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 21:56:15,122 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 21:57:15,270 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 21:58:15,454 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:00:15,540 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:01:14,039 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:01:15,633 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 22:02:13,276 - INFO - Got difference for channel 2158204601 updates
+2025-02-21 22:02:13,531 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:03:14,805 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 22:04:15,678 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:06:15,877 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:06:16,148 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:07:15,910 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:07:16,099 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 22:09:16,054 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:10:16,167 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:12:16,257 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:13:16,517 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:15:16,436 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:16:14,465 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:17:13,242 - INFO - Got difference for account updates
+2025-02-21 22:17:13,272 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 22:17:13,476 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 22:17:13,710 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:17:13,934 - INFO - Got difference for channel 2158204601 updates
+2025-02-21 22:18:14,424 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 22:19:16,621 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:21:16,746 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:22:16,708 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:24:16,901 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:25:16,027 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 22:25:16,943 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:26:16,048 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 22:27:16,899 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:28:16,981 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:30:17,002 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:31:14,816 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:32:13,666 - INFO - Got difference for account updates
+2025-02-21 22:32:13,759 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 22:32:14,023 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 22:32:14,335 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:33:14,800 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 22:34:17,309 - INFO - Got difference for channel 1835067347 updates
+2025-02-21 22:34:17,625 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:36:16,572 - INFO - Detected contract in 4AM Solana Volume Signal: 2EVAVzqH5Jd8zNL42SHCiGjxt8qkXCQrZznAA3awpump
+2025-02-21 22:36:16,694 - INFO - Attempting to buy token: 2EVAVzqH5Jd8zNL42SHCiGjxt8qkXCQrZznAA3awpump
+2025-02-21 22:36:16,695 - INFO - Buying 100.0 tokens ($1 worth)
+2025-02-21 22:36:17,295 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:36:17,643 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-02-21 22:36:17,714 - ERROR - Error buying token: type object 'Transaction' has no attribute 'new_unsigned'
+2025-02-21 22:38:16,635 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 22:38:17,460 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:39:16,769 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-21 22:40:17,571 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:42:18,018 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:43:18,851 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:45:19,129 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:47:14,240 - INFO - Got difference for account updates
+2025-02-21 22:47:14,432 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 22:47:14,774 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:48:15,358 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 22:49:17,724 - INFO - Got difference for channel 1835067347 updates
+2025-02-21 22:49:18,727 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:51:20,223 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:52:21,904 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:53:22,103 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:55:21,543 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:57:20,882 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:58:21,539 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 22:59:21,807 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 23:00:22,913 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 23:01:16,981 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 23:02:14,868 - INFO - Got difference for account updates
+2025-02-21 23:02:15,067 - INFO - Got difference for channel 2333406905 updates
+2025-02-21 23:02:22,555 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 23:03:22,075 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 23:04:18,114 - INFO - Got difference for channel 1835067347 updates
+2025-02-21 23:05:22,237 - INFO - Got difference for channel 2099286836 updates
+2025-02-21 23:06:22,186 - INFO - Got difference for channel 2230610122 updates
+2025-02-21 23:07:04,652 - WARNING - Server closed the connection: [Errno 103] Software caused connection abort
+2025-02-21 23:07:04,667 - INFO - Connection closed while receiving data: [Errno 103] Software caused connection abort
+2025-02-21 23:07:04,670 - INFO - Closing current connection to begin reconnect...
+2025-02-21 23:07:04,683 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-21 23:07:04,695 - INFO - <class 'ConnectionAbortedError'> during disconnect: [Errno 103] Software caused connection abort
+2025-02-21 23:07:04,696 - WARNING - Attempt 1 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:05,705 - WARNING - Attempt 2 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:06,709 - WARNING - Attempt 3 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:07,714 - WARNING - Attempt 4 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:08,721 - WARNING - Attempt 5 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:09,726 - WARNING - Attempt 6 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:10,729 - INFO - Failed reconnection attempt 1 with ConnectionError
+2025-02-21 23:07:11,731 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-21 23:07:11,807 - WARNING - Attempt 1 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:12,813 - WARNING - Attempt 2 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:13,818 - WARNING - Attempt 3 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:14,823 - WARNING - Attempt 4 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:15,829 - WARNING - Attempt 5 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:16,837 - WARNING - Attempt 6 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:17,840 - INFO - Failed reconnection attempt 2 with ConnectionError
+2025-02-21 23:07:18,842 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-21 23:07:18,847 - WARNING - Attempt 1 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:19,855 - WARNING - Attempt 2 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:20,870 - WARNING - Attempt 3 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:21,888 - WARNING - Attempt 4 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:22,899 - WARNING - Attempt 5 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:23,906 - WARNING - Attempt 6 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:24,908 - INFO - Failed reconnection attempt 3 with ConnectionError
+2025-02-21 23:07:25,910 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-21 23:07:25,914 - WARNING - Attempt 1 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:26,918 - WARNING - Attempt 2 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:27,922 - WARNING - Attempt 3 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:28,926 - WARNING - Attempt 4 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:29,933 - WARNING - Attempt 5 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:30,939 - WARNING - Attempt 6 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:31,942 - INFO - Failed reconnection attempt 4 with ConnectionError
+2025-02-21 23:07:32,945 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-21 23:07:32,949 - WARNING - Attempt 1 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:33,960 - WARNING - Attempt 2 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:34,965 - WARNING - Attempt 3 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:35,972 - WARNING - Attempt 4 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:36,977 - WARNING - Attempt 5 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:37,983 - WARNING - Attempt 6 at connecting failed: OSError: [Errno 101] Network is unreachable
+2025-02-21 23:07:38,986 - INFO - Failed reconnection attempt 5 with ConnectionError
+2025-02-21 23:07:39,988 - ERROR - Automatic reconnection failed 5 time(s)
+2025-02-21 23:07:39,990 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-02-21 23:07:39,999 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-02-21 23:07:40,013 - INFO - Not disconnecting (already have no connection)
+2025-02-22 04:11:37,973 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 04:11:39,871 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 04:11:40,080 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-02-22 04:11:41,025 - INFO - Telegram monitoring started.
+2025-02-22 04:26:41,636 - INFO - Got difference for channel 2230610122 updates
+2025-02-22 04:26:41,897 - INFO - Got difference for channel 2209467468 updates
+2025-02-22 04:26:42,236 - INFO - Got difference for channel 1835067347 updates
+2025-02-22 04:26:42,533 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:27:42,788 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:27:42,951 - INFO - Got difference for channel 2230610122 updates
+2025-02-22 04:28:42,973 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:29:41,907 - INFO - Got difference for channel 2333406905 updates
+2025-02-22 04:29:42,719 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:30:43,046 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:31:43,051 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:32:43,090 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:33:43,105 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:34:43,091 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:35:43,161 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:36:43,214 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:37:43,387 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:38:43,306 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:39:43,393 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:39:54,796 - INFO - Got difference for channel 2230610122 updates
+2025-02-22 04:40:43,387 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:41:11,443 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:41:24,328 - INFO - Got difference for channel 2230610122 updates
+2025-02-22 04:41:41,659 - INFO - Got difference for account updates
+2025-02-22 04:42:43,425 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:43:43,442 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:44:42,373 - INFO - Got difference for channel 2333406905 updates
+2025-02-22 04:44:43,260 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:45:43,557 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:46:43,521 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:47:43,819 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:48:44,453 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:49:43,785 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:49:50,696 - INFO - Got difference for channel 2230610122 updates
+2025-02-22 04:50:43,864 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:51:44,141 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:52:11,986 - INFO - Detected contract in 4AM Solana Volume Signal: FeUdJGLVhKMDPJVmoWQ7fesxSSkUEcLyk5viGZv2pump
+2025-02-22 04:52:12,051 - INFO - Attempting to buy token: FeUdJGLVhKMDPJVmoWQ7fesxSSkUEcLyk5viGZv2pump for $1.0
+2025-02-22 04:52:12,906 - INFO - Fetched SOL price: $171.12
+2025-02-22 04:52:12,911 - INFO - Converted $1.0 to 0.005844 SOL (5843852 lamports)
+2025-02-22 04:52:13,737 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-02-22 04:52:13,764 - ERROR - Error buying token: Insufficient balance: 0.0 SOL available, 0.005844 SOL required
+2025-02-22 04:52:13,765 - ERROR - Unhandled exception on new_message_handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/userland/xcute/backend/telegram_monitor.py", line 68, in new_message_handler
+    await buy_token(contract_address)
+  File "/home/userland/xcute/backend/buy_program.py", line 142, in buy_token
+    raise ValueError(f"Insufficient balance: {balance / 1e9} SOL available, {amount_in_sol:.6f} SOL required")
+ValueError: Insufficient balance: 0.0 SOL available, 0.005844 SOL required
+2025-02-22 04:52:29,687 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:53:43,976 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:54:25,329 - INFO - Got difference for channel 2230610122 updates
+2025-02-22 04:54:25,532 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:55:44,031 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:56:42,007 - INFO - Got difference for account updates
+2025-02-22 04:56:42,233 - INFO - Got difference for channel 2230610122 updates
+2025-02-22 04:56:42,460 - INFO - Got difference for channel 2158204601 updates
+2025-02-22 04:56:42,763 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:57:43,363 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 04:57:44,236 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:57:44,903 - INFO - Got difference for channel 2230610122 updates
+2025-02-22 04:58:44,192 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:59:17,498 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 04:59:42,671 - INFO - Got difference for channel 2333406905 updates
+2025-02-22 05:00:53,064 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:01:44,452 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:02:15,716 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:02:15,916 - INFO - Got difference for channel 2230610122 updates
+2025-02-22 05:03:44,534 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:04:44,564 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:05:44,643 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:06:44,864 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:07:44,914 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:08:45,020 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:09:45,031 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:10:05,777 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-02-22 05:10:05,788 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-02-22 05:11:29,291 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 05:11:30,775 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 05:11:31,050 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-02-22 05:11:32,153 - INFO - Telegram monitoring started.
+2025-02-22 05:26:32,376 - INFO - Got difference for account updates
+2025-02-22 05:26:32,605 - INFO - Got difference for channel 2158204601 updates
+2025-02-22 05:27:34,204 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:28:34,357 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:29:34,358 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:30:34,403 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:32:34,625 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:33:34,614 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:34:34,802 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:35:34,668 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:36:34,712 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:37:34,768 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:38:34,802 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:39:34,793 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:39:59,634 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:41:32,723 - INFO - Got difference for account updates
+2025-02-22 05:41:33,074 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:42:01,396 - INFO - Got difference for channel 2333406905 updates
+2025-02-22 05:42:40,075 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:44:35,170 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:45:35,242 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:46:35,249 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:47:35,244 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:48:35,414 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:49:35,426 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:50:34,787 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 05:50:35,596 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:51:35,625 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:52:35,826 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:53:36,209 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:54:35,803 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:55:35,914 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:56:24,178 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:56:33,220 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:56:35,916 - INFO - Got difference for channel 2020833470 updates
+2025-02-22 05:57:36,625 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:58:02,212 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 05:59:35,964 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:00:36,066 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:02:36,290 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:03:36,246 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:04:36,234 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:05:36,335 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:06:36,918 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:07:36,488 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:08:36,856 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:09:37,274 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:11:18,559 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:11:31,793 - INFO - Got difference for account updates
+2025-02-22 06:11:32,267 - INFO - Got difference for channel 1835067347 updates
+2025-02-22 06:11:32,526 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:13:37,144 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:14:36,739 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:14:37,010 - INFO - Got difference for channel 1835067347 updates
+2025-02-22 06:15:37,444 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:16:36,789 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:17:36,959 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:18:37,056 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:19:37,042 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:20:37,050 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:21:37,189 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:22:37,069 - INFO - Got difference for channel 1835067347 updates
+2025-02-22 06:22:37,323 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:23:37,102 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:24:37,342 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:25:37,176 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:26:32,158 - INFO - Got difference for account updates
+2025-02-22 06:26:32,809 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:27:37,423 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:28:37,430 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:29:36,866 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:29:36,874 - INFO - Detected contract in 4AM Solana Volume Signal: CbpwEY2ZNQ3taHTXDVJAX99GEiqhjzt4WLTzq8XYpump
+2025-02-22 06:29:36,977 - INFO - Attempting to buy token: CbpwEY2ZNQ3taHTXDVJAX99GEiqhjzt4WLTzq8XYpump for $1.0
+2025-02-22 06:29:37,454 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:29:38,050 - INFO - Fetched SOL price: $171.43
+2025-02-22 06:29:38,054 - INFO - Converted $1.0 to 0.005833 SOL (5833284 lamports)
+2025-02-22 06:29:38,977 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-02-22 06:29:39,014 - ERROR - Error buying token: Insufficient balance: 0.0 SOL available, 0.005883 SOL required (including fees)
+2025-02-22 06:29:39,015 - ERROR - Unhandled exception on new_message_handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/userland/xcute/backend/telegram_monitor.py", line 68, in new_message_handler
+    await buy_token(contract_address)
+  File "/home/userland/xcute/backend/buy_program.py", line 141, in buy_token
+    raise ValueError(f"Insufficient balance: {balance / 1e9} SOL available, {(min_lamports_needed / 1e9):.6f} SOL required (including fees)")
+ValueError: Insufficient balance: 0.0 SOL available, 0.005883 SOL required (including fees)
+2025-02-22 06:30:38,395 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:31:37,514 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:32:36,860 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:32:37,592 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:33:37,698 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:34:36,960 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:34:37,732 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:35:37,711 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:36:37,770 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:37:37,440 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:37:38,272 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:38:37,236 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:38:37,239 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:38:37,892 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:39:38,074 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:40:37,272 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:40:37,283 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:40:38,141 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:41:32,506 - INFO - Got difference for account updates
+2025-02-22 06:41:32,512 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:41:32,712 - INFO - Got difference for channel 2230610122 updates
+2025-02-22 06:41:32,872 - INFO - Got difference for channel 2209467468 updates
+2025-02-22 06:41:33,096 - INFO - Got difference for channel 2158204601 updates
+2025-02-22 06:41:33,397 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:42:00,991 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:42:37,421 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:42:38,159 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:43:37,483 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:43:38,250 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:44:37,929 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:45:37,616 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:45:37,637 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:45:38,595 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:46:37,571 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:46:37,585 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:46:38,338 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:47:38,419 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:48:37,800 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:48:38,628 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:49:37,866 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:49:37,876 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:49:38,756 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:50:37,999 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:50:38,791 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:50:44,072 - INFO - Got difference for channel 2020833470 updates
+2025-02-22 06:51:37,829 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:51:38,561 - INFO - Got difference for channel 2230610122 updates
+2025-02-22 06:51:38,818 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:52:37,757 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:52:37,760 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:52:38,511 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:53:38,166 - INFO - Detected contract in 4AM Solana Volume Signal: EoNwBXNA6MVr4RnrCGMdMtu59gEeBx1z8E7ycji5pump
+2025-02-22 06:53:38,221 - INFO - Attempting to buy token: EoNwBXNA6MVr4RnrCGMdMtu59gEeBx1z8E7ycji5pump for $1.0
+2025-02-22 06:53:38,784 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:53:39,184 - INFO - Fetched SOL price: $171.19
+2025-02-22 06:53:39,188 - INFO - Converted $1.0 to 0.005841 SOL (5841462 lamports)
+2025-02-22 06:53:40,080 - INFO - HTTP Request: POST https://api.mainnet-beta.solana.com "HTTP/1.1 200 OK"
+2025-02-22 06:53:40,118 - ERROR - Error buying token: Insufficient balance: 0.0 SOL available, 0.005891 SOL required (including fees)
+2025-02-22 06:53:40,119 - ERROR - Unhandled exception on new_message_handler
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/telethon/client/updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "/home/userland/xcute/backend/telegram_monitor.py", line 68, in new_message_handler
+    await buy_token(contract_address)
+  File "/home/userland/xcute/backend/buy_program.py", line 141, in buy_token
+    raise ValueError(f"Insufficient balance: {balance / 1e9} SOL available, {(min_lamports_needed / 1e9):.6f} SOL required (including fees)")
+ValueError: Insufficient balance: 0.0 SOL available, 0.005891 SOL required (including fees)
+2025-02-22 06:54:38,082 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:54:38,086 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 06:54:38,901 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:55:38,973 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:56:32,874 - INFO - Got difference for account updates
+2025-02-22 06:56:33,156 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:57:02,121 - INFO - Got difference for channel 2230610122 updates
+2025-02-22 06:57:39,085 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:58:39,283 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 06:59:38,253 - INFO - Got difference for channel 1835067347 updates
+2025-02-22 06:59:38,487 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 07:00:39,653 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 07:01:39,450 - INFO - Got difference for channel 1835067347 updates
+2025-02-22 07:01:39,707 - INFO - Got difference for channel 2230610122 updates
+2025-02-22 07:01:39,996 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 07:02:39,593 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 07:04:39,576 - INFO - Got difference for channel 2099286836 updates
+2025-02-22 07:05:26,198 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-02-22 07:05:26,199 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-02-22 07:09:36,964 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 07:09:38,839 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 07:09:39,011 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-02-22 07:09:40,100 - INFO - Telegram monitoring started.
+2025-02-22 07:12:40,294 - INFO - No contract detected in 4AM Solana Volume Signal.
+2025-02-22 07:18:51,353 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-02-22 07:18:51,366 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-02-22 08:26:17,102 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 08:26:19,479 - INFO - Starting background tasks...
+2025-02-22 08:31:32,912 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 08:31:34,769 - INFO - Starting background tasks...
+2025-02-22 08:31:34,784 - INFO - Database tables created.
+2025-02-22 08:31:34,785 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 08:31:34,903 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.176:8000
+2025-02-22 08:31:34,904 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 08:31:34,905 - INFO -  * Restarting with stat
+2025-02-22 08:31:45,044 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 08:31:46,786 - INFO - Starting background tasks...
+2025-02-22 08:31:46,797 - INFO - Database tables created.
+2025-02-22 08:31:46,798 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 08:31:46,838 - WARNING -  * Debugger is active!
+2025-02-22 08:31:46,855 - INFO -  * Debugger PIN: 848-591-299
+2025-02-22 13:11:31,995 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 13:11:34,136 - INFO - Starting background tasks...
+2025-02-22 13:11:34,153 - INFO - Database tables created.
+2025-02-22 13:11:34,155 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 13:11:34,266 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.176:8000
+2025-02-22 13:11:34,266 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 13:11:34,267 - INFO -  * Restarting with stat
+2025-02-22 13:11:41,904 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 13:11:43,152 - INFO - Starting background tasks...
+2025-02-22 13:11:43,166 - INFO - Database tables created.
+2025-02-22 13:11:43,168 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 13:11:43,214 - WARNING -  * Debugger is active!
+2025-02-22 13:11:43,275 - INFO -  * Debugger PIN: 747-537-917
+2025-02-22 13:26:13,019 - INFO - 127.0.0.1 - - [22/Feb/2025 13:26:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-22 13:26:13,448 - INFO - 127.0.0.1 - - [22/Feb/2025 13:26:13] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-02-22 13:26:13,460 - INFO - 127.0.0.1 - - [22/Feb/2025 13:26:13] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-02-22 13:26:22,648 - INFO - 127.0.0.1 - - [22/Feb/2025 13:26:22] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=csyUpvntDPzO2h34fm6X HTTP/1.1" 200 -
+2025-02-22 13:26:22,712 - INFO - 127.0.0.1 - - [22/Feb/2025 13:26:22] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-02-22 13:26:25,209 - INFO - 127.0.0.1 - - [22/Feb/2025 13:26:25] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-22 13:34:07,983 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 13:34:10,243 - INFO - Starting background tasks...
+2025-02-22 13:34:10,286 - INFO - Database tables created.
+2025-02-22 13:34:10,288 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 13:34:10,423 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.176:8000
+2025-02-22 13:34:10,423 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 13:34:10,424 - INFO -  * Restarting with stat
+2025-02-22 13:34:17,969 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 13:34:19,429 - INFO - Starting background tasks...
+2025-02-22 13:34:19,444 - INFO - Database tables created.
+2025-02-22 13:34:19,448 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 13:34:19,507 - WARNING -  * Debugger is active!
+2025-02-22 13:34:19,528 - INFO -  * Debugger PIN: 114-322-681
+2025-02-22 13:34:34,043 - INFO - 127.0.0.1 - - [22/Feb/2025 13:34:34] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-22 13:34:34,499 - INFO - 127.0.0.1 - - [22/Feb/2025 13:34:34] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-22 13:34:34,502 - INFO - 127.0.0.1 - - [22/Feb/2025 13:34:34] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-22 13:34:42,842 - INFO - 127.0.0.1 - - [22/Feb/2025 13:34:42] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=FDxfCkA5y0X9tuAhAjuN HTTP/1.1" 200 -
+2025-02-22 13:34:42,913 - INFO - 127.0.0.1 - - [22/Feb/2025 13:34:42] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-22 13:34:44,654 - INFO - 127.0.0.1 - - [22/Feb/2025 13:34:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-22 13:37:53,066 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 13:37:55,126 - INFO - Starting background tasks...
+2025-02-22 13:37:55,143 - INFO - Database tables created.
+2025-02-22 13:37:55,145 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 13:37:55,254 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.176:8000
+2025-02-22 13:37:55,255 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 13:37:55,255 - INFO -  * Restarting with stat
+2025-02-22 13:38:03,809 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 13:38:05,170 - INFO - Starting background tasks...
+2025-02-22 13:38:05,186 - INFO - Database tables created.
+2025-02-22 13:38:05,189 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 13:38:05,252 - WARNING -  * Debugger is active!
+2025-02-22 13:38:05,265 - INFO -  * Debugger PIN: 132-176-173
+2025-02-22 13:51:55,683 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 13:51:57,767 - INFO - Starting background tasks...
+2025-02-22 13:51:57,786 - INFO - Database tables created.
+2025-02-22 13:51:57,787 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 13:51:57,909 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.176:8000
+2025-02-22 13:51:57,910 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 13:51:57,912 - INFO -  * Restarting with stat
+2025-02-22 13:52:06,478 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 13:52:07,709 - INFO - Starting background tasks...
+2025-02-22 13:52:07,723 - INFO - Database tables created.
+2025-02-22 13:52:07,725 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 13:52:07,776 - WARNING -  * Debugger is active!
+2025-02-22 13:52:07,785 - INFO -  * Debugger PIN: 536-409-411
+2025-02-22 14:33:02,980 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 14:33:04,757 - INFO - Starting background tasks...
+2025-02-22 14:33:04,773 - INFO - Database tables created.
+2025-02-22 14:33:04,774 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 14:33:04,898 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.176:8000
+2025-02-22 14:33:04,899 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 14:33:04,900 - INFO -  * Restarting with stat
+2025-02-22 14:33:14,618 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 14:33:16,072 - INFO - Starting background tasks...
+2025-02-22 14:33:16,084 - INFO - Database tables created.
+2025-02-22 14:33:16,085 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 14:33:16,124 - WARNING -  * Debugger is active!
+2025-02-22 14:33:16,132 - INFO -  * Debugger PIN: 315-419-628
+2025-02-22 14:33:39,368 - INFO - 127.0.0.1 - - [22/Feb/2025 14:33:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-02-22 14:33:40,109 - INFO - 127.0.0.1 - - [22/Feb/2025 14:33:40] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-02-22 14:33:40,141 - INFO - 127.0.0.1 - - [22/Feb/2025 14:33:40] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-02-22 14:33:47,047 - INFO - 127.0.0.1 - - [22/Feb/2025 14:33:47] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=EX4t2EbA3oWTifHcGmFn HTTP/1.1" 200 -
+2025-02-22 14:33:47,112 - INFO - 127.0.0.1 - - [22/Feb/2025 14:33:47] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-02-22 14:43:08,359 - INFO - Client connected
+2025-02-22 14:43:18,401 - INFO - Client connected
+2025-02-22 14:43:18,718 - INFO - 127.0.0.1 - - [22/Feb/2025 14:43:18] "GET /api/check-auth HTTP/1.1" 200 -
+2025-02-22 14:43:33,270 - INFO - Client connected
+2025-02-22 14:43:33,662 - INFO - Client disconnected
+2025-02-22 14:43:33,672 - INFO - 127.0.0.1 - - [22/Feb/2025 14:43:33] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2025-02-22 14:43:33,687 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 336, in execute
+    write(b"")
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+AssertionError: write() before start_response
+2025-02-22 14:43:37,324 - INFO - Client connected
+2025-02-22 14:43:37,514 - INFO - 127.0.0.1 - - [22/Feb/2025 14:43:37] "GET /api/check-auth HTTP/1.1" 200 -
+2025-02-22 14:43:48,939 - INFO - 127.0.0.1 - - [22/Feb/2025 14:43:48] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-02-22 14:43:55,719 - INFO - 127.0.0.1 - - [22/Feb/2025 14:43:55] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-02-22 14:44:04,362 - INFO - 127.0.0.1 - - [22/Feb/2025 14:44:04] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-02-22 14:44:07,316 - INFO - 127.0.0.1 - - [22/Feb/2025 14:44:07] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-02-22 14:44:10,615 - INFO - 127.0.0.1 - - [22/Feb/2025 14:44:10] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-02-22 14:45:42,545 - INFO - Client disconnected
+2025-02-22 14:45:42,622 - INFO - 127.0.0.1 - - [22/Feb/2025 14:45:42] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2025-02-22 14:45:42,641 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 336, in execute
+    write(b"")
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+AssertionError: write() before start_response
+2025-02-22 14:48:07,768 - INFO - Client connected
+2025-02-22 14:48:22,057 - INFO - 127.0.0.1 - - [22/Feb/2025 14:48:22] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-02-22 14:48:41,151 - INFO - 127.0.0.1 - - [22/Feb/2025 14:48:41] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-02-22 14:48:48,016 - INFO - 127.0.0.1 - - [22/Feb/2025 14:48:48] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-02-22 14:48:50,130 - INFO - Client disconnected
+2025-02-22 14:48:50,138 - INFO - 127.0.0.1 - - [22/Feb/2025 14:48:50] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2025-02-22 14:48:50,153 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 336, in execute
+    write(b"")
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+AssertionError: write() before start_response
+2025-02-22 14:48:54,040 - INFO - Client connected
+2025-02-22 14:49:42,801 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 14:49:44,914 - INFO - Starting background tasks...
+2025-02-22 14:49:44,931 - INFO - Database tables created.
+2025-02-22 14:49:44,932 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 14:49:45,051 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.0.176:8000
+2025-02-22 14:49:45,052 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-22 14:49:45,053 - INFO -  * Restarting with stat
+2025-02-22 14:49:53,681 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 14:49:55,036 - INFO - Starting background tasks...
+2025-02-22 14:49:55,066 - INFO - Database tables created.
+2025-02-22 14:49:55,067 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 14:49:55,127 - WARNING -  * Debugger is active!
+2025-02-22 14:49:55,139 - INFO -  * Debugger PIN: 485-770-972
+2025-02-22 14:49:55,296 - INFO - Client connected
+2025-02-22 14:50:37,215 - INFO - Client connected
+2025-02-22 14:50:38,974 - INFO - Client disconnected
+2025-02-22 14:50:38,983 - INFO - 127.0.0.1 - - [22/Feb/2025 14:50:38] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2025-02-22 14:50:38,993 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 336, in execute
+    write(b"")
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+AssertionError: write() before start_response
+2025-02-22 14:50:45,965 - INFO - Client connected
+2025-02-22 14:50:59,505 - INFO - 127.0.0.1 - - [22/Feb/2025 14:50:59] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-02-22 14:51:21,393 - INFO - 127.0.0.1 - - [22/Feb/2025 14:51:21] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-02-22 14:53:20,078 - INFO - Client disconnected
+2025-02-22 14:53:20,119 - INFO - 127.0.0.1 - - [22/Feb/2025 14:53:20] "[35m[1mGET /socket.io/?EIO=4&transport=websocket HTTP/1.1[0m" 500 -
+2025-02-22 14:53:20,147 - ERROR - Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 370, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 336, in execute
+    write(b"")
+  File "/usr/local/lib/python3.10/dist-packages/werkzeug/serving.py", line 261, in write
+    assert status_set is not None, "write() before start_response"
+AssertionError: write() before start_response
+2025-02-22 15:10:14,677 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 15:10:21,239 - INFO - Starting background tasks...
+2025-02-22 15:10:21,464 - INFO - Database tables created.
+2025-02-22 15:10:21,467 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 15:10:21,768 - INFO -  * Restarting with stat
+2025-02-22 15:10:47,184 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 15:10:51,857 - INFO - Starting background tasks...
+2025-02-22 15:10:51,888 - INFO - Database tables created.
+2025-02-22 15:10:51,890 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 15:10:51,969 - WARNING -  * Debugger is active!
+2025-02-22 15:10:51,995 - INFO -  * Debugger PIN: 808-356-550
+2025-02-22 15:18:08,877 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 15:18:11,121 - INFO - Starting background tasks...
+2025-02-22 15:18:11,135 - INFO - Database tables created.
+2025-02-22 15:18:11,136 - INFO - Telegram monitoring task scheduled.
+2025-02-22 15:18:11,137 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 15:18:11,200 - INFO -  * Restarting with stat
+2025-02-22 15:18:20,580 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 15:18:21,801 - INFO - Starting background tasks...
+2025-02-22 15:18:21,812 - INFO - Database tables created.
+2025-02-22 15:18:21,813 - INFO - Telegram monitoring task scheduled.
+2025-02-22 15:18:21,814 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 15:18:21,849 - WARNING -  * Debugger is active!
+2025-02-22 15:18:21,865 - INFO -  * Debugger PIN: 679-292-060
+2025-02-22 15:29:59,797 - INFO -  * Detected change in '/home/userland/xcute/backend/main.py', reloading
+2025-02-22 15:30:01,768 - INFO -  * Restarting with stat
+2025-02-22 15:30:17,602 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 15:30:19,876 - INFO - Starting background tasks...
+2025-02-22 15:30:19,896 - INFO - Database tables created.
+2025-02-22 15:30:19,897 - INFO - Telegram monitoring task scheduled.
+2025-02-22 15:30:19,898 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 15:30:19,939 - WARNING -  * Debugger is active!
+2025-02-22 15:30:19,946 - INFO -  * Debugger PIN: 330-510-059
+2025-02-22 15:41:32,805 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 15:41:34,958 - INFO - Starting background tasks...
+2025-02-22 15:41:34,974 - INFO - Database tables created.
+2025-02-22 15:41:34,975 - INFO - Telegram monitoring task scheduled.
+2025-02-22 15:41:34,976 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 15:41:35,045 - INFO -  * Restarting with stat
+2025-02-22 15:41:44,231 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 15:41:45,626 - INFO - Starting background tasks...
+2025-02-22 15:41:45,639 - INFO - Database tables created.
+2025-02-22 15:41:45,640 - INFO - Telegram monitoring task scheduled.
+2025-02-22 15:41:45,641 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 15:41:45,679 - WARNING -  * Debugger is active!
+2025-02-22 15:41:45,705 - INFO -  * Debugger PIN: 637-368-898
+2025-02-22 15:48:29,669 - INFO - 339Ru8NmJVYIqcKuAAAA: Sending packet OPEN data {'sid': '339Ru8NmJVYIqcKuAAAA', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-22 15:48:29,676 - INFO - 339Ru8NmJVYIqcKuAAAA: Received request to upgrade to websocket
+2025-02-22 15:48:29,703 - INFO - 339Ru8NmJVYIqcKuAAAA: Upgrade to websocket successful
+2025-02-22 15:48:29,712 - INFO - SRYPTK3gML6TVUdNAAAB: Sending packet OPEN data {'sid': 'SRYPTK3gML6TVUdNAAAB', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-22 15:48:29,714 - INFO - SRYPTK3gML6TVUdNAAAB: Received request to upgrade to websocket
+2025-02-22 15:48:29,722 - INFO - SRYPTK3gML6TVUdNAAAB: Upgrade to websocket successful
+2025-02-22 15:48:29,845 - INFO - 339Ru8NmJVYIqcKuAAAA: Received packet MESSAGE data 0
+2025-02-22 15:48:29,869 - INFO - Client connected
+2025-02-22 15:48:29,872 - INFO - 339Ru8NmJVYIqcKuAAAA: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-22 15:48:29,880 - INFO - 339Ru8NmJVYIqcKuAAAA: Sending packet MESSAGE data 0{"sid":"bp8CjnWvc5qToWqgAAAC"}
+2025-02-22 15:48:29,897 - INFO - SRYPTK3gML6TVUdNAAAB: Received packet MESSAGE data 0
+2025-02-22 15:48:29,902 - INFO - Client connected
+2025-02-22 15:48:29,904 - INFO - 339Ru8NmJVYIqcKuAAAA: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-22 15:48:29,905 - INFO - SRYPTK3gML6TVUdNAAAB: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-22 15:48:29,906 - INFO - SRYPTK3gML6TVUdNAAAB: Sending packet MESSAGE data 0{"sid":"cSZZwlS5rhabEWbuAAAD"}
+2025-02-22 15:48:30,421 - INFO - xNg0ck_9hGy9fognAAAE: Sending packet OPEN data {'sid': 'xNg0ck_9hGy9fognAAAE', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-22 15:48:30,423 - INFO - xNg0ck_9hGy9fognAAAE: Received request to upgrade to websocket
+2025-02-22 15:48:30,425 - INFO - xNg0ck_9hGy9fognAAAE: Upgrade to websocket successful
+2025-02-22 15:48:30,463 - INFO - xNg0ck_9hGy9fognAAAE: Received packet MESSAGE data 0
+2025-02-22 15:48:30,466 - INFO - Client connected
+2025-02-22 15:48:30,468 - INFO - 339Ru8NmJVYIqcKuAAAA: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-22 15:48:30,469 - INFO - SRYPTK3gML6TVUdNAAAB: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-22 15:48:30,469 - INFO - xNg0ck_9hGy9fognAAAE: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-22 15:48:30,472 - INFO - xNg0ck_9hGy9fognAAAE: Sending packet MESSAGE data 0{"sid":"x627A9AR149luS_nAAAF"}
+2025-02-22 15:48:31,094 - INFO - PuA_UYgBzKjgB93oAAAG: Sending packet OPEN data {'sid': 'PuA_UYgBzKjgB93oAAAG', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-22 15:48:31,095 - INFO - PuA_UYgBzKjgB93oAAAG: Received request to upgrade to websocket
+2025-02-22 15:48:31,101 - INFO - PuA_UYgBzKjgB93oAAAG: Upgrade to websocket successful
+2025-02-22 15:48:31,147 - INFO - PuA_UYgBzKjgB93oAAAG: Received packet MESSAGE data 0
+2025-02-22 15:48:31,152 - INFO - Client connected
+2025-02-22 15:48:31,153 - INFO - 339Ru8NmJVYIqcKuAAAA: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-22 15:48:31,154 - INFO - SRYPTK3gML6TVUdNAAAB: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-22 15:48:31,155 - INFO - xNg0ck_9hGy9fognAAAE: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-22 15:48:31,156 - INFO - PuA_UYgBzKjgB93oAAAG: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-22 15:48:31,158 - INFO - PuA_UYgBzKjgB93oAAAG: Sending packet MESSAGE data 0{"sid":"_BGMbCBMDIfgdUTLAAAH"}
+2025-02-22 15:48:40,934 - INFO - kQyehFVy6xJ0ZTdkAAAI: Sending packet OPEN data {'sid': 'kQyehFVy6xJ0ZTdkAAAI', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-22 15:48:40,935 - INFO - kQyehFVy6xJ0ZTdkAAAI: Received request to upgrade to websocket
+2025-02-22 15:48:40,940 - INFO - kQyehFVy6xJ0ZTdkAAAI: Upgrade to websocket successful
+2025-02-22 15:48:41,102 - INFO - kQyehFVy6xJ0ZTdkAAAI: Received packet MESSAGE data 0
+2025-02-22 15:48:41,106 - INFO - Client connected
+2025-02-22 15:48:41,108 - INFO - 339Ru8NmJVYIqcKuAAAA: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-22 15:48:41,110 - INFO - SRYPTK3gML6TVUdNAAAB: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-22 15:48:41,113 - INFO - xNg0ck_9hGy9fognAAAE: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-22 15:48:41,114 - INFO - PuA_UYgBzKjgB93oAAAG: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-22 15:48:41,116 - INFO - kQyehFVy6xJ0ZTdkAAAI: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-22 15:48:41,118 - INFO - kQyehFVy6xJ0ZTdkAAAI: Sending packet MESSAGE data 0{"sid":"99tu9gSk3lQvZ39UAAAJ"}
+2025-02-22 15:48:49,473 - INFO - Client disconnected
+2025-02-22 15:48:54,732 - INFO - 339Ru8NmJVYIqcKuAAAA: Sending packet PING data None
+2025-02-22 15:48:54,743 - INFO - SRYPTK3gML6TVUdNAAAB: Sending packet PING data None
+2025-02-22 15:48:54,817 - INFO - 339Ru8NmJVYIqcKuAAAA: Received packet PONG data 
+2025-02-22 15:48:54,822 - INFO - SRYPTK3gML6TVUdNAAAB: Received packet PONG data 
+2025-02-22 15:48:54,999 - INFO - Client disconnected
+2025-02-22 15:48:55,022 - INFO - Client disconnected
+2025-02-22 15:48:55,031 - INFO - Client disconnected
+2025-02-22 15:48:55,037 - INFO - Client disconnected
+2025-02-22 15:49:59,545 - INFO - axzYt7M7-bhbrma0AAAK: Sending packet OPEN data {'sid': 'axzYt7M7-bhbrma0AAAK', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-22 15:49:59,550 - INFO - axzYt7M7-bhbrma0AAAK: Received request to upgrade to websocket
+2025-02-22 15:49:59,583 - INFO - axzYt7M7-bhbrma0AAAK: Upgrade to websocket successful
+2025-02-22 15:56:16,668 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 15:56:18,694 - INFO - Starting background tasks...
+2025-02-22 15:56:18,711 - INFO - Database tables created.
+2025-02-22 15:56:18,712 - INFO - Telegram monitoring task scheduled.
+2025-02-22 15:56:18,713 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 15:56:18,764 - INFO -  * Restarting with stat
+2025-02-22 15:56:27,903 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 15:56:29,303 - INFO - Starting background tasks...
+2025-02-22 15:56:29,315 - INFO - Database tables created.
+2025-02-22 15:56:29,316 - INFO - Telegram monitoring task scheduled.
+2025-02-22 15:56:29,317 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 15:56:29,347 - WARNING -  * Debugger is active!
+2025-02-22 15:56:29,365 - INFO -  * Debugger PIN: 604-768-190
+2025-02-22 17:28:39,702 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 17:28:41,990 - INFO - Starting background tasks...
+2025-02-22 17:28:42,090 - INFO - Database tables created.
+2025-02-22 17:28:42,092 - INFO - Telegram monitoring task scheduled.
+2025-02-22 17:28:42,093 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 17:28:42,181 - INFO -  * Restarting with stat
+2025-02-22 17:28:55,864 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 17:28:57,336 - INFO - Starting background tasks...
+2025-02-22 17:28:57,345 - INFO - Database tables created.
+2025-02-22 17:28:57,346 - INFO - Telegram monitoring task scheduled.
+2025-02-22 17:28:57,346 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 17:28:57,372 - WARNING -  * Debugger is active!
+2025-02-22 17:28:57,405 - INFO -  * Debugger PIN: 109-985-165
+2025-02-22 17:34:02,134 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 17:34:04,339 - INFO - Starting background tasks...
+2025-02-22 17:34:04,353 - INFO - Database tables created.
+2025-02-22 17:34:04,353 - INFO - Telegram monitoring task scheduled.
+2025-02-22 17:34:04,354 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 17:34:04,408 - INFO -  * Restarting with stat
+2025-02-22 17:34:16,073 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 17:34:17,332 - INFO - Starting background tasks...
+2025-02-22 17:34:17,342 - INFO - Database tables created.
+2025-02-22 17:34:17,342 - INFO - Telegram monitoring task scheduled.
+2025-02-22 17:34:17,343 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 17:34:17,368 - WARNING -  * Debugger is active!
+2025-02-22 17:34:17,420 - INFO -  * Debugger PIN: 851-282-987
+2025-02-22 21:54:53,660 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 21:54:56,075 - INFO - Starting background tasks...
+2025-02-22 21:54:56,087 - INFO - Database tables created.
+2025-02-22 21:54:56,088 - INFO - Telegram monitoring task scheduled.
+2025-02-22 21:54:56,088 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 21:54:56,129 - INFO -  * Restarting with stat
+2025-02-22 21:55:09,491 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 21:55:11,344 - INFO - Starting background tasks...
+2025-02-22 21:55:11,354 - INFO - Database tables created.
+2025-02-22 21:55:11,355 - INFO - Telegram monitoring task scheduled.
+2025-02-22 21:55:11,355 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 21:55:11,379 - WARNING -  * Debugger is active!
+2025-02-22 21:55:11,386 - INFO -  * Debugger PIN: 797-309-057
+2025-02-22 22:05:38,819 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 22:05:40,130 - INFO - Starting background tasks...
+2025-02-22 22:05:40,144 - INFO - Database tables created.
+2025-02-22 22:05:40,145 - INFO - Telegram monitoring task scheduled.
+2025-02-22 22:05:40,146 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 22:05:40,186 - INFO -  * Restarting with stat
+2025-02-22 22:05:49,236 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 22:05:50,460 - INFO - Starting background tasks...
+2025-02-22 22:05:50,470 - INFO - Database tables created.
+2025-02-22 22:05:50,471 - INFO - Telegram monitoring task scheduled.
+2025-02-22 22:05:50,472 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 22:05:50,514 - WARNING -  * Debugger is active!
+2025-02-22 22:05:50,558 - INFO -  * Debugger PIN: 121-241-368
+2025-02-22 22:17:13,813 - INFO -  * Detected change in '/home/userland/xcute/backend/main.py', reloading
+2025-02-22 22:17:15,407 - INFO -  * Restarting with stat
+2025-02-22 22:17:32,769 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-22 22:17:35,184 - INFO - Starting background tasks...
+2025-02-22 22:17:35,201 - INFO - Database tables created.
+2025-02-22 22:17:35,202 - INFO - Telegram monitoring task scheduled.
+2025-02-22 22:17:35,203 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-22 22:17:35,255 - WARNING -  * Debugger is active!
+2025-02-22 22:17:35,263 - INFO -  * Debugger PIN: 128-848-293
+2025-02-23 05:59:30,907 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 05:59:33,305 - INFO - Starting background tasks...
+2025-02-23 05:59:33,318 - INFO - Database tables created.
+2025-02-23 05:59:33,319 - INFO - Telegram monitoring task scheduled.
+2025-02-23 05:59:33,320 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 05:59:33,382 - INFO -  * Restarting with stat
+2025-02-23 05:59:45,536 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 05:59:47,025 - INFO - Starting background tasks...
+2025-02-23 05:59:47,035 - INFO - Database tables created.
+2025-02-23 05:59:47,036 - INFO - Telegram monitoring task scheduled.
+2025-02-23 05:59:47,036 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 05:59:47,061 - WARNING -  * Debugger is active!
+2025-02-23 05:59:47,081 - INFO -  * Debugger PIN: 110-441-966
+2025-02-23 06:12:38,490 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 06:12:40,775 - INFO - Starting background tasks...
+2025-02-23 06:12:40,787 - INFO - Database tables created.
+2025-02-23 06:12:40,788 - INFO - Telegram monitoring task scheduled.
+2025-02-23 06:12:40,789 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 06:12:40,838 - INFO -  * Restarting with stat
+2025-02-23 06:12:52,494 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 06:12:53,559 - INFO - Starting background tasks...
+2025-02-23 06:12:53,572 - INFO - Database tables created.
+2025-02-23 06:12:53,573 - INFO - Telegram monitoring task scheduled.
+2025-02-23 06:12:53,574 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 06:12:53,616 - WARNING -  * Debugger is active!
+2025-02-23 06:12:53,623 - INFO -  * Debugger PIN: 579-420-953
+2025-02-23 06:20:08,031 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 06:20:10,195 - INFO - Starting background tasks...
+2025-02-23 06:20:10,207 - INFO - Database tables created.
+2025-02-23 06:20:10,207 - INFO - Telegram monitoring task scheduled.
+2025-02-23 06:20:10,208 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 06:20:10,256 - INFO -  * Restarting with stat
+2025-02-23 06:20:23,028 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 06:20:24,689 - INFO - Starting background tasks...
+2025-02-23 06:20:24,703 - INFO - Database tables created.
+2025-02-23 06:20:24,704 - INFO - Telegram monitoring task scheduled.
+2025-02-23 06:20:24,705 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 06:20:24,734 - WARNING -  * Debugger is active!
+2025-02-23 06:20:24,755 - INFO -  * Debugger PIN: 201-381-520
+2025-02-23 06:40:36,967 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 06:40:39,295 - INFO - Starting background tasks...
+2025-02-23 06:40:39,307 - INFO - Database tables created.
+2025-02-23 06:40:39,308 - INFO - Telegram monitoring task scheduled.
+2025-02-23 06:40:39,309 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 06:40:39,360 - INFO -  * Restarting with stat
+2025-02-23 06:40:50,675 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 06:40:52,448 - INFO - Starting background tasks...
+2025-02-23 06:40:52,457 - INFO - Database tables created.
+2025-02-23 06:40:52,458 - INFO - Telegram monitoring task scheduled.
+2025-02-23 06:40:52,459 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 06:40:52,483 - WARNING -  * Debugger is active!
+2025-02-23 06:40:52,488 - INFO -  * Debugger PIN: 119-323-564
+2025-02-23 06:43:40,867 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 06:43:43,178 - INFO - Starting background tasks...
+2025-02-23 06:43:43,192 - INFO - Database tables created.
+2025-02-23 06:43:43,193 - INFO - Telegram monitoring task scheduled.
+2025-02-23 06:43:43,194 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 06:43:43,248 - INFO -  * Restarting with stat
+2025-02-23 06:43:57,440 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 06:43:59,756 - INFO - Starting background tasks...
+2025-02-23 06:43:59,769 - INFO - Database tables created.
+2025-02-23 06:43:59,770 - INFO - Telegram monitoring task scheduled.
+2025-02-23 06:43:59,771 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 06:43:59,815 - WARNING -  * Debugger is active!
+2025-02-23 06:43:59,830 - INFO -  * Debugger PIN: 104-432-721
+2025-02-23 06:53:44,386 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 06:53:46,375 - INFO - Starting background tasks...
+2025-02-23 06:53:46,389 - INFO - Database tables created.
+2025-02-23 06:53:46,390 - INFO - Telegram monitoring task scheduled.
+2025-02-23 06:53:46,391 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 06:53:46,498 - INFO -  * Restarting with stat
+2025-02-23 06:53:56,679 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 06:53:58,952 - INFO - Starting background tasks...
+2025-02-23 06:53:58,964 - INFO - Database tables created.
+2025-02-23 06:53:58,964 - INFO - Telegram monitoring task scheduled.
+2025-02-23 06:53:58,965 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 06:53:59,000 - WARNING -  * Debugger is active!
+2025-02-23 06:53:59,009 - INFO -  * Debugger PIN: 184-572-421
+2025-02-23 08:43:23,928 - INFO -  * Detected change in '/home/userland/xcute/backend/main.py', reloading
+2025-02-23 08:43:25,747 - INFO -  * Restarting with stat
+2025-02-23 08:43:42,292 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 08:43:44,580 - INFO - Static folder: /home/userland/xcute/backend/static
+2025-02-23 08:43:44,580 - INFO - Template folder: templates
+2025-02-23 08:43:44,594 - INFO - Starting background tasks...
+2025-02-23 08:43:44,610 - INFO - Database tables created.
+2025-02-23 08:43:44,611 - INFO - Telegram monitoring task scheduled.
+2025-02-23 08:43:44,611 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 08:43:44,656 - WARNING -  * Debugger is active!
+2025-02-23 08:43:44,664 - INFO -  * Debugger PIN: 122-734-725
+2025-02-23 08:43:55,038 - INFO - Serving page: templates/index.html
+2025-02-23 08:44:09,627 - INFO - Serving page: templates/index.html
+2025-02-23 10:23:09,689 - INFO -  * Detected change in '/home/userland/xcute/backend/main.py', reloading
+2025-02-23 10:23:11,414 - INFO -  * Restarting with stat
+2025-02-23 10:23:27,538 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 10:23:29,861 - INFO - Static folder: /home/userland/xcute/frontend/build
+2025-02-23 10:23:29,861 - INFO - Template folder: /home/userland/xcute/frontend/build
+2025-02-23 10:23:29,874 - INFO - Starting background tasks...
+2025-02-23 10:23:29,889 - INFO - Database tables created.
+2025-02-23 10:23:29,890 - INFO - Telegram monitoring task scheduled.
+2025-02-23 10:23:29,890 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 10:23:29,938 - WARNING -  * Debugger is active!
+2025-02-23 10:23:29,946 - INFO -  * Debugger PIN: 534-325-599
+2025-02-23 10:23:55,428 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 10:24:14,608 - INFO - Serving page: /home/userland/xcute/frontend/build/index.html
+2025-02-23 10:24:14,799 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/8556d0a66ab50837.css
+2025-02-23 10:24:14,887 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 10:24:16,066 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 10:24:16,151 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 10:24:16,195 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-e5f2db531c2a18fa.js
+2025-02-23 10:24:16,244 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/ee8b1517-1bfa798f83b6d9e6.js
+2025-02-23 10:24:16,279 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/335-2189ca23829bd656.js
+2025-02-23 10:24:16,348 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/999-d03211fdca27a750.js
+2025-02-23 10:24:16,378 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_ssgManifest.js
+2025-02-23 10:24:16,420 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/index-b6460d512bbaee97.js
+2025-02-23 10:24:16,443 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_buildManifest.js
+2025-02-23 10:24:16,583 - ERROR - http://127.0.0.1:8000 is not an accepted origin. (further occurrences of this error will be logged with level INFO)
+2025-02-23 10:24:17,283 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 10:24:17,359 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/login-415eb071507af10a.js
+2025-02-23 10:24:18,617 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:24:21,639 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:24:26,664 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:24:31,186 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:24:36,214 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:24:41,669 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:24:47,639 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:24:52,683 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:24:58,720 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:25:03,811 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:25:09,053 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:25:14,585 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:25:20,909 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:25:27,540 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:25:35,757 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:25:40,215 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/8556d0a66ab50837.css
+2025-02-23 10:25:43,008 - INFO - Serving page: /home/userland/xcute/frontend/build/login.html
+2025-02-23 10:25:43,197 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/8556d0a66ab50837.css
+2025-02-23 10:25:43,247 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 10:25:46,468 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 10:25:46,509 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 10:25:46,533 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-e5f2db531c2a18fa.js
+2025-02-23 10:25:46,569 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/335-2189ca23829bd656.js
+2025-02-23 10:25:46,609 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/login-415eb071507af10a.js
+2025-02-23 10:25:46,646 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_buildManifest.js
+2025-02-23 10:25:46,722 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_ssgManifest.js
+2025-02-23 10:25:46,755 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:25:47,518 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:25:48,705 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 10:25:50,586 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:25:53,595 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:25:59,593 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:26:04,604 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:26:09,641 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:26:14,691 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:26:18,890 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/ee8b1517-1bfa798f83b6d9e6.js
+2025-02-23 10:26:18,926 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/999-d03211fdca27a750.js
+2025-02-23 10:26:18,952 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/index-b6460d512bbaee97.js
+2025-02-23 10:26:19,715 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:26:25,599 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:26:31,594 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:26:37,609 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:26:43,590 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:26:49,593 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:26:55,606 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:27:01,609 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:27:07,643 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:27:13,652 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:27:19,660 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:27:25,764 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:27:32,216 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:27:37,581 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:27:43,527 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:27:52,452 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:27:59,242 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:28:06,582 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:28:16,380 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:28:21,631 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:28:27,644 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:28:33,635 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:28:39,643 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:28:45,623 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:28:51,646 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:28:57,653 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:29:03,690 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:29:09,656 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:29:15,724 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:29:20,853 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:29:27,269 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:29:33,338 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:29:39,582 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:29:48,157 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:29:56,167 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:30:03,528 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:30:11,035 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:30:17,941 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:30:23,642 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:30:29,623 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:30:35,641 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:30:41,614 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:30:47,660 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:30:53,609 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:30:59,685 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:31:06,456 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:31:12,728 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:31:18,701 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:31:24,703 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:31:30,732 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:31:37,136 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:31:43,214 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:31:50,198 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:31:57,026 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:32:05,558 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:32:13,744 - INFO - http://127.0.0.1:8000 is not an accepted origin.
+2025-02-23 10:32:39,385 - INFO -  * Detected change in '/home/userland/xcute/backend/websocket_manager.py', reloading
+2025-02-23 10:32:41,165 - INFO -  * Restarting with stat
+2025-02-23 10:32:56,824 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 10:32:59,168 - INFO - Static folder: /home/userland/xcute/frontend/build
+2025-02-23 10:32:59,168 - INFO - Template folder: /home/userland/xcute/frontend/build
+2025-02-23 10:32:59,208 - INFO - Starting background tasks...
+2025-02-23 10:32:59,235 - INFO - Database tables created.
+2025-02-23 10:32:59,236 - INFO - Telegram monitoring task scheduled.
+2025-02-23 10:32:59,239 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 10:32:59,290 - WARNING -  * Debugger is active!
+2025-02-23 10:32:59,298 - INFO -  * Debugger PIN: 395-720-496
+2025-02-23 10:33:02,462 - INFO - RK6fFx_gjMv4PXc5AAAA: Sending packet OPEN data {'sid': 'RK6fFx_gjMv4PXc5AAAA', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 10:33:02,463 - INFO - RK6fFx_gjMv4PXc5AAAA: Received request to upgrade to websocket
+2025-02-23 10:33:02,464 - INFO - RK6fFx_gjMv4PXc5AAAA: Upgrade to websocket successful
+2025-02-23 10:33:02,693 - INFO - RK6fFx_gjMv4PXc5AAAA: Received packet MESSAGE data 0
+2025-02-23 10:33:02,705 - INFO - Client connected
+2025-02-23 10:33:02,709 - INFO - RK6fFx_gjMv4PXc5AAAA: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 10:33:02,710 - INFO - RK6fFx_gjMv4PXc5AAAA: Sending packet MESSAGE data 0{"sid":"pxnsNZ_k7iRItYh6AAAB"}
+2025-02-23 10:33:03,762 - INFO - Serving page: /home/userland/xcute/frontend/build/login.html
+2025-02-23 10:33:03,833 - INFO - Client disconnected
+2025-02-23 10:33:04,028 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/8556d0a66ab50837.css
+2025-02-23 10:33:04,085 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 10:33:04,138 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 10:33:08,295 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/335-2189ca23829bd656.js
+2025-02-23 10:33:08,346 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-e5f2db531c2a18fa.js
+2025-02-23 10:33:08,416 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 10:33:08,519 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_buildManifest.js
+2025-02-23 10:33:08,576 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/login-415eb071507af10a.js
+2025-02-23 10:33:08,634 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_ssgManifest.js
+2025-02-23 10:33:09,155 - INFO - EWHGG7qY1gLFVoeJAAAC: Sending packet OPEN data {'sid': 'EWHGG7qY1gLFVoeJAAAC', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 10:33:09,158 - INFO - EWHGG7qY1gLFVoeJAAAC: Received request to upgrade to websocket
+2025-02-23 10:33:09,162 - INFO - EWHGG7qY1gLFVoeJAAAC: Upgrade to websocket successful
+2025-02-23 10:33:10,880 - INFO - EWHGG7qY1gLFVoeJAAAC: Received packet MESSAGE data 0
+2025-02-23 10:33:10,886 - INFO - Client connected
+2025-02-23 10:33:10,887 - INFO - EWHGG7qY1gLFVoeJAAAC: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 10:33:10,889 - INFO - EWHGG7qY1gLFVoeJAAAC: Sending packet MESSAGE data 0{"sid":"APNLHMoy7zsQd-HjAAAD"}
+2025-02-23 10:33:11,057 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 10:33:20,315 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/999-d03211fdca27a750.js
+2025-02-23 10:33:20,389 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/ee8b1517-1bfa798f83b6d9e6.js
+2025-02-23 10:33:20,409 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/index-b6460d512bbaee97.js
+2025-02-23 10:33:34,172 - INFO - EWHGG7qY1gLFVoeJAAAC: Sending packet PING data None
+2025-02-23 10:33:34,225 - INFO - EWHGG7qY1gLFVoeJAAAC: Received packet PONG data 
+2025-02-23 10:33:59,235 - INFO - EWHGG7qY1gLFVoeJAAAC: Sending packet PING data None
+2025-02-23 10:33:59,249 - INFO - EWHGG7qY1gLFVoeJAAAC: Received packet PONG data 
+2025-02-23 10:34:24,253 - INFO - EWHGG7qY1gLFVoeJAAAC: Sending packet PING data None
+2025-02-23 10:34:24,265 - INFO - EWHGG7qY1gLFVoeJAAAC: Received packet PONG data 
+2025-02-23 10:34:49,274 - INFO - EWHGG7qY1gLFVoeJAAAC: Sending packet PING data None
+2025-02-23 10:34:49,286 - INFO - EWHGG7qY1gLFVoeJAAAC: Received packet PONG data 
+2025-02-23 10:35:14,292 - INFO - EWHGG7qY1gLFVoeJAAAC: Sending packet PING data None
+2025-02-23 10:35:14,427 - INFO - EWHGG7qY1gLFVoeJAAAC: Received packet PONG data 
+2025-02-23 10:35:39,445 - INFO - EWHGG7qY1gLFVoeJAAAC: Sending packet PING data None
+2025-02-23 10:35:39,464 - INFO - EWHGG7qY1gLFVoeJAAAC: Received packet PONG data 
+2025-02-23 10:36:04,472 - INFO - EWHGG7qY1gLFVoeJAAAC: Sending packet PING data None
+2025-02-23 10:36:04,495 - INFO - EWHGG7qY1gLFVoeJAAAC: Received packet PONG data 
+2025-02-23 10:36:29,514 - INFO - EWHGG7qY1gLFVoeJAAAC: Sending packet PING data None
+2025-02-23 10:36:49,529 - INFO - EWHGG7qY1gLFVoeJAAAC: Unexpected error "timed out", closing connection
+2025-02-23 10:36:49,617 - INFO - Client disconnected
+2025-02-23 10:41:04,367 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 10:41:06,662 - INFO - Static folder: /home/userland/xcute/frontend/build
+2025-02-23 10:41:06,663 - INFO - Template folder: /home/userland/xcute/frontend/build
+2025-02-23 10:41:06,679 - INFO - Starting background tasks...
+2025-02-23 10:41:06,693 - INFO - Database tables created.
+2025-02-23 10:41:06,694 - INFO - Telegram monitoring task scheduled.
+2025-02-23 10:41:06,695 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 10:41:06,749 - INFO -  * Restarting with stat
+2025-02-23 10:41:19,192 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 10:41:20,743 - INFO - Static folder: /home/userland/xcute/frontend/build
+2025-02-23 10:41:20,744 - INFO - Template folder: /home/userland/xcute/frontend/build
+2025-02-23 10:41:20,758 - INFO - Starting background tasks...
+2025-02-23 10:41:20,769 - INFO - Database tables created.
+2025-02-23 10:41:20,769 - INFO - Telegram monitoring task scheduled.
+2025-02-23 10:41:20,770 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 10:41:20,798 - WARNING -  * Debugger is active!
+2025-02-23 10:41:20,814 - INFO -  * Debugger PIN: 265-353-310
+2025-02-23 10:41:24,631 - INFO - FY7sij-JrnT1cygiAAAA: Sending packet OPEN data {'sid': 'FY7sij-JrnT1cygiAAAA', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 10:41:24,632 - INFO - FY7sij-JrnT1cygiAAAA: Received request to upgrade to websocket
+2025-02-23 10:41:24,635 - INFO - FY7sij-JrnT1cygiAAAA: Upgrade to websocket successful
+2025-02-23 10:41:24,869 - INFO - FY7sij-JrnT1cygiAAAA: Received packet MESSAGE data 0
+2025-02-23 10:41:24,880 - INFO - Client connected
+2025-02-23 10:41:24,882 - INFO - FY7sij-JrnT1cygiAAAA: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 10:41:24,884 - INFO - FY7sij-JrnT1cygiAAAA: Sending packet MESSAGE data 0{"sid":"Fd3kC7dckJL6qJ5zAAAB"}
+2025-02-23 10:41:26,659 - INFO - Serving page: /home/userland/xcute/frontend/build/login.html
+2025-02-23 10:41:26,729 - INFO - Client disconnected
+2025-02-23 10:41:26,899 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/8556d0a66ab50837.css
+2025-02-23 10:41:26,950 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 10:41:27,005 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 10:41:30,999 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 10:41:31,036 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-e5f2db531c2a18fa.js
+2025-02-23 10:41:31,073 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/335-2189ca23829bd656.js
+2025-02-23 10:41:31,092 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/login-415eb071507af10a.js
+2025-02-23 10:41:31,120 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_buildManifest.js
+2025-02-23 10:41:31,150 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_ssgManifest.js
+2025-02-23 10:41:31,569 - INFO - T96vsY_pxbaMxoHgAAAC: Sending packet OPEN data {'sid': 'T96vsY_pxbaMxoHgAAAC', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 10:41:31,572 - INFO - T96vsY_pxbaMxoHgAAAC: Received request to upgrade to websocket
+2025-02-23 10:41:31,575 - INFO - T96vsY_pxbaMxoHgAAAC: Upgrade to websocket successful
+2025-02-23 10:41:32,557 - INFO - T96vsY_pxbaMxoHgAAAC: Received packet MESSAGE data 0
+2025-02-23 10:41:32,563 - INFO - Client connected
+2025-02-23 10:41:32,565 - INFO - T96vsY_pxbaMxoHgAAAC: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 10:41:32,567 - INFO - T96vsY_pxbaMxoHgAAAC: Sending packet MESSAGE data 0{"sid":"LuTHRh7--FR_PXHOAAAD"}
+2025-02-23 10:41:32,668 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 10:41:48,778 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/ee8b1517-1bfa798f83b6d9e6.js
+2025-02-23 10:41:48,819 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/999-d03211fdca27a750.js
+2025-02-23 10:41:48,861 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/index-b6460d512bbaee97.js
+2025-02-23 10:41:56,583 - INFO - T96vsY_pxbaMxoHgAAAC: Sending packet PING data None
+2025-02-23 10:41:56,589 - INFO - T96vsY_pxbaMxoHgAAAC: Received packet PONG data 
+2025-02-23 10:42:10,363 - INFO - Serving page: /home/userland/xcute/frontend/build/login.html
+2025-02-23 10:42:10,409 - INFO - Client disconnected
+2025-02-23 10:42:10,501 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/8556d0a66ab50837.css
+2025-02-23 10:42:10,533 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 10:42:10,603 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 10:42:10,637 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 10:42:13,688 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/login-415eb071507af10a.js
+2025-02-23 10:42:13,710 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_buildManifest.js
+2025-02-23 10:42:13,733 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_ssgManifest.js
+2025-02-23 10:42:13,748 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-e5f2db531c2a18fa.js
+2025-02-23 10:42:13,771 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/335-2189ca23829bd656.js
+2025-02-23 10:42:14,174 - INFO - AI8tm6aw6g5Ke0mGAAAE: Sending packet OPEN data {'sid': 'AI8tm6aw6g5Ke0mGAAAE', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 10:42:14,175 - INFO - AI8tm6aw6g5Ke0mGAAAE: Received request to upgrade to websocket
+2025-02-23 10:42:14,177 - INFO - AI8tm6aw6g5Ke0mGAAAE: Upgrade to websocket successful
+2025-02-23 10:42:14,976 - INFO - AI8tm6aw6g5Ke0mGAAAE: Received packet MESSAGE data 0
+2025-02-23 10:42:14,981 - INFO - Client connected
+2025-02-23 10:42:14,983 - INFO - AI8tm6aw6g5Ke0mGAAAE: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 10:42:14,985 - INFO - AI8tm6aw6g5Ke0mGAAAE: Sending packet MESSAGE data 0{"sid":"kNsvvFUkrAczrneyAAAF"}
+2025-02-23 10:42:15,054 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 10:42:30,711 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/ee8b1517-1bfa798f83b6d9e6.js
+2025-02-23 10:42:30,754 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/999-d03211fdca27a750.js
+2025-02-23 10:42:30,785 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/index-b6460d512bbaee97.js
+2025-02-23 10:42:39,182 - INFO - AI8tm6aw6g5Ke0mGAAAE: Sending packet PING data None
+2025-02-23 10:42:39,191 - INFO - AI8tm6aw6g5Ke0mGAAAE: Received packet PONG data 
+2025-02-23 10:42:51,418 - INFO - Serving page: /home/userland/xcute/frontend/build/login.html
+2025-02-23 10:42:51,463 - INFO - Client disconnected
+2025-02-23 10:42:51,531 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 10:42:51,556 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/8556d0a66ab50837.css
+2025-02-23 10:42:51,638 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 10:42:51,677 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 10:42:54,492 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/335-2189ca23829bd656.js
+2025-02-23 10:42:54,539 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/login-415eb071507af10a.js
+2025-02-23 10:42:54,571 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_buildManifest.js
+2025-02-23 10:42:54,597 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_ssgManifest.js
+2025-02-23 10:42:54,618 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-e5f2db531c2a18fa.js
+2025-02-23 10:42:54,967 - INFO - o_kKjXbIIQyrUVUNAAAG: Sending packet OPEN data {'sid': 'o_kKjXbIIQyrUVUNAAAG', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 10:42:54,968 - INFO - o_kKjXbIIQyrUVUNAAAG: Received request to upgrade to websocket
+2025-02-23 10:42:54,973 - INFO - o_kKjXbIIQyrUVUNAAAG: Upgrade to websocket successful
+2025-02-23 10:42:56,056 - INFO - o_kKjXbIIQyrUVUNAAAG: Received packet MESSAGE data 0
+2025-02-23 10:42:56,061 - INFO - Client connected
+2025-02-23 10:42:56,062 - INFO - o_kKjXbIIQyrUVUNAAAG: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 10:42:56,064 - INFO - o_kKjXbIIQyrUVUNAAAG: Sending packet MESSAGE data 0{"sid":"6K5FXFlK75lGcT4YAAAH"}
+2025-02-23 10:42:56,100 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 10:42:58,054 - INFO - Serving page: /home/userland/xcute/frontend/build/login.html
+2025-02-23 10:42:58,096 - INFO - Client disconnected
+2025-02-23 10:42:58,194 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/8556d0a66ab50837.css
+2025-02-23 10:42:58,238 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 10:42:58,293 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 10:42:59,774 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/335-2189ca23829bd656.js
+2025-02-23 10:42:59,807 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-e5f2db531c2a18fa.js
+2025-02-23 10:42:59,837 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 10:42:59,871 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/login-415eb071507af10a.js
+2025-02-23 10:42:59,906 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_buildManifest.js
+2025-02-23 10:42:59,942 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_ssgManifest.js
+2025-02-23 10:42:59,998 - INFO - XzLCY6axi_70grWRAAAI: Sending packet OPEN data {'sid': 'XzLCY6axi_70grWRAAAI', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 10:42:59,999 - INFO - XzLCY6axi_70grWRAAAI: Received request to upgrade to websocket
+2025-02-23 10:43:00,002 - INFO - XzLCY6axi_70grWRAAAI: Upgrade to websocket successful
+2025-02-23 10:43:00,274 - INFO - XzLCY6axi_70grWRAAAI: Received packet MESSAGE data 0
+2025-02-23 10:43:00,282 - INFO - Client connected
+2025-02-23 10:43:00,284 - INFO - XzLCY6axi_70grWRAAAI: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 10:43:00,286 - INFO - XzLCY6axi_70grWRAAAI: Sending packet MESSAGE data 0{"sid":"rEXgkyE9HHTP9SfhAAAJ"}
+2025-02-23 10:43:00,301 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 10:43:04,906 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/8556d0a66ab50837.css
+2025-02-23 10:43:08,479 - INFO - Serving page: /home/userland/xcute/frontend/build/login.html
+2025-02-23 10:43:08,528 - INFO - Client disconnected
+2025-02-23 10:43:08,616 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/8556d0a66ab50837.css
+2025-02-23 10:43:08,644 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 10:43:11,901 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 10:43:11,932 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 10:43:11,964 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-e5f2db531c2a18fa.js
+2025-02-23 10:43:12,012 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/335-2189ca23829bd656.js
+2025-02-23 10:43:12,070 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/login-415eb071507af10a.js
+2025-02-23 10:43:12,122 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_buildManifest.js
+2025-02-23 10:43:12,162 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_ssgManifest.js
+2025-02-23 10:43:12,714 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet OPEN data {'sid': 'ndrQdTsrzh3b5cG7AAAK', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 10:43:12,716 - INFO - ndrQdTsrzh3b5cG7AAAK: Received request to upgrade to websocket
+2025-02-23 10:43:12,718 - INFO - ndrQdTsrzh3b5cG7AAAK: Upgrade to websocket successful
+2025-02-23 10:43:13,254 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 10:43:13,277 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet MESSAGE data 0
+2025-02-23 10:43:13,281 - INFO - Client connected
+2025-02-23 10:43:13,283 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 10:43:13,285 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet MESSAGE data 0{"sid":"hchS500dnwG6RaGDAAAL"}
+2025-02-23 10:43:37,735 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:43:37,752 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:44:02,761 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:44:02,774 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:44:27,784 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:44:27,801 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:44:52,812 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:44:52,828 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:45:17,841 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:45:17,856 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:45:42,868 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:45:42,882 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:46:07,891 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:46:07,907 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:46:32,917 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:46:32,933 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:46:57,942 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:46:57,957 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:47:05,473 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/999-d03211fdca27a750.js
+2025-02-23 10:47:05,528 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/ee8b1517-1bfa798f83b6d9e6.js
+2025-02-23 10:47:05,549 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/index-b6460d512bbaee97.js
+2025-02-23 10:47:22,962 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:47:22,970 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:47:47,976 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:47:47,997 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:48:13,007 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:48:13,027 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:48:38,040 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:48:38,055 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:49:03,066 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:49:03,080 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:49:28,236 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:49:28,691 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:49:53,744 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:49:53,834 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:50:18,843 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:50:18,858 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:50:43,869 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:50:43,884 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:51:08,889 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:51:08,912 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:51:33,922 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:51:33,941 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:51:58,947 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:51:58,967 - INFO - ndrQdTsrzh3b5cG7AAAK: Received packet PONG data 
+2025-02-23 10:52:23,978 - INFO - ndrQdTsrzh3b5cG7AAAK: Sending packet PING data None
+2025-02-23 10:52:43,976 - INFO - ndrQdTsrzh3b5cG7AAAK: Unexpected error "timed out", closing connection
+2025-02-23 10:52:44,042 - INFO - Client disconnected
+2025-02-23 11:20:56,056 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 11:20:58,481 - INFO - Static folder: /home/userland/xcute/frontend/build
+2025-02-23 11:20:58,482 - INFO - Template folder: /home/userland/xcute/frontend/build
+2025-02-23 11:20:58,496 - INFO - Starting background tasks...
+2025-02-23 11:20:58,510 - INFO - Database tables created.
+2025-02-23 11:20:58,511 - INFO - Telegram monitoring task scheduled.
+2025-02-23 11:20:58,511 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 11:20:58,560 - INFO -  * Restarting with stat
+2025-02-23 11:21:11,772 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 11:21:13,395 - INFO - Static folder: /home/userland/xcute/frontend/build
+2025-02-23 11:21:13,395 - INFO - Template folder: /home/userland/xcute/frontend/build
+2025-02-23 11:21:13,410 - INFO - Starting background tasks...
+2025-02-23 11:21:13,420 - INFO - Database tables created.
+2025-02-23 11:21:13,420 - INFO - Telegram monitoring task scheduled.
+2025-02-23 11:21:13,421 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 11:21:13,449 - WARNING -  * Debugger is active!
+2025-02-23 11:21:13,456 - INFO -  * Debugger PIN: 103-571-406
+2025-02-23 11:53:42,853 - INFO - -_O_peku8lIZ1UE7AAAA: Sending packet OPEN data {'sid': '-_O_peku8lIZ1UE7AAAA', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 11:53:42,867 - INFO - -_O_peku8lIZ1UE7AAAA: Received request to upgrade to websocket
+2025-02-23 11:53:42,912 - INFO - -_O_peku8lIZ1UE7AAAA: Upgrade to websocket successful
+2025-02-23 11:53:44,276 - INFO - -_O_peku8lIZ1UE7AAAA: Received packet MESSAGE data 0
+2025-02-23 11:53:44,350 - INFO - Client connected
+2025-02-23 11:53:44,352 - INFO - -_O_peku8lIZ1UE7AAAA: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 11:53:44,358 - INFO - -_O_peku8lIZ1UE7AAAA: Sending packet MESSAGE data 0{"sid":"kJepZcg49DPnhcFuAAAB"}
+2025-02-23 11:54:03,836 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/ee8b1517-1bfa798f83b6d9e6.js
+2025-02-23 11:54:03,886 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/999-d03211fdca27a750.js
+2025-02-23 11:54:03,906 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/index-b6460d512bbaee97.js
+2025-02-23 11:54:07,918 - INFO - -_O_peku8lIZ1UE7AAAA: Sending packet PING data None
+2025-02-23 11:54:07,927 - INFO - -_O_peku8lIZ1UE7AAAA: Received packet PONG data 
+2025-02-23 11:54:32,948 - INFO - -_O_peku8lIZ1UE7AAAA: Sending packet PING data None
+2025-02-23 11:54:33,008 - INFO - -_O_peku8lIZ1UE7AAAA: Received packet PONG data 
+2025-02-23 11:54:58,022 - INFO - -_O_peku8lIZ1UE7AAAA: Sending packet PING data None
+2025-02-23 11:54:58,036 - INFO - -_O_peku8lIZ1UE7AAAA: Received packet PONG data 
+2025-02-23 11:55:23,042 - INFO - -_O_peku8lIZ1UE7AAAA: Sending packet PING data None
+2025-02-23 11:55:23,285 - INFO - -_O_peku8lIZ1UE7AAAA: Received packet PONG data 
+2025-02-23 11:55:48,298 - INFO - -_O_peku8lIZ1UE7AAAA: Sending packet PING data None
+2025-02-23 11:55:48,384 - INFO - -_O_peku8lIZ1UE7AAAA: Received packet PONG data 
+2025-02-23 11:56:13,398 - INFO - -_O_peku8lIZ1UE7AAAA: Sending packet PING data None
+2025-02-23 11:56:13,413 - INFO - -_O_peku8lIZ1UE7AAAA: Received packet PONG data 
+2025-02-23 11:56:38,422 - INFO - -_O_peku8lIZ1UE7AAAA: Sending packet PING data None
+2025-02-23 11:56:38,439 - INFO - -_O_peku8lIZ1UE7AAAA: Received packet PONG data 
+2025-02-23 11:57:03,445 - INFO - -_O_peku8lIZ1UE7AAAA: Sending packet PING data None
+2025-02-23 11:57:03,456 - INFO - -_O_peku8lIZ1UE7AAAA: Received packet PONG data 
+2025-02-23 11:57:28,464 - INFO - -_O_peku8lIZ1UE7AAAA: Sending packet PING data None
+2025-02-23 11:57:48,466 - INFO - -_O_peku8lIZ1UE7AAAA: Unexpected error "timed out", closing connection
+2025-02-23 11:57:48,492 - INFO - Client disconnected
+2025-02-23 12:06:52,333 - INFO - sDwux0y1IvV5M-5eAAAC: Sending packet OPEN data {'sid': 'sDwux0y1IvV5M-5eAAAC', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 12:06:52,339 - INFO - sDwux0y1IvV5M-5eAAAC: Received request to upgrade to websocket
+2025-02-23 12:06:52,379 - INFO - sDwux0y1IvV5M-5eAAAC: Upgrade to websocket successful
+2025-02-23 12:06:52,447 - INFO - sDwux0y1IvV5M-5eAAAC: Received packet MESSAGE data 0
+2025-02-23 12:06:52,454 - INFO - Client connected
+2025-02-23 12:06:52,456 - INFO - sDwux0y1IvV5M-5eAAAC: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 12:06:52,458 - INFO - sDwux0y1IvV5M-5eAAAC: Sending packet MESSAGE data 0{"sid":"zPFi8lnxzZUlEXrnAAAD"}
+2025-02-23 12:07:17,391 - INFO - sDwux0y1IvV5M-5eAAAC: Sending packet PING data None
+2025-02-23 12:07:17,579 - INFO - sDwux0y1IvV5M-5eAAAC: Received packet PONG data 
+2025-02-23 12:07:31,111 - INFO - Serving page: /home/userland/xcute/frontend/build/login.html
+2025-02-23 12:07:31,184 - INFO - Client disconnected
+2025-02-23 12:07:31,281 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 12:07:31,327 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/8556d0a66ab50837.css
+2025-02-23 12:07:31,381 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 12:07:37,559 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 12:07:37,686 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-e5f2db531c2a18fa.js
+2025-02-23 12:07:37,743 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/login-415eb071507af10a.js
+2025-02-23 12:07:37,829 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_buildManifest.js
+2025-02-23 12:07:37,880 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/335-2189ca23829bd656.js
+2025-02-23 12:07:37,932 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_ssgManifest.js
+2025-02-23 12:07:38,706 - INFO - oZBEQ3OQ0yUWQMShAAAE: Sending packet OPEN data {'sid': 'oZBEQ3OQ0yUWQMShAAAE', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 12:07:38,707 - INFO - oZBEQ3OQ0yUWQMShAAAE: Received request to upgrade to websocket
+2025-02-23 12:07:38,729 - INFO - oZBEQ3OQ0yUWQMShAAAE: Upgrade to websocket successful
+2025-02-23 12:07:39,455 - INFO - oZBEQ3OQ0yUWQMShAAAE: Received packet MESSAGE data 0
+2025-02-23 12:07:39,480 - INFO - Client connected
+2025-02-23 12:07:39,481 - INFO - oZBEQ3OQ0yUWQMShAAAE: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 12:07:39,483 - INFO - oZBEQ3OQ0yUWQMShAAAE: Sending packet MESSAGE data 0{"sid":"0IzSjxeHsn-aahFEAAAF"}
+2025-02-23 12:07:39,539 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 12:07:46,643 - INFO - Serving page: /home/userland/xcute/frontend/build/login.html
+2025-02-23 12:07:46,751 - INFO - Client disconnected
+2025-02-23 12:07:46,862 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/8556d0a66ab50837.css
+2025-02-23 12:07:46,918 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 12:07:49,685 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 12:07:49,773 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 12:07:49,839 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-e5f2db531c2a18fa.js
+2025-02-23 12:07:49,912 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/335-2189ca23829bd656.js
+2025-02-23 12:07:49,951 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/login-415eb071507af10a.js
+2025-02-23 12:07:50,120 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_buildManifest.js
+2025-02-23 12:07:50,278 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_ssgManifest.js
+2025-02-23 12:07:50,342 - INFO - 16OcPKI3n0bMU0EOAAAG: Sending packet OPEN data {'sid': '16OcPKI3n0bMU0EOAAAG', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 12:07:50,345 - INFO - 16OcPKI3n0bMU0EOAAAG: Received request to upgrade to websocket
+2025-02-23 12:07:50,353 - INFO - 16OcPKI3n0bMU0EOAAAG: Upgrade to websocket successful
+2025-02-23 12:07:50,722 - INFO - 16OcPKI3n0bMU0EOAAAG: Received packet MESSAGE data 0
+2025-02-23 12:07:50,727 - INFO - Client connected
+2025-02-23 12:07:50,728 - INFO - 16OcPKI3n0bMU0EOAAAG: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 12:07:50,730 - INFO - 16OcPKI3n0bMU0EOAAAG: Sending packet MESSAGE data 0{"sid":"ShP-jY4I1Sm2N6x3AAAH"}
+2025-02-23 12:07:51,115 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 12:07:54,578 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/8556d0a66ab50837.css
+2025-02-23 12:08:00,282 - INFO - Serving page: /home/userland/xcute/frontend/build/login.html
+2025-02-23 12:08:00,362 - INFO - Client disconnected
+2025-02-23 12:08:00,587 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/8556d0a66ab50837.css
+2025-02-23 12:08:00,662 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 12:08:09,430 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 12:08:09,459 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 12:08:09,503 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-e5f2db531c2a18fa.js
+2025-02-23 12:08:09,774 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/335-2189ca23829bd656.js
+2025-02-23 12:08:09,909 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/login-415eb071507af10a.js
+2025-02-23 12:08:10,054 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_buildManifest.js
+2025-02-23 12:08:10,096 - INFO - d0neo3ZMvTQLyTvbAAAI: Sending packet OPEN data {'sid': 'd0neo3ZMvTQLyTvbAAAI', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 12:08:10,097 - INFO - d0neo3ZMvTQLyTvbAAAI: Received request to upgrade to websocket
+2025-02-23 12:08:10,100 - INFO - d0neo3ZMvTQLyTvbAAAI: Upgrade to websocket successful
+2025-02-23 12:08:10,528 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/QgSOI_Da1OOvILEnIy4ao/_ssgManifest.js
+2025-02-23 12:08:11,209 - INFO - d0neo3ZMvTQLyTvbAAAI: Received packet MESSAGE data 0
+2025-02-23 12:08:11,214 - INFO - Client connected
+2025-02-23 12:08:11,216 - INFO - d0neo3ZMvTQLyTvbAAAI: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 12:08:11,218 - INFO - d0neo3ZMvTQLyTvbAAAI: Sending packet MESSAGE data 0{"sid":"D70UXjJs1LOFRYu1AAAJ"}
+2025-02-23 12:08:11,262 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 12:08:30,744 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/ee8b1517-1bfa798f83b6d9e6.js
+2025-02-23 12:08:30,786 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/999-d03211fdca27a750.js
+2025-02-23 12:08:30,822 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/index-b6460d512bbaee97.js
+2025-02-23 12:08:35,104 - INFO - d0neo3ZMvTQLyTvbAAAI: Sending packet PING data None
+2025-02-23 12:08:35,113 - INFO - d0neo3ZMvTQLyTvbAAAI: Received packet PONG data 
+2025-02-23 12:09:00,118 - INFO - d0neo3ZMvTQLyTvbAAAI: Sending packet PING data None
+2025-02-23 12:09:00,132 - INFO - d0neo3ZMvTQLyTvbAAAI: Received packet PONG data 
+2025-02-23 12:09:25,137 - INFO - d0neo3ZMvTQLyTvbAAAI: Sending packet PING data None
+2025-02-23 12:09:25,150 - INFO - d0neo3ZMvTQLyTvbAAAI: Received packet PONG data 
+2025-02-23 12:09:50,161 - INFO - d0neo3ZMvTQLyTvbAAAI: Sending packet PING data None
+2025-02-23 12:09:50,172 - INFO - d0neo3ZMvTQLyTvbAAAI: Received packet PONG data 
+2025-02-23 12:10:15,183 - INFO - d0neo3ZMvTQLyTvbAAAI: Sending packet PING data None
+2025-02-23 12:10:15,202 - INFO - d0neo3ZMvTQLyTvbAAAI: Received packet PONG data 
+2025-02-23 12:10:40,210 - INFO - d0neo3ZMvTQLyTvbAAAI: Sending packet PING data None
+2025-02-23 12:10:40,228 - INFO - d0neo3ZMvTQLyTvbAAAI: Received packet PONG data 
+2025-02-23 12:11:05,236 - INFO - d0neo3ZMvTQLyTvbAAAI: Sending packet PING data None
+2025-02-23 12:11:05,250 - INFO - d0neo3ZMvTQLyTvbAAAI: Received packet PONG data 
+2025-02-23 12:11:30,261 - INFO - d0neo3ZMvTQLyTvbAAAI: Sending packet PING data None
+2025-02-23 12:11:30,275 - INFO - d0neo3ZMvTQLyTvbAAAI: Received packet PONG data 
+2025-02-23 12:11:55,284 - INFO - d0neo3ZMvTQLyTvbAAAI: Sending packet PING data None
+2025-02-23 12:11:55,303 - INFO - d0neo3ZMvTQLyTvbAAAI: Received packet PONG data 
+2025-02-23 12:12:20,309 - INFO - d0neo3ZMvTQLyTvbAAAI: Sending packet PING data None
+2025-02-23 12:12:20,324 - INFO - d0neo3ZMvTQLyTvbAAAI: Received packet PONG data 
+2025-02-23 12:12:45,332 - INFO - d0neo3ZMvTQLyTvbAAAI: Sending packet PING data None
+2025-02-23 12:12:45,348 - INFO - d0neo3ZMvTQLyTvbAAAI: Received packet PONG data 
+2025-02-23 12:13:10,354 - INFO - d0neo3ZMvTQLyTvbAAAI: Sending packet PING data None
+2025-02-23 12:13:30,366 - INFO - d0neo3ZMvTQLyTvbAAAI: Unexpected error "timed out", closing connection
+2025-02-23 12:13:30,401 - INFO - Client disconnected
+2025-02-23 12:21:43,426 - INFO - yz6MNtbx7-_BW7rTAAAK: Sending packet OPEN data {'sid': 'yz6MNtbx7-_BW7rTAAAK', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 12:21:43,434 - INFO - yz6MNtbx7-_BW7rTAAAK: Received request to upgrade to websocket
+2025-02-23 12:21:43,459 - INFO - yz6MNtbx7-_BW7rTAAAK: Upgrade to websocket successful
+2025-02-23 12:21:43,474 - INFO - yz6MNtbx7-_BW7rTAAAK: Received packet MESSAGE data 0
+2025-02-23 12:21:43,481 - INFO - Client connected
+2025-02-23 12:21:43,483 - INFO - yz6MNtbx7-_BW7rTAAAK: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 12:21:43,484 - INFO - yz6MNtbx7-_BW7rTAAAK: Sending packet MESSAGE data 0{"sid":"5JehPUh4pAz4W1XpAAAL"}
+2025-02-23 12:22:08,468 - INFO - yz6MNtbx7-_BW7rTAAAK: Sending packet PING data None
+2025-02-23 12:22:08,488 - INFO - yz6MNtbx7-_BW7rTAAAK: Received packet PONG data 
+2025-02-23 12:22:28,669 - INFO - Serving page: /home/userland/xcute/frontend/build/dashboard.html
+2025-02-23 12:22:33,494 - INFO - yz6MNtbx7-_BW7rTAAAK: Sending packet PING data None
+2025-02-23 12:22:36,244 - INFO - Client disconnected
+2025-02-23 12:22:46,827 - INFO - oHKTYMsTpWaq49_EAAAM: Sending packet OPEN data {'sid': 'oHKTYMsTpWaq49_EAAAM', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 12:22:46,857 - INFO - oHKTYMsTpWaq49_EAAAM: Received request to upgrade to websocket
+2025-02-23 12:22:46,868 - INFO - oHKTYMsTpWaq49_EAAAM: Upgrade to websocket successful
+2025-02-23 12:22:47,331 - INFO - oHKTYMsTpWaq49_EAAAM: Received packet MESSAGE data 0
+2025-02-23 12:22:47,348 - INFO - Client connected
+2025-02-23 12:22:47,349 - INFO - oHKTYMsTpWaq49_EAAAM: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 12:22:47,356 - INFO - oHKTYMsTpWaq49_EAAAM: Sending packet MESSAGE data 0{"sid":"rgwQl1CXgcoyEHbVAAAN"}
+2025-02-23 12:23:11,890 - INFO - oHKTYMsTpWaq49_EAAAM: Sending packet PING data None
+2025-02-23 12:23:11,995 - INFO - oHKTYMsTpWaq49_EAAAM: Received packet PONG data 
+2025-02-23 12:23:37,005 - INFO - oHKTYMsTpWaq49_EAAAM: Sending packet PING data None
+2025-02-23 12:23:37,023 - INFO - oHKTYMsTpWaq49_EAAAM: Received packet PONG data 
+2025-02-23 12:24:02,028 - INFO - oHKTYMsTpWaq49_EAAAM: Sending packet PING data None
+2025-02-23 12:24:02,045 - INFO - oHKTYMsTpWaq49_EAAAM: Received packet PONG data 
+2025-02-23 12:24:27,049 - INFO - oHKTYMsTpWaq49_EAAAM: Sending packet PING data None
+2025-02-23 12:24:27,071 - INFO - oHKTYMsTpWaq49_EAAAM: Received packet PONG data 
+2025-02-23 12:24:52,078 - INFO - oHKTYMsTpWaq49_EAAAM: Sending packet PING data None
+2025-02-23 12:24:52,092 - INFO - oHKTYMsTpWaq49_EAAAM: Received packet PONG data 
+2025-02-23 12:25:17,098 - INFO - oHKTYMsTpWaq49_EAAAM: Sending packet PING data None
+2025-02-23 12:25:17,127 - INFO - oHKTYMsTpWaq49_EAAAM: Received packet PONG data 
+2025-02-23 12:25:42,133 - INFO - oHKTYMsTpWaq49_EAAAM: Sending packet PING data None
+2025-02-23 12:25:42,157 - INFO - oHKTYMsTpWaq49_EAAAM: Received packet PONG data 
+2025-02-23 12:26:07,164 - INFO - oHKTYMsTpWaq49_EAAAM: Sending packet PING data None
+2025-02-23 12:26:27,180 - INFO - oHKTYMsTpWaq49_EAAAM: Unexpected error "timed out", closing connection
+2025-02-23 12:26:27,253 - INFO - Client disconnected
+2025-02-23 13:14:47,677 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 13:14:49,827 - INFO - Static folder: /home/userland/xcute/frontend/build
+2025-02-23 13:14:49,827 - INFO - Template folder: /home/userland/xcute/frontend/build
+2025-02-23 13:14:49,844 - INFO - Starting background tasks...
+2025-02-23 13:14:49,896 - INFO - Database tables created.
+2025-02-23 13:14:49,897 - INFO - Telegram monitoring task scheduled.
+2025-02-23 13:14:49,898 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 13:14:49,952 - INFO -  * Restarting with stat
+2025-02-23 13:14:59,568 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 13:15:01,347 - INFO - Static folder: /home/userland/xcute/frontend/build
+2025-02-23 13:15:01,347 - INFO - Template folder: /home/userland/xcute/frontend/build
+2025-02-23 13:15:01,369 - INFO - Starting background tasks...
+2025-02-23 13:15:01,383 - INFO - Database tables created.
+2025-02-23 13:15:01,384 - INFO - Telegram monitoring task scheduled.
+2025-02-23 13:15:01,384 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 13:15:01,423 - WARNING -  * Debugger is active!
+2025-02-23 13:15:01,434 - INFO -  * Debugger PIN: 373-384-165
+2025-02-23 13:16:41,444 - INFO - viU2-OqT-RsDerePAAAA: Sending packet OPEN data {'sid': 'viU2-OqT-RsDerePAAAA', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 13:16:41,453 - INFO - viU2-OqT-RsDerePAAAA: Received request to upgrade to websocket
+2025-02-23 13:16:41,458 - INFO - viU2-OqT-RsDerePAAAA: Upgrade to websocket successful
+2025-02-23 13:16:42,981 - INFO - viU2-OqT-RsDerePAAAA: Received packet MESSAGE data 0
+2025-02-23 13:16:43,009 - INFO - Client connected
+2025-02-23 13:16:43,011 - INFO - viU2-OqT-RsDerePAAAA: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 13:16:43,016 - INFO - viU2-OqT-RsDerePAAAA: Sending packet MESSAGE data 0{"sid":"7V1X8p8rOGkb4UVEAAAB"}
+2025-02-23 13:17:06,469 - INFO - viU2-OqT-RsDerePAAAA: Sending packet PING data None
+2025-02-23 13:17:06,484 - INFO - viU2-OqT-RsDerePAAAA: Received packet PONG data 
+2025-02-23 13:17:31,490 - INFO - viU2-OqT-RsDerePAAAA: Sending packet PING data None
+2025-02-23 13:17:31,505 - INFO - viU2-OqT-RsDerePAAAA: Received packet PONG data 
+2025-02-23 13:17:39,827 - INFO - Serving page: /home/userland/xcute/frontend/build/login.html
+2025-02-23 13:17:39,921 - INFO - Client disconnected
+2025-02-23 13:17:40,060 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 13:17:40,133 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/8556d0a66ab50837.css
+2025-02-23 13:17:42,823 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/9Fav4izNl6ng4XWkd273Q/_buildManifest.js
+2025-02-23 13:17:42,953 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 13:17:43,098 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/9Fav4izNl6ng4XWkd273Q/_ssgManifest.js
+2025-02-23 13:17:43,180 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-e5f2db531c2a18fa.js
+2025-02-23 13:17:43,245 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 13:17:43,293 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/335-2189ca23829bd656.js
+2025-02-23 13:17:43,360 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/login-415eb071507af10a.js
+2025-02-23 13:17:43,746 - INFO - MF7glIpKpz5TEXpbAAAC: Sending packet OPEN data {'sid': 'MF7glIpKpz5TEXpbAAAC', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 13:17:43,747 - INFO - MF7glIpKpz5TEXpbAAAC: Received request to upgrade to websocket
+2025-02-23 13:17:43,761 - INFO - MF7glIpKpz5TEXpbAAAC: Upgrade to websocket successful
+2025-02-23 13:17:44,003 - INFO - MF7glIpKpz5TEXpbAAAC: Received packet MESSAGE data 0
+2025-02-23 13:17:44,017 - INFO - Client connected
+2025-02-23 13:17:44,022 - INFO - MF7glIpKpz5TEXpbAAAC: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 13:17:44,029 - INFO - MF7glIpKpz5TEXpbAAAC: Sending packet MESSAGE data 0{"sid":"3zn_HFrB3j9EbTPMAAAD"}
+2025-02-23 13:17:44,058 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 13:17:54,747 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/index-7a7b246070e3be21.js
+2025-02-23 13:17:54,781 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/999-d03211fdca27a750.js
+2025-02-23 13:17:54,824 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/ee8b1517-1bfa798f83b6d9e6.js
+2025-02-23 13:18:08,773 - INFO - MF7glIpKpz5TEXpbAAAC: Sending packet PING data None
+2025-02-23 13:18:08,783 - INFO - MF7glIpKpz5TEXpbAAAC: Received packet PONG data 
+2025-02-23 13:18:33,791 - INFO - MF7glIpKpz5TEXpbAAAC: Sending packet PING data None
+2025-02-23 13:18:33,824 - INFO - MF7glIpKpz5TEXpbAAAC: Received packet PONG data 
+2025-02-23 13:18:58,831 - INFO - MF7glIpKpz5TEXpbAAAC: Sending packet PING data None
+2025-02-23 13:18:58,887 - INFO - MF7glIpKpz5TEXpbAAAC: Received packet PONG data 
+2025-02-23 13:19:23,891 - INFO - MF7glIpKpz5TEXpbAAAC: Sending packet PING data None
+2025-02-23 13:19:23,902 - INFO - MF7glIpKpz5TEXpbAAAC: Received packet PONG data 
+2025-02-23 13:19:48,912 - INFO - MF7glIpKpz5TEXpbAAAC: Sending packet PING data None
+2025-02-23 13:19:48,941 - INFO - MF7glIpKpz5TEXpbAAAC: Received packet PONG data 
+2025-02-23 13:20:13,947 - INFO - MF7glIpKpz5TEXpbAAAC: Sending packet PING data None
+2025-02-23 13:20:13,964 - INFO - MF7glIpKpz5TEXpbAAAC: Received packet PONG data 
+2025-02-23 13:20:38,975 - INFO - MF7glIpKpz5TEXpbAAAC: Sending packet PING data None
+2025-02-23 13:20:39,012 - INFO - MF7glIpKpz5TEXpbAAAC: Received packet PONG data 
+2025-02-23 13:21:04,028 - INFO - MF7glIpKpz5TEXpbAAAC: Sending packet PING data None
+2025-02-23 13:21:24,039 - INFO - MF7glIpKpz5TEXpbAAAC: Unexpected error "timed out", closing connection
+2025-02-23 13:21:24,076 - INFO - Client disconnected
+2025-02-23 13:32:42,076 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 13:32:44,236 - INFO - Static folder: /home/userland/xcute/frontend/build
+2025-02-23 13:32:44,237 - INFO - Template folder: /home/userland/xcute/frontend/build
+2025-02-23 13:32:44,257 - INFO - Starting background tasks...
+2025-02-23 13:32:44,271 - INFO - Database tables created.
+2025-02-23 13:32:44,272 - INFO - Telegram monitoring task scheduled.
+2025-02-23 13:32:44,273 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 13:32:44,368 - INFO -  * Restarting with stat
+2025-02-23 13:33:02,257 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 13:33:04,698 - INFO - Static folder: /home/userland/xcute/frontend/build
+2025-02-23 13:33:04,698 - INFO - Template folder: /home/userland/xcute/frontend/build
+2025-02-23 13:33:04,722 - INFO - Starting background tasks...
+2025-02-23 13:33:04,734 - INFO - Database tables created.
+2025-02-23 13:33:04,735 - INFO - Telegram monitoring task scheduled.
+2025-02-23 13:33:04,736 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 13:33:04,783 - WARNING -  * Debugger is active!
+2025-02-23 13:33:04,797 - INFO -  * Debugger PIN: 271-971-635
+2025-02-23 13:37:11,416 - INFO - Serving page: /home/userland/xcute/frontend/build/login.html
+2025-02-23 13:37:11,897 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/8556d0a66ab50837.css
+2025-02-23 13:37:11,979 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 13:37:18,872 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/326-c264ad5302b2a23f.js
+2025-02-23 13:37:18,965 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/lbbO5GtVza1ko2InMDkPe/_buildManifest.js
+2025-02-23 13:37:19,037 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/login-ea3db6bb28135404.js
+2025-02-23 13:37:19,111 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 13:37:19,175 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 13:37:19,238 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-e5f2db531c2a18fa.js
+2025-02-23 13:37:19,310 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/lbbO5GtVza1ko2InMDkPe/_ssgManifest.js
+2025-02-23 13:37:20,084 - INFO - 0uTrwrJVfVOzjc71AAAA: Sending packet OPEN data {'sid': '0uTrwrJVfVOzjc71AAAA', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 13:37:20,085 - INFO - 0uTrwrJVfVOzjc71AAAA: Received request to upgrade to websocket
+2025-02-23 13:37:20,094 - INFO - 0uTrwrJVfVOzjc71AAAA: Upgrade to websocket successful
+2025-02-23 13:37:20,954 - INFO - 0uTrwrJVfVOzjc71AAAA: Received packet MESSAGE data 0
+2025-02-23 13:37:20,959 - INFO - Client connected
+2025-02-23 13:37:20,967 - INFO - 0uTrwrJVfVOzjc71AAAA: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 13:37:20,969 - INFO - 0uTrwrJVfVOzjc71AAAA: Sending packet MESSAGE data 0{"sid":"s6lP9356rkzqOYrbAAAB"}
+2025-02-23 13:37:21,039 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 13:37:35,379 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/888-cae70e885803f7a7.js
+2025-02-23 13:37:35,455 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/ee8b1517-1bfa798f83b6d9e6.js
+2025-02-23 13:37:35,480 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/index-46b2860c167c47cf.js
+2025-02-23 13:37:45,102 - INFO - 0uTrwrJVfVOzjc71AAAA: Sending packet PING data None
+2025-02-23 13:37:45,135 - INFO - 0uTrwrJVfVOzjc71AAAA: Received packet PONG data 
+2025-02-23 13:38:10,173 - INFO - 0uTrwrJVfVOzjc71AAAA: Sending packet PING data None
+2025-02-23 13:38:10,345 - INFO - 0uTrwrJVfVOzjc71AAAA: Received packet PONG data 
+2025-02-23 13:38:35,357 - INFO - 0uTrwrJVfVOzjc71AAAA: Sending packet PING data None
+2025-02-23 13:38:35,370 - INFO - 0uTrwrJVfVOzjc71AAAA: Received packet PONG data 
+2025-02-23 13:39:00,374 - INFO - 0uTrwrJVfVOzjc71AAAA: Sending packet PING data None
+2025-02-23 13:39:00,388 - INFO - 0uTrwrJVfVOzjc71AAAA: Received packet PONG data 
+2025-02-23 13:39:25,397 - INFO - 0uTrwrJVfVOzjc71AAAA: Sending packet PING data None
+2025-02-23 13:39:25,415 - INFO - 0uTrwrJVfVOzjc71AAAA: Received packet PONG data 
+2025-02-23 13:39:50,423 - INFO - 0uTrwrJVfVOzjc71AAAA: Sending packet PING data None
+2025-02-23 13:39:50,434 - INFO - 0uTrwrJVfVOzjc71AAAA: Received packet PONG data 
+2025-02-23 13:40:15,441 - INFO - 0uTrwrJVfVOzjc71AAAA: Sending packet PING data None
+2025-02-23 13:40:15,453 - INFO - 0uTrwrJVfVOzjc71AAAA: Received packet PONG data 
+2025-02-23 13:40:40,456 - INFO - 0uTrwrJVfVOzjc71AAAA: Sending packet PING data None
+2025-02-23 13:41:00,480 - INFO - 0uTrwrJVfVOzjc71AAAA: Unexpected error "timed out", closing connection
+2025-02-23 13:41:00,559 - INFO - Client disconnected
+2025-02-23 14:01:59,652 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 14:02:02,010 - INFO - Static folder: /home/userland/xcute/frontend/build
+2025-02-23 14:02:02,010 - INFO - Template folder: /home/userland/xcute/frontend/build
+2025-02-23 14:02:02,025 - INFO - Starting background tasks...
+2025-02-23 14:02:02,043 - INFO - Database tables created.
+2025-02-23 14:02:02,044 - INFO - Telegram monitoring task scheduled.
+2025-02-23 14:02:02,045 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 14:02:02,122 - INFO -  * Restarting with stat
+2025-02-23 14:02:11,537 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 14:02:12,838 - INFO - Static folder: /home/userland/xcute/frontend/build
+2025-02-23 14:02:12,839 - INFO - Template folder: /home/userland/xcute/frontend/build
+2025-02-23 14:02:12,852 - INFO - Starting background tasks...
+2025-02-23 14:02:12,863 - INFO - Database tables created.
+2025-02-23 14:02:12,864 - INFO - Telegram monitoring task scheduled.
+2025-02-23 14:02:12,865 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 14:02:12,899 - WARNING -  * Debugger is active!
+2025-02-23 14:02:12,909 - INFO -  * Debugger PIN: 693-574-916
+2025-02-23 14:02:35,116 - INFO - HkS2a_BygAC_r3paAAAA: Sending packet OPEN data {'sid': 'HkS2a_BygAC_r3paAAAA', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 14:02:35,215 - INFO - HkS2a_BygAC_r3paAAAA: Received request to upgrade to websocket
+2025-02-23 14:02:35,251 - INFO - HkS2a_BygAC_r3paAAAA: Upgrade to websocket successful
+2025-02-23 14:02:35,681 - INFO - HkS2a_BygAC_r3paAAAA: Received packet MESSAGE data 0
+2025-02-23 14:02:35,707 - INFO - Client connected
+2025-02-23 14:02:35,708 - INFO - HkS2a_BygAC_r3paAAAA: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 14:02:35,710 - INFO - HkS2a_BygAC_r3paAAAA: Sending packet MESSAGE data 0{"sid":"a_Yw2uPyWV0kVLDcAAAB"}
+2025-02-23 14:02:37,333 - INFO - Serving page: /home/userland/xcute/frontend/build/login.html
+2025-02-23 14:02:37,486 - INFO - Client disconnected
+2025-02-23 14:02:40,448 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 14:02:44,794 - INFO - Serving page: /home/userland/xcute/frontend/build/index.html
+2025-02-23 14:02:45,054 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/b716acfe768e22c0.css
+2025-02-23 14:02:45,137 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 14:02:47,574 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 14:02:47,775 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 14:02:47,860 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/_DqIG1YFnMAg4BDjYp0JT/_buildManifest.js
+2025-02-23 14:02:47,944 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-475395c10cdf624d.js
+2025-02-23 14:02:48,012 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/402-3db1b013ac14b3e9.js
+2025-02-23 14:02:48,074 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/index-c15e928e66e797c3.js
+2025-02-23 14:02:48,185 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/ee8b1517-1bfa798f83b6d9e6.js
+2025-02-23 14:02:48,329 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/_DqIG1YFnMAg4BDjYp0JT/_ssgManifest.js
+2025-02-23 14:02:48,451 - INFO - NDcsCzXZ2cbdSR-1AAAC: Sending packet OPEN data {'sid': 'NDcsCzXZ2cbdSR-1AAAC', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 14:02:48,455 - INFO - NDcsCzXZ2cbdSR-1AAAC: Received request to upgrade to websocket
+2025-02-23 14:02:48,461 - INFO - NDcsCzXZ2cbdSR-1AAAC: Upgrade to websocket successful
+2025-02-23 14:02:50,695 - INFO - NDcsCzXZ2cbdSR-1AAAC: Received packet MESSAGE data 0
+2025-02-23 14:02:50,703 - INFO - Client connected
+2025-02-23 14:02:50,704 - INFO - NDcsCzXZ2cbdSR-1AAAC: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 14:02:50,706 - INFO - NDcsCzXZ2cbdSR-1AAAC: Sending packet MESSAGE data 0{"sid":"6_2UacmwfD5FkvaJAAAD"}
+2025-02-23 14:03:13,472 - INFO - NDcsCzXZ2cbdSR-1AAAC: Sending packet PING data None
+2025-02-23 14:03:13,488 - INFO - NDcsCzXZ2cbdSR-1AAAC: Received packet PONG data 
+2025-02-23 14:03:38,511 - INFO - NDcsCzXZ2cbdSR-1AAAC: Sending packet PING data None
+2025-02-23 14:03:38,530 - INFO - NDcsCzXZ2cbdSR-1AAAC: Received packet PONG data 
+2025-02-23 14:04:30,864 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 14:04:33,209 - INFO - Static folder: /home/userland/xcute/frontend/build
+2025-02-23 14:04:33,210 - INFO - Template folder: /home/userland/xcute/frontend/build
+2025-02-23 14:04:33,225 - INFO - Starting background tasks...
+2025-02-23 14:04:33,241 - INFO - Database tables created.
+2025-02-23 14:04:33,242 - INFO - Telegram monitoring task scheduled.
+2025-02-23 14:04:33,243 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 14:04:33,292 - INFO -  * Restarting with stat
+2025-02-23 14:04:42,469 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 14:04:43,672 - INFO - Static folder: /home/userland/xcute/frontend/build
+2025-02-23 14:04:43,673 - INFO - Template folder: /home/userland/xcute/frontend/build
+2025-02-23 14:04:43,688 - INFO - Starting background tasks...
+2025-02-23 14:04:43,701 - INFO - Database tables created.
+2025-02-23 14:04:43,702 - INFO - Telegram monitoring task scheduled.
+2025-02-23 14:04:43,703 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 14:04:43,737 - WARNING -  * Debugger is active!
+2025-02-23 14:04:43,750 - INFO -  * Debugger PIN: 141-619-120
+2025-02-23 14:04:58,350 - INFO - Serving page: /home/userland/xcute/frontend/build/index.html
+2025-02-23 14:04:58,727 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/b716acfe768e22c0.css
+2025-02-23 14:04:58,838 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 14:05:05,734 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-475395c10cdf624d.js
+2025-02-23 14:05:05,765 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 14:05:05,824 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/index-c15e928e66e797c3.js
+2025-02-23 14:05:05,859 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/402-3db1b013ac14b3e9.js
+2025-02-23 14:05:05,893 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 14:05:05,921 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/ee8b1517-1bfa798f83b6d9e6.js
+2025-02-23 14:05:05,963 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/_DqIG1YFnMAg4BDjYp0JT/_buildManifest.js
+2025-02-23 14:05:05,990 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/_DqIG1YFnMAg4BDjYp0JT/_ssgManifest.js
+2025-02-23 14:05:06,696 - INFO - -cHTqdEKYUK3RnitAAAA: Sending packet OPEN data {'sid': '-cHTqdEKYUK3RnitAAAA', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 14:05:06,697 - INFO - -cHTqdEKYUK3RnitAAAA: Received request to upgrade to websocket
+2025-02-23 14:05:06,700 - INFO - -cHTqdEKYUK3RnitAAAA: Upgrade to websocket successful
+2025-02-23 14:05:09,212 - INFO - -cHTqdEKYUK3RnitAAAA: Received packet MESSAGE data 0
+2025-02-23 14:05:09,225 - INFO - Client connected
+2025-02-23 14:05:09,235 - INFO - -cHTqdEKYUK3RnitAAAA: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 14:05:09,237 - INFO - -cHTqdEKYUK3RnitAAAA: Sending packet MESSAGE data 0{"sid":"50dleVRHfLSQS9CBAAAB"}
+2025-02-23 14:05:31,710 - INFO - -cHTqdEKYUK3RnitAAAA: Sending packet PING data None
+2025-02-23 14:05:31,721 - INFO - -cHTqdEKYUK3RnitAAAA: Received packet PONG data 
+2025-02-23 14:05:56,726 - INFO - -cHTqdEKYUK3RnitAAAA: Sending packet PING data None
+2025-02-23 14:05:56,760 - INFO - -cHTqdEKYUK3RnitAAAA: Received packet PONG data 
+2025-02-23 14:06:21,766 - INFO - -cHTqdEKYUK3RnitAAAA: Sending packet PING data None
+2025-02-23 14:06:21,786 - INFO - -cHTqdEKYUK3RnitAAAA: Received packet PONG data 
+2025-02-23 14:06:46,793 - INFO - -cHTqdEKYUK3RnitAAAA: Sending packet PING data None
+2025-02-23 14:06:46,809 - INFO - -cHTqdEKYUK3RnitAAAA: Received packet PONG data 
+2025-02-23 14:07:11,816 - INFO - -cHTqdEKYUK3RnitAAAA: Sending packet PING data None
+2025-02-23 14:07:11,846 - INFO - -cHTqdEKYUK3RnitAAAA: Received packet PONG data 
+2025-02-23 14:07:36,852 - INFO - -cHTqdEKYUK3RnitAAAA: Sending packet PING data None
+2025-02-23 14:07:36,865 - INFO - -cHTqdEKYUK3RnitAAAA: Received packet PONG data 
+2025-02-23 14:07:54,689 - INFO - Client disconnected
+2025-02-23 14:08:32,310 - INFO - sy9Lmp25mBYTBiNyAAAC: Sending packet OPEN data {'sid': 'sy9Lmp25mBYTBiNyAAAC', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 14:08:32,322 - INFO - sy9Lmp25mBYTBiNyAAAC: Received request to upgrade to websocket
+2025-02-23 14:08:32,342 - INFO - sy9Lmp25mBYTBiNyAAAC: Upgrade to websocket successful
+2025-02-23 14:08:35,598 - INFO - sy9Lmp25mBYTBiNyAAAC: Received packet MESSAGE data 0
+2025-02-23 14:08:35,602 - INFO - Client connected
+2025-02-23 14:08:35,604 - INFO - sy9Lmp25mBYTBiNyAAAC: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 14:08:35,606 - INFO - sy9Lmp25mBYTBiNyAAAC: Sending packet MESSAGE data 0{"sid":"A5A35osOLkJ36z_6AAAD"}
+2025-02-23 14:12:39,019 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 14:12:41,945 - INFO - Static folder: /home/userland/xcute/frontend/build
+2025-02-23 14:12:41,946 - INFO - Template folder: /home/userland/xcute/frontend/build
+2025-02-23 14:12:41,974 - INFO - Starting background tasks...
+2025-02-23 14:12:42,129 - INFO - Database tables created.
+2025-02-23 14:12:42,131 - INFO - Telegram monitoring task scheduled.
+2025-02-23 14:12:42,133 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 14:12:42,208 - INFO -  * Restarting with stat
+2025-02-23 14:12:58,731 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 14:13:01,141 - INFO - Static folder: /home/userland/xcute/frontend/build
+2025-02-23 14:13:01,142 - INFO - Template folder: /home/userland/xcute/frontend/build
+2025-02-23 14:13:01,161 - INFO - Starting background tasks...
+2025-02-23 14:13:01,186 - INFO - Database tables created.
+2025-02-23 14:13:01,187 - INFO - Telegram monitoring task scheduled.
+2025-02-23 14:13:01,188 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 14:13:01,250 - WARNING -  * Debugger is active!
+2025-02-23 14:13:01,265 - INFO -  * Debugger PIN: 161-016-407
+2025-02-23 14:13:11,016 - INFO - Serving page: /home/userland/xcute/frontend/build/index.html
+2025-02-23 14:13:11,665 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/b716acfe768e22c0.css
+2025-02-23 14:13:11,747 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 14:13:19,454 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-475395c10cdf624d.js
+2025-02-23 14:13:19,595 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 14:13:19,766 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 14:13:19,806 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/ee8b1517-1bfa798f83b6d9e6.js
+2025-02-23 14:13:19,847 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/402-3db1b013ac14b3e9.js
+2025-02-23 14:13:19,932 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/index-c15e928e66e797c3.js
+2025-02-23 14:13:19,994 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/_DqIG1YFnMAg4BDjYp0JT/_buildManifest.js
+2025-02-23 14:13:20,094 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/_DqIG1YFnMAg4BDjYp0JT/_ssgManifest.js
+2025-02-23 14:13:20,725 - INFO - eI3HD9twU2IM8BF5AAAA: Sending packet OPEN data {'sid': 'eI3HD9twU2IM8BF5AAAA', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 14:13:20,727 - INFO - eI3HD9twU2IM8BF5AAAA: Received request to upgrade to websocket
+2025-02-23 14:13:20,729 - INFO - eI3HD9twU2IM8BF5AAAA: Upgrade to websocket successful
+2025-02-23 14:13:22,483 - INFO - eI3HD9twU2IM8BF5AAAA: Received packet MESSAGE data 0
+2025-02-23 14:13:22,497 - INFO - Client connected
+2025-02-23 14:13:22,502 - INFO - eI3HD9twU2IM8BF5AAAA: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 14:13:22,506 - INFO - eI3HD9twU2IM8BF5AAAA: Sending packet MESSAGE data 0{"sid":"ZjRRUrz_SbLQ80gVAAAB"}
+2025-02-23 14:13:23,838 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/b716acfe768e22c0.css
+2025-02-23 14:13:45,742 - INFO - eI3HD9twU2IM8BF5AAAA: Sending packet PING data None
+2025-02-23 14:13:45,751 - INFO - eI3HD9twU2IM8BF5AAAA: Received packet PONG data 
+2025-02-23 14:14:10,759 - INFO - eI3HD9twU2IM8BF5AAAA: Sending packet PING data None
+2025-02-23 14:14:10,893 - INFO - eI3HD9twU2IM8BF5AAAA: Received packet PONG data 
+2025-02-23 14:14:35,912 - INFO - eI3HD9twU2IM8BF5AAAA: Sending packet PING data None
+2025-02-23 14:14:35,934 - INFO - eI3HD9twU2IM8BF5AAAA: Received packet PONG data 
+2025-02-23 14:15:00,941 - INFO - eI3HD9twU2IM8BF5AAAA: Sending packet PING data None
+2025-02-23 14:15:00,948 - INFO - eI3HD9twU2IM8BF5AAAA: Received packet PONG data 
+2025-02-23 14:15:25,957 - INFO - eI3HD9twU2IM8BF5AAAA: Sending packet PING data None
+2025-02-23 14:15:25,976 - INFO - eI3HD9twU2IM8BF5AAAA: Received packet PONG data 
+2025-02-23 14:15:50,982 - INFO - eI3HD9twU2IM8BF5AAAA: Sending packet PING data None
+2025-02-23 14:15:51,005 - INFO - eI3HD9twU2IM8BF5AAAA: Received packet PONG data 
+2025-02-23 14:16:16,023 - INFO - eI3HD9twU2IM8BF5AAAA: Sending packet PING data None
+2025-02-23 14:16:16,049 - INFO - eI3HD9twU2IM8BF5AAAA: Received packet PONG data 
+2025-02-23 14:16:41,053 - INFO - eI3HD9twU2IM8BF5AAAA: Sending packet PING data None
+2025-02-23 14:16:41,073 - INFO - eI3HD9twU2IM8BF5AAAA: Received packet PONG data 
+2025-02-23 14:17:06,080 - INFO - eI3HD9twU2IM8BF5AAAA: Sending packet PING data None
+2025-02-23 14:17:06,089 - INFO - eI3HD9twU2IM8BF5AAAA: Received packet PONG data 
+2025-02-23 14:17:31,098 - INFO - eI3HD9twU2IM8BF5AAAA: Sending packet PING data None
+2025-02-23 14:17:51,099 - INFO - eI3HD9twU2IM8BF5AAAA: Unexpected error "timed out", closing connection
+2025-02-23 14:17:51,180 - INFO - Client disconnected
+2025-02-23 14:37:28,594 - INFO - 8G3KfKj6D0GcrS8BAAAC: Sending packet OPEN data {'sid': '8G3KfKj6D0GcrS8BAAAC', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 14:37:28,612 - INFO - 8G3KfKj6D0GcrS8BAAAC: Received request to upgrade to websocket
+2025-02-23 14:37:28,657 - INFO - 8G3KfKj6D0GcrS8BAAAC: Upgrade to websocket successful
+2025-02-23 14:37:28,820 - INFO - 8G3KfKj6D0GcrS8BAAAC: Received packet MESSAGE data 0
+2025-02-23 14:37:28,838 - INFO - Client connected
+2025-02-23 14:37:28,841 - INFO - 8G3KfKj6D0GcrS8BAAAC: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 14:37:28,843 - INFO - 8G3KfKj6D0GcrS8BAAAC: Sending packet MESSAGE data 0{"sid":"Nf5qyy9gmiBrc74uAAAD"}
+2025-02-23 14:37:30,070 - INFO - Serving page: /home/userland/xcute/frontend/build/index.html
+2025-02-23 14:37:30,190 - INFO - Client disconnected
+2025-02-23 14:37:30,629 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/b716acfe768e22c0.css
+2025-02-23 14:37:30,700 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 14:37:30,819 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 14:37:39,546 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/index-c15e928e66e797c3.js
+2025-02-23 14:37:39,661 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/_DqIG1YFnMAg4BDjYp0JT/_buildManifest.js
+2025-02-23 14:37:39,714 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-475395c10cdf624d.js
+2025-02-23 14:37:39,753 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 14:37:39,788 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/402-3db1b013ac14b3e9.js
+2025-02-23 14:37:39,895 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/ee8b1517-1bfa798f83b6d9e6.js
+2025-02-23 14:37:40,002 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/_DqIG1YFnMAg4BDjYp0JT/_ssgManifest.js
+2025-02-23 14:37:40,389 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet OPEN data {'sid': 'jWjJZU0ASr6VYA_qAAAE', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 14:37:40,392 - INFO - jWjJZU0ASr6VYA_qAAAE: Received request to upgrade to websocket
+2025-02-23 14:37:40,402 - INFO - jWjJZU0ASr6VYA_qAAAE: Upgrade to websocket successful
+2025-02-23 14:37:42,202 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet MESSAGE data 0
+2025-02-23 14:37:42,206 - INFO - Client connected
+2025-02-23 14:37:42,218 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 14:37:42,219 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet MESSAGE data 0{"sid":"eKKzu-jq7qWpUpYGAAAF"}
+2025-02-23 14:37:42,432 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 14:38:05,412 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:38:05,426 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:38:30,432 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:38:30,468 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:38:55,479 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:38:55,498 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:39:20,505 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:39:20,515 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:39:45,548 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:39:45,786 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:40:10,798 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:40:10,811 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:40:35,818 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:40:35,834 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:41:00,850 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:41:00,865 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:41:25,875 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:41:25,894 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:41:50,904 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:41:50,917 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:42:15,926 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:42:15,936 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:42:40,942 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:42:40,955 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:43:05,961 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:43:05,975 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:43:30,985 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:43:30,996 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:43:56,004 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:43:56,028 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:44:21,039 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:44:21,050 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:44:46,056 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:44:46,068 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:45:11,075 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:45:11,084 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:45:36,092 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:45:36,103 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:46:01,113 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:46:01,125 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:46:26,136 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:46:26,146 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:46:51,152 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:46:51,168 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:47:16,178 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:47:16,190 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:47:41,199 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:47:41,213 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:48:06,219 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:48:06,233 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:48:31,242 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:48:31,249 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:48:50,662 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:48:51,527 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:49:16,548 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:49:16,571 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:49:41,577 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:49:41,598 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:50:06,607 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:50:06,621 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:50:31,630 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:50:31,651 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:50:56,672 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:50:56,691 - INFO - jWjJZU0ASr6VYA_qAAAE: Received packet PONG data 
+2025-02-23 14:51:21,702 - INFO - jWjJZU0ASr6VYA_qAAAE: Sending packet PING data None
+2025-02-23 14:51:41,720 - INFO - jWjJZU0ASr6VYA_qAAAE: Unexpected error "timed out", closing connection
+2025-02-23 14:51:41,786 - INFO - Client disconnected
+2025-02-23 15:32:52,456 - INFO - qclNlxoZ6XMYoHi_AAAG: Sending packet OPEN data {'sid': 'qclNlxoZ6XMYoHi_AAAG', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 15:32:52,480 - INFO - qclNlxoZ6XMYoHi_AAAG: Received request to upgrade to websocket
+2025-02-23 15:32:52,524 - INFO - qclNlxoZ6XMYoHi_AAAG: Upgrade to websocket successful
+2025-02-23 15:32:53,749 - INFO - qclNlxoZ6XMYoHi_AAAG: Received packet MESSAGE data 0
+2025-02-23 15:32:53,773 - INFO - Client connected
+2025-02-23 15:32:53,775 - INFO - qclNlxoZ6XMYoHi_AAAG: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 15:32:53,779 - INFO - qclNlxoZ6XMYoHi_AAAG: Sending packet MESSAGE data 0{"sid":"fKUI2U14qsMmsqc1AAAH"}
+2025-02-23 15:33:17,561 - INFO - qclNlxoZ6XMYoHi_AAAG: Sending packet PING data None
+2025-02-23 15:33:17,587 - INFO - qclNlxoZ6XMYoHi_AAAG: Received packet PONG data 
+2025-02-23 15:33:42,595 - INFO - qclNlxoZ6XMYoHi_AAAG: Sending packet PING data None
+2025-02-23 15:33:42,608 - INFO - qclNlxoZ6XMYoHi_AAAG: Received packet PONG data 
+2025-02-23 15:34:07,619 - INFO - qclNlxoZ6XMYoHi_AAAG: Sending packet PING data None
+2025-02-23 15:34:07,630 - INFO - qclNlxoZ6XMYoHi_AAAG: Received packet PONG data 
+2025-02-23 15:34:32,643 - INFO - qclNlxoZ6XMYoHi_AAAG: Sending packet PING data None
+2025-02-23 15:34:32,655 - INFO - qclNlxoZ6XMYoHi_AAAG: Received packet PONG data 
+2025-02-23 15:34:57,665 - INFO - qclNlxoZ6XMYoHi_AAAG: Sending packet PING data None
+2025-02-23 15:34:57,682 - INFO - qclNlxoZ6XMYoHi_AAAG: Received packet PONG data 
+2025-02-23 15:35:22,692 - INFO - qclNlxoZ6XMYoHi_AAAG: Sending packet PING data None
+2025-02-23 15:35:22,705 - INFO - qclNlxoZ6XMYoHi_AAAG: Received packet PONG data 
+2025-02-23 15:35:47,716 - INFO - qclNlxoZ6XMYoHi_AAAG: Sending packet PING data None
+2025-02-23 15:35:47,728 - INFO - qclNlxoZ6XMYoHi_AAAG: Received packet PONG data 
+2025-02-23 15:36:12,734 - INFO - qclNlxoZ6XMYoHi_AAAG: Sending packet PING data None
+2025-02-23 15:36:12,783 - INFO - qclNlxoZ6XMYoHi_AAAG: Received packet PONG data 
+2025-02-23 15:36:37,793 - INFO - qclNlxoZ6XMYoHi_AAAG: Sending packet PING data None
+2025-02-23 15:36:37,805 - INFO - qclNlxoZ6XMYoHi_AAAG: Received packet PONG data 
+2025-02-23 15:37:02,811 - INFO - qclNlxoZ6XMYoHi_AAAG: Sending packet PING data None
+2025-02-23 15:37:02,822 - INFO - qclNlxoZ6XMYoHi_AAAG: Received packet PONG data 
+2025-02-23 15:37:27,831 - INFO - qclNlxoZ6XMYoHi_AAAG: Sending packet PING data None
+2025-02-23 15:37:27,841 - INFO - qclNlxoZ6XMYoHi_AAAG: Received packet PONG data 
+2025-02-23 15:37:52,851 - INFO - qclNlxoZ6XMYoHi_AAAG: Sending packet PING data None
+2025-02-23 15:38:12,868 - INFO - qclNlxoZ6XMYoHi_AAAG: Unexpected error "timed out", closing connection
+2025-02-23 15:38:12,946 - INFO - Client disconnected
+2025-02-23 15:58:48,685 - INFO - GiNgxBiz8cPcKrhFAAAI: Sending packet OPEN data {'sid': 'GiNgxBiz8cPcKrhFAAAI', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 15:58:48,689 - INFO - GiNgxBiz8cPcKrhFAAAI: Received request to upgrade to websocket
+2025-02-23 15:58:48,708 - INFO - GiNgxBiz8cPcKrhFAAAI: Upgrade to websocket successful
+2025-02-23 15:58:48,812 - INFO - GiNgxBiz8cPcKrhFAAAI: Received packet MESSAGE data 0
+2025-02-23 15:58:48,820 - INFO - Client connected
+2025-02-23 15:58:48,821 - INFO - GiNgxBiz8cPcKrhFAAAI: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 15:58:48,823 - INFO - GiNgxBiz8cPcKrhFAAAI: Sending packet MESSAGE data 0{"sid":"g0ic1UxnbKP0F7vWAAAJ"}
+2025-02-23 15:58:49,799 - INFO - Serving page: /home/userland/xcute/frontend/build/index.html
+2025-02-23 15:58:49,977 - INFO - Client disconnected
+2025-02-23 15:58:50,376 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/b716acfe768e22c0.css
+2025-02-23 15:58:50,660 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 15:59:01,779 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-475395c10cdf624d.js
+2025-02-23 15:59:01,869 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/ee8b1517-1bfa798f83b6d9e6.js
+2025-02-23 15:59:02,086 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/402-3db1b013ac14b3e9.js
+2025-02-23 15:59:02,163 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/index-c15e928e66e797c3.js
+2025-02-23 15:59:02,224 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 15:59:02,358 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 15:59:02,448 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/_DqIG1YFnMAg4BDjYp0JT/_buildManifest.js
+2025-02-23 15:59:02,545 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/_DqIG1YFnMAg4BDjYp0JT/_ssgManifest.js
+2025-02-23 15:59:03,672 - INFO - COUX6PovWUybxwhPAAAK: Sending packet OPEN data {'sid': 'COUX6PovWUybxwhPAAAK', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 15:59:03,674 - INFO - COUX6PovWUybxwhPAAAK: Received request to upgrade to websocket
+2025-02-23 15:59:03,690 - INFO - COUX6PovWUybxwhPAAAK: Upgrade to websocket successful
+2025-02-23 15:59:05,667 - INFO - COUX6PovWUybxwhPAAAK: Received packet MESSAGE data 0
+2025-02-23 15:59:05,673 - INFO - Client connected
+2025-02-23 15:59:05,674 - INFO - COUX6PovWUybxwhPAAAK: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 15:59:05,684 - INFO - COUX6PovWUybxwhPAAAK: Sending packet MESSAGE data 0{"sid":"VIMOFwdjGBvmXNZTAAAL"}
+2025-02-23 15:59:06,127 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 15:59:28,741 - INFO - COUX6PovWUybxwhPAAAK: Sending packet PING data None
+2025-02-23 15:59:28,757 - INFO - COUX6PovWUybxwhPAAAK: Received packet PONG data 
+2025-02-23 15:59:53,764 - INFO - COUX6PovWUybxwhPAAAK: Sending packet PING data None
+2025-02-23 15:59:53,775 - INFO - COUX6PovWUybxwhPAAAK: Received packet PONG data 
+2025-02-23 16:00:18,781 - INFO - COUX6PovWUybxwhPAAAK: Sending packet PING data None
+2025-02-23 16:00:18,802 - INFO - COUX6PovWUybxwhPAAAK: Received packet PONG data 
+2025-02-23 16:00:43,822 - INFO - COUX6PovWUybxwhPAAAK: Sending packet PING data None
+2025-02-23 16:00:43,832 - INFO - COUX6PovWUybxwhPAAAK: Received packet PONG data 
+2025-02-23 16:01:08,841 - INFO - COUX6PovWUybxwhPAAAK: Sending packet PING data None
+2025-02-23 16:01:08,857 - INFO - COUX6PovWUybxwhPAAAK: Received packet PONG data 
+2025-02-23 16:01:33,863 - INFO - COUX6PovWUybxwhPAAAK: Sending packet PING data None
+2025-02-23 16:01:33,872 - INFO - COUX6PovWUybxwhPAAAK: Received packet PONG data 
+2025-02-23 16:01:58,884 - INFO - COUX6PovWUybxwhPAAAK: Sending packet PING data None
+2025-02-23 16:01:58,896 - INFO - COUX6PovWUybxwhPAAAK: Received packet PONG data 
+2025-02-23 16:02:23,906 - INFO - COUX6PovWUybxwhPAAAK: Sending packet PING data None
+2025-02-23 16:02:23,917 - INFO - COUX6PovWUybxwhPAAAK: Received packet PONG data 
+2025-02-23 16:02:48,928 - INFO - COUX6PovWUybxwhPAAAK: Sending packet PING data None
+2025-02-23 16:02:48,938 - INFO - COUX6PovWUybxwhPAAAK: Received packet PONG data 
+2025-02-23 16:03:05,635 - INFO - Client disconnected
+2025-02-23 16:37:19,565 - INFO - WgM_jeSySmjRLjfRAAAM: Sending packet OPEN data {'sid': 'WgM_jeSySmjRLjfRAAAM', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 16:37:19,575 - INFO - WgM_jeSySmjRLjfRAAAM: Received request to upgrade to websocket
+2025-02-23 16:37:19,603 - INFO - WgM_jeSySmjRLjfRAAAM: Upgrade to websocket successful
+2025-02-23 16:37:24,419 - INFO - WgM_jeSySmjRLjfRAAAM: Received packet MESSAGE data 0
+2025-02-23 16:37:24,507 - INFO - Client connected
+2025-02-23 16:37:24,533 - INFO - WgM_jeSySmjRLjfRAAAM: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 16:37:24,540 - INFO - WgM_jeSySmjRLjfRAAAM: Sending packet MESSAGE data 0{"sid":"ZQjxayYMEpSXJf9tAAAN"}
+2025-02-23 16:37:44,616 - INFO - WgM_jeSySmjRLjfRAAAM: Sending packet PING data None
+2025-02-23 16:37:44,636 - INFO - WgM_jeSySmjRLjfRAAAM: Received packet PONG data 
+2025-02-23 16:38:09,640 - INFO - WgM_jeSySmjRLjfRAAAM: Sending packet PING data None
+2025-02-23 16:38:09,701 - INFO - WgM_jeSySmjRLjfRAAAM: Received packet PONG data 
+2025-02-23 16:38:12,313 - INFO - Client disconnected
+2025-02-23 17:39:34,205 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 17:39:35,969 - INFO - Static folder: /home/userland/xcute/frontend/build
+2025-02-23 17:39:35,969 - INFO - Template folder: /home/userland/xcute/frontend/build
+2025-02-23 17:39:35,986 - INFO - Starting background tasks...
+2025-02-23 17:39:36,007 - INFO - Database tables created.
+2025-02-23 17:39:36,008 - INFO - Telegram monitoring task scheduled.
+2025-02-23 17:39:36,009 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 17:39:36,046 - INFO -  * Restarting with stat
+2025-02-23 17:39:52,306 - INFO - Loaded wallet with public key: J1zCVXGMvKaGPXdKDKAwNXuuCS2AMGWfqEQa3StyihHo
+2025-02-23 17:39:54,321 - INFO - Static folder: /home/userland/xcute/frontend/build
+2025-02-23 17:39:54,322 - INFO - Template folder: /home/userland/xcute/frontend/build
+2025-02-23 17:39:54,340 - INFO - Starting background tasks...
+2025-02-23 17:39:54,352 - INFO - Database tables created.
+2025-02-23 17:39:54,353 - INFO - Telegram monitoring task scheduled.
+2025-02-23 17:39:54,354 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-02-23 17:39:54,389 - WARNING -  * Debugger is active!
+2025-02-23 17:39:54,399 - INFO -  * Debugger PIN: 129-143-980
+2025-02-23 18:01:12,155 - INFO - WFqIyQjat9hEWl3VAAAA: Sending packet OPEN data {'sid': 'WFqIyQjat9hEWl3VAAAA', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 18:01:12,174 - INFO - WFqIyQjat9hEWl3VAAAA: Received request to upgrade to websocket
+2025-02-23 18:01:12,218 - INFO - WFqIyQjat9hEWl3VAAAA: Upgrade to websocket successful
+2025-02-23 18:01:14,286 - INFO - WFqIyQjat9hEWl3VAAAA: Received packet MESSAGE data 0
+2025-02-23 18:01:14,301 - INFO - Client connected
+2025-02-23 18:01:14,302 - INFO - WFqIyQjat9hEWl3VAAAA: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 18:01:14,335 - INFO - WFqIyQjat9hEWl3VAAAA: Sending packet MESSAGE data 0{"sid":"YrjshxMIDlgT7dNLAAAB"}
+2025-02-23 18:01:37,247 - INFO - WFqIyQjat9hEWl3VAAAA: Sending packet PING data None
+2025-02-23 18:01:37,268 - INFO - WFqIyQjat9hEWl3VAAAA: Received packet PONG data 
+2025-02-23 18:02:02,273 - INFO - WFqIyQjat9hEWl3VAAAA: Sending packet PING data None
+2025-02-23 18:02:02,282 - INFO - WFqIyQjat9hEWl3VAAAA: Received packet PONG data 
+2025-02-23 18:02:27,293 - INFO - WFqIyQjat9hEWl3VAAAA: Sending packet PING data None
+2025-02-23 18:02:27,318 - INFO - WFqIyQjat9hEWl3VAAAA: Received packet PONG data 
+2025-02-23 18:02:52,323 - INFO - WFqIyQjat9hEWl3VAAAA: Sending packet PING data None
+2025-02-23 18:02:52,329 - INFO - WFqIyQjat9hEWl3VAAAA: Received packet PONG data 
+2025-02-23 18:03:17,340 - INFO - WFqIyQjat9hEWl3VAAAA: Sending packet PING data None
+2025-02-23 18:03:17,352 - INFO - WFqIyQjat9hEWl3VAAAA: Received packet PONG data 
+2025-02-23 18:03:42,361 - INFO - WFqIyQjat9hEWl3VAAAA: Sending packet PING data None
+2025-02-23 18:03:42,377 - INFO - WFqIyQjat9hEWl3VAAAA: Received packet PONG data 
+2025-02-23 18:03:57,537 - INFO - Client disconnected
+2025-02-23 18:13:52,382 - INFO - DkpsKX3Xh7c5zhn5AAAC: Sending packet OPEN data {'sid': 'DkpsKX3Xh7c5zhn5AAAC', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 18:13:52,389 - INFO - DkpsKX3Xh7c5zhn5AAAC: Received request to upgrade to websocket
+2025-02-23 18:13:52,411 - INFO - DkpsKX3Xh7c5zhn5AAAC: Upgrade to websocket successful
+2025-02-23 18:13:54,119 - INFO - DkpsKX3Xh7c5zhn5AAAC: Received packet MESSAGE data 0
+2025-02-23 18:13:54,145 - INFO - Client connected
+2025-02-23 18:13:54,156 - INFO - DkpsKX3Xh7c5zhn5AAAC: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 18:13:54,174 - INFO - DkpsKX3Xh7c5zhn5AAAC: Sending packet MESSAGE data 0{"sid":"-6yMyX8szy-uOf_GAAAD"}
+2025-02-23 18:14:17,458 - INFO - DkpsKX3Xh7c5zhn5AAAC: Sending packet PING data None
+2025-02-23 18:14:17,535 - INFO - DkpsKX3Xh7c5zhn5AAAC: Received packet PONG data 
+2025-02-23 18:14:42,553 - INFO - DkpsKX3Xh7c5zhn5AAAC: Sending packet PING data None
+2025-02-23 18:14:42,608 - INFO - DkpsKX3Xh7c5zhn5AAAC: Received packet PONG data 
+2025-02-23 18:15:07,620 - INFO - DkpsKX3Xh7c5zhn5AAAC: Sending packet PING data None
+2025-02-23 18:15:07,629 - INFO - DkpsKX3Xh7c5zhn5AAAC: Received packet PONG data 
+2025-02-23 18:15:32,639 - INFO - DkpsKX3Xh7c5zhn5AAAC: Sending packet PING data None
+2025-02-23 18:15:32,645 - INFO - DkpsKX3Xh7c5zhn5AAAC: Received packet PONG data 
+2025-02-23 18:15:57,653 - INFO - DkpsKX3Xh7c5zhn5AAAC: Sending packet PING data None
+2025-02-23 18:15:57,665 - INFO - DkpsKX3Xh7c5zhn5AAAC: Received packet PONG data 
+2025-02-23 18:16:22,676 - INFO - DkpsKX3Xh7c5zhn5AAAC: Sending packet PING data None
+2025-02-23 18:16:22,688 - INFO - DkpsKX3Xh7c5zhn5AAAC: Received packet PONG data 
+2025-02-23 18:16:47,696 - INFO - DkpsKX3Xh7c5zhn5AAAC: Sending packet PING data None
+2025-02-23 18:16:47,707 - INFO - DkpsKX3Xh7c5zhn5AAAC: Received packet PONG data 
+2025-02-23 18:17:12,713 - INFO - DkpsKX3Xh7c5zhn5AAAC: Sending packet PING data None
+2025-02-23 18:17:12,725 - INFO - DkpsKX3Xh7c5zhn5AAAC: Received packet PONG data 
+2025-02-23 18:17:37,732 - INFO - DkpsKX3Xh7c5zhn5AAAC: Sending packet PING data None
+2025-02-23 18:17:37,749 - INFO - DkpsKX3Xh7c5zhn5AAAC: Received packet PONG data 
+2025-02-23 18:18:02,758 - INFO - DkpsKX3Xh7c5zhn5AAAC: Sending packet PING data None
+2025-02-23 18:18:02,768 - INFO - DkpsKX3Xh7c5zhn5AAAC: Received packet PONG data 
+2025-02-23 18:18:27,778 - INFO - DkpsKX3Xh7c5zhn5AAAC: Sending packet PING data None
+2025-02-23 18:18:27,787 - INFO - DkpsKX3Xh7c5zhn5AAAC: Received packet PONG data 
+2025-02-23 18:18:52,793 - INFO - DkpsKX3Xh7c5zhn5AAAC: Sending packet PING data None
+2025-02-23 18:18:52,804 - INFO - DkpsKX3Xh7c5zhn5AAAC: Received packet PONG data 
+2025-02-23 18:19:17,815 - INFO - DkpsKX3Xh7c5zhn5AAAC: Sending packet PING data None
+2025-02-23 18:19:37,818 - INFO - DkpsKX3Xh7c5zhn5AAAC: Unexpected error "timed out", closing connection
+2025-02-23 18:19:37,855 - INFO - Client disconnected
+2025-02-23 18:20:54,700 - INFO - DOeAGnJz-mehJ7lGAAAE: Sending packet OPEN data {'sid': 'DOeAGnJz-mehJ7lGAAAE', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 18:20:54,702 - INFO - DOeAGnJz-mehJ7lGAAAE: Received request to upgrade to websocket
+2025-02-23 18:20:54,721 - INFO - DOeAGnJz-mehJ7lGAAAE: Upgrade to websocket successful
+2025-02-23 18:20:54,735 - INFO - DOeAGnJz-mehJ7lGAAAE: Received packet MESSAGE data 0
+2025-02-23 18:20:54,748 - INFO - Client connected
+2025-02-23 18:20:54,749 - INFO - DOeAGnJz-mehJ7lGAAAE: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 18:20:54,751 - INFO - DOeAGnJz-mehJ7lGAAAE: Sending packet MESSAGE data 0{"sid":"PmjH-fsF_DTPT0AJAAAF"}
+2025-02-23 18:20:55,369 - INFO - Serving page: /home/userland/xcute/frontend/build/index.html
+2025-02-23 18:20:55,455 - INFO - Client disconnected
+2025-02-23 18:20:55,632 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/b716acfe768e22c0.css
+2025-02-23 18:20:55,713 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 18:21:02,218 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 18:21:02,265 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-475395c10cdf624d.js
+2025-02-23 18:21:02,347 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 18:21:02,430 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/402-3db1b013ac14b3e9.js
+2025-02-23 18:21:02,634 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/index-c15e928e66e797c3.js
+2025-02-23 18:21:02,725 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/ee8b1517-1bfa798f83b6d9e6.js
+2025-02-23 18:21:02,815 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/_DqIG1YFnMAg4BDjYp0JT/_buildManifest.js
+2025-02-23 18:21:02,890 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/_DqIG1YFnMAg4BDjYp0JT/_ssgManifest.js
+2025-02-23 18:21:03,026 - INFO - K5LuKF59EHbebWKTAAAG: Sending packet OPEN data {'sid': 'K5LuKF59EHbebWKTAAAG', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 18:21:03,029 - INFO - K5LuKF59EHbebWKTAAAG: Received request to upgrade to websocket
+2025-02-23 18:21:03,034 - INFO - K5LuKF59EHbebWKTAAAG: Upgrade to websocket successful
+2025-02-23 18:21:05,688 - INFO - K5LuKF59EHbebWKTAAAG: Received packet MESSAGE data 0
+2025-02-23 18:21:05,691 - INFO - Client connected
+2025-02-23 18:21:05,703 - INFO - K5LuKF59EHbebWKTAAAG: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 18:21:05,704 - INFO - K5LuKF59EHbebWKTAAAG: Sending packet MESSAGE data 0{"sid":"QSjrIthEQfmBMvtAAAAH"}
+2025-02-23 18:21:08,000 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 18:21:28,043 - INFO - K5LuKF59EHbebWKTAAAG: Sending packet PING data None
+2025-02-23 18:21:28,093 - INFO - K5LuKF59EHbebWKTAAAG: Received packet PONG data 
+2025-02-23 18:21:53,099 - INFO - K5LuKF59EHbebWKTAAAG: Sending packet PING data None
+2025-02-23 18:21:53,164 - INFO - K5LuKF59EHbebWKTAAAG: Received packet PONG data 
+2025-02-23 18:22:18,172 - INFO - K5LuKF59EHbebWKTAAAG: Sending packet PING data None
+2025-02-23 18:22:18,202 - INFO - K5LuKF59EHbebWKTAAAG: Received packet PONG data 
+2025-02-23 18:22:43,212 - INFO - K5LuKF59EHbebWKTAAAG: Sending packet PING data None
+2025-02-23 18:22:43,226 - INFO - K5LuKF59EHbebWKTAAAG: Received packet PONG data 
+2025-02-23 18:23:08,236 - INFO - K5LuKF59EHbebWKTAAAG: Sending packet PING data None
+2025-02-23 18:23:08,246 - INFO - K5LuKF59EHbebWKTAAAG: Received packet PONG data 
+2025-02-23 18:23:33,252 - INFO - K5LuKF59EHbebWKTAAAG: Sending packet PING data None
+2025-02-23 18:23:33,265 - INFO - K5LuKF59EHbebWKTAAAG: Received packet PONG data 
+2025-02-23 18:23:58,276 - INFO - K5LuKF59EHbebWKTAAAG: Sending packet PING data None
+2025-02-23 18:23:58,288 - INFO - K5LuKF59EHbebWKTAAAG: Received packet PONG data 
+2025-02-23 18:24:23,300 - INFO - K5LuKF59EHbebWKTAAAG: Sending packet PING data None
+2025-02-23 18:24:23,315 - INFO - K5LuKF59EHbebWKTAAAG: Received packet PONG data 
+2025-02-23 18:24:48,324 - INFO - K5LuKF59EHbebWKTAAAG: Sending packet PING data None
+2025-02-23 18:24:48,334 - INFO - K5LuKF59EHbebWKTAAAG: Received packet PONG data 
+2025-02-23 18:25:13,340 - INFO - K5LuKF59EHbebWKTAAAG: Sending packet PING data None
+2025-02-23 18:25:13,350 - INFO - K5LuKF59EHbebWKTAAAG: Received packet PONG data 
+2025-02-23 18:25:39,104 - INFO - K5LuKF59EHbebWKTAAAG: Sending packet PING data None
+2025-02-23 18:25:39,115 - INFO - K5LuKF59EHbebWKTAAAG: Received packet PONG data 
+2025-02-23 18:26:04,126 - INFO - K5LuKF59EHbebWKTAAAG: Sending packet PING data None
+2025-02-23 18:26:04,149 - INFO - K5LuKF59EHbebWKTAAAG: Received packet PONG data 
+2025-02-23 18:26:29,158 - INFO - K5LuKF59EHbebWKTAAAG: Sending packet PING data None
+2025-02-23 18:26:49,202 - INFO - K5LuKF59EHbebWKTAAAG: Unexpected error "timed out", closing connection
+2025-02-23 18:26:49,254 - INFO - Client disconnected
+2025-02-23 18:30:39,451 - INFO - wKGESNhBmRTWNSysAAAI: Sending packet OPEN data {'sid': 'wKGESNhBmRTWNSysAAAI', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 18:30:39,465 - INFO - wKGESNhBmRTWNSysAAAI: Received request to upgrade to websocket
+2025-02-23 18:30:39,489 - INFO - wKGESNhBmRTWNSysAAAI: Upgrade to websocket successful
+2025-02-23 18:30:39,520 - INFO - wKGESNhBmRTWNSysAAAI: Received packet MESSAGE data 0
+2025-02-23 18:30:39,530 - INFO - Client connected
+2025-02-23 18:30:39,532 - INFO - wKGESNhBmRTWNSysAAAI: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 18:30:39,534 - INFO - wKGESNhBmRTWNSysAAAI: Sending packet MESSAGE data 0{"sid":"AYOi7xYjM28BwtnUAAAJ"}
+2025-02-23 18:31:04,508 - INFO - wKGESNhBmRTWNSysAAAI: Sending packet PING data None
+2025-02-23 18:31:04,520 - INFO - wKGESNhBmRTWNSysAAAI: Received packet PONG data 
+2025-02-23 18:31:29,530 - INFO - wKGESNhBmRTWNSysAAAI: Sending packet PING data None
+2025-02-23 18:31:29,541 - INFO - wKGESNhBmRTWNSysAAAI: Received packet PONG data 
+2025-02-23 18:31:54,547 - INFO - wKGESNhBmRTWNSysAAAI: Sending packet PING data None
+2025-02-23 18:31:54,558 - INFO - wKGESNhBmRTWNSysAAAI: Received packet PONG data 
+2025-02-23 18:32:19,568 - INFO - wKGESNhBmRTWNSysAAAI: Sending packet PING data None
+2025-02-23 18:32:19,578 - INFO - wKGESNhBmRTWNSysAAAI: Received packet PONG data 
+2025-02-23 18:32:44,583 - INFO - wKGESNhBmRTWNSysAAAI: Sending packet PING data None
+2025-02-23 18:32:44,600 - INFO - wKGESNhBmRTWNSysAAAI: Received packet PONG data 
+2025-02-23 18:33:09,609 - INFO - wKGESNhBmRTWNSysAAAI: Sending packet PING data None
+2025-02-23 18:33:09,619 - INFO - wKGESNhBmRTWNSysAAAI: Received packet PONG data 
+2025-02-23 18:33:34,625 - INFO - wKGESNhBmRTWNSysAAAI: Sending packet PING data None
+2025-02-23 18:33:34,648 - INFO - wKGESNhBmRTWNSysAAAI: Received packet PONG data 
+2025-02-23 18:33:40,402 - INFO - Client disconnected
+2025-02-23 18:51:13,993 - INFO - LbQK_yvFgaBAk_QOAAAK: Sending packet OPEN data {'sid': 'LbQK_yvFgaBAk_QOAAAK', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 18:51:14,065 - INFO - LbQK_yvFgaBAk_QOAAAK: Received request to upgrade to websocket
+2025-02-23 18:51:14,130 - INFO - LbQK_yvFgaBAk_QOAAAK: Upgrade to websocket successful
+2025-02-23 18:51:18,097 - INFO - LbQK_yvFgaBAk_QOAAAK: Received packet MESSAGE data 0
+2025-02-23 18:51:18,114 - INFO - Client connected
+2025-02-23 18:51:18,116 - INFO - LbQK_yvFgaBAk_QOAAAK: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 18:51:18,132 - INFO - LbQK_yvFgaBAk_QOAAAK: Sending packet MESSAGE data 0{"sid":"qsFnU8pia2iyw6CrAAAL"}
+2025-02-23 18:51:18,764 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 18:51:39,144 - INFO - LbQK_yvFgaBAk_QOAAAK: Sending packet PING data None
+2025-02-23 18:51:39,181 - INFO - LbQK_yvFgaBAk_QOAAAK: Received packet PONG data 
+2025-02-23 18:52:04,213 - INFO - LbQK_yvFgaBAk_QOAAAK: Sending packet PING data None
+2025-02-23 18:52:04,237 - INFO - LbQK_yvFgaBAk_QOAAAK: Received packet PONG data 
+2025-02-23 18:52:29,248 - INFO - LbQK_yvFgaBAk_QOAAAK: Sending packet PING data None
+2025-02-23 18:52:29,260 - INFO - LbQK_yvFgaBAk_QOAAAK: Received packet PONG data 
+2025-02-23 18:52:54,271 - INFO - LbQK_yvFgaBAk_QOAAAK: Sending packet PING data None
+2025-02-23 18:52:54,281 - INFO - LbQK_yvFgaBAk_QOAAAK: Received packet PONG data 
+2025-02-23 18:53:19,289 - INFO - LbQK_yvFgaBAk_QOAAAK: Sending packet PING data None
+2025-02-23 18:53:19,308 - INFO - LbQK_yvFgaBAk_QOAAAK: Received packet PONG data 
+2025-02-23 18:53:44,317 - INFO - LbQK_yvFgaBAk_QOAAAK: Sending packet PING data None
+2025-02-23 18:53:44,332 - INFO - LbQK_yvFgaBAk_QOAAAK: Received packet PONG data 
+2025-02-23 18:54:09,341 - INFO - LbQK_yvFgaBAk_QOAAAK: Sending packet PING data None
+2025-02-23 18:54:09,361 - INFO - LbQK_yvFgaBAk_QOAAAK: Received packet PONG data 
+2025-02-23 18:54:34,372 - INFO - LbQK_yvFgaBAk_QOAAAK: Sending packet PING data None
+2025-02-23 18:54:34,385 - INFO - LbQK_yvFgaBAk_QOAAAK: Received packet PONG data 
+2025-02-23 18:54:59,403 - INFO - LbQK_yvFgaBAk_QOAAAK: Sending packet PING data None
+2025-02-23 18:54:59,526 - INFO - LbQK_yvFgaBAk_QOAAAK: Received packet PONG data 
+2025-02-23 18:55:24,539 - INFO - LbQK_yvFgaBAk_QOAAAK: Sending packet PING data None
+2025-02-23 18:55:24,578 - INFO - LbQK_yvFgaBAk_QOAAAK: Received packet PONG data 
+2025-02-23 18:55:39,756 - INFO - Serving page: /home/userland/xcute/frontend/build/index.html
+2025-02-23 18:55:39,860 - INFO - Client disconnected
+2025-02-23 18:55:40,002 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/css/b716acfe768e22c0.css
+2025-02-23 18:55:40,072 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/webpack-0d0518cf5dc92fa8.js
+2025-02-23 18:55:45,908 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/framework-18e8cc0fc9daa829.js
+2025-02-23 18:55:46,160 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/main-ed937e94fb5fabb6.js
+2025-02-23 18:55:46,432 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/_app-475395c10cdf624d.js
+2025-02-23 18:55:46,579 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/ee8b1517-1bfa798f83b6d9e6.js
+2025-02-23 18:55:46,638 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/402-3db1b013ac14b3e9.js
+2025-02-23 18:55:46,758 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/chunks/pages/index-c15e928e66e797c3.js
+2025-02-23 18:55:46,821 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/_DqIG1YFnMAg4BDjYp0JT/_buildManifest.js
+2025-02-23 18:55:46,881 - INFO - Serving static file: /home/userland/xcute/frontend/build/_next/static/_DqIG1YFnMAg4BDjYp0JT/_ssgManifest.js
+2025-02-23 18:55:47,062 - INFO - lMWJM6B6xsHM3taAAAAM: Sending packet OPEN data {'sid': 'lMWJM6B6xsHM3taAAAAM', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 18:55:47,063 - INFO - lMWJM6B6xsHM3taAAAAM: Received request to upgrade to websocket
+2025-02-23 18:55:47,077 - INFO - lMWJM6B6xsHM3taAAAAM: Upgrade to websocket successful
+2025-02-23 18:55:50,526 - INFO - lMWJM6B6xsHM3taAAAAM: Received packet MESSAGE data 0
+2025-02-23 18:55:50,551 - INFO - Client connected
+2025-02-23 18:55:50,573 - INFO - lMWJM6B6xsHM3taAAAAM: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 18:55:50,575 - INFO - lMWJM6B6xsHM3taAAAAM: Sending packet MESSAGE data 0{"sid":"ACVry5q3TNPCua6OAAAN"}
+2025-02-23 18:55:50,662 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 18:56:12,092 - INFO - lMWJM6B6xsHM3taAAAAM: Sending packet PING data None
+2025-02-23 18:56:12,175 - INFO - lMWJM6B6xsHM3taAAAAM: Received packet PONG data 
+2025-02-23 18:56:37,188 - INFO - lMWJM6B6xsHM3taAAAAM: Sending packet PING data None
+2025-02-23 18:56:37,215 - INFO - lMWJM6B6xsHM3taAAAAM: Received packet PONG data 
+2025-02-23 18:57:02,225 - INFO - lMWJM6B6xsHM3taAAAAM: Sending packet PING data None
+2025-02-23 18:57:02,236 - INFO - lMWJM6B6xsHM3taAAAAM: Received packet PONG data 
+2025-02-23 18:57:27,247 - INFO - lMWJM6B6xsHM3taAAAAM: Sending packet PING data None
+2025-02-23 18:57:27,254 - INFO - lMWJM6B6xsHM3taAAAAM: Received packet PONG data 
+2025-02-23 18:57:52,262 - INFO - lMWJM6B6xsHM3taAAAAM: Sending packet PING data None
+2025-02-23 18:57:52,279 - INFO - lMWJM6B6xsHM3taAAAAM: Received packet PONG data 
+2025-02-23 18:58:17,285 - INFO - lMWJM6B6xsHM3taAAAAM: Sending packet PING data None
+2025-02-23 18:58:17,319 - INFO - lMWJM6B6xsHM3taAAAAM: Received packet PONG data 
+2025-02-23 18:58:42,327 - INFO - lMWJM6B6xsHM3taAAAAM: Sending packet PING data None
+2025-02-23 18:58:42,376 - INFO - lMWJM6B6xsHM3taAAAAM: Received packet PONG data 
+2025-02-23 18:59:07,386 - INFO - lMWJM6B6xsHM3taAAAAM: Sending packet PING data None
+2025-02-23 18:59:07,402 - INFO - lMWJM6B6xsHM3taAAAAM: Received packet PONG data 
+2025-02-23 18:59:32,408 - INFO - lMWJM6B6xsHM3taAAAAM: Sending packet PING data None
+2025-02-23 18:59:32,493 - INFO - Client disconnected
+2025-02-23 19:13:55,643 - INFO - -4gVQ3E3gGB9HFcKAAAO: Sending packet OPEN data {'sid': '-4gVQ3E3gGB9HFcKAAAO', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 19:13:55,669 - INFO - -4gVQ3E3gGB9HFcKAAAO: Received request to upgrade to websocket
+2025-02-23 19:13:55,689 - INFO - -4gVQ3E3gGB9HFcKAAAO: Upgrade to websocket successful
+2025-02-23 19:13:57,154 - INFO - -4gVQ3E3gGB9HFcKAAAO: Received packet MESSAGE data 0
+2025-02-23 19:13:57,171 - INFO - Client connected
+2025-02-23 19:13:57,178 - INFO - -4gVQ3E3gGB9HFcKAAAO: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 19:13:57,185 - INFO - -4gVQ3E3gGB9HFcKAAAO: Sending packet MESSAGE data 0{"sid":"5FLxdqL3WpTz1eTRAAAP"}
+2025-02-23 19:13:57,371 - INFO - Serving favicon: /home/userland/xcute/frontend/build/favicon.ico
+2025-02-23 19:14:20,709 - INFO - -4gVQ3E3gGB9HFcKAAAO: Sending packet PING data None
+2025-02-23 19:14:20,966 - INFO - -4gVQ3E3gGB9HFcKAAAO: Received packet PONG data 
+2025-02-23 19:14:46,023 - INFO - -4gVQ3E3gGB9HFcKAAAO: Sending packet PING data None
+2025-02-23 19:14:46,574 - INFO - -4gVQ3E3gGB9HFcKAAAO: Received packet PONG data 
+2025-02-23 19:15:11,583 - INFO - -4gVQ3E3gGB9HFcKAAAO: Sending packet PING data None
+2025-02-23 19:15:11,596 - INFO - -4gVQ3E3gGB9HFcKAAAO: Received packet PONG data 
+2025-02-23 19:15:36,604 - INFO - -4gVQ3E3gGB9HFcKAAAO: Sending packet PING data None
+2025-02-23 19:15:36,613 - INFO - -4gVQ3E3gGB9HFcKAAAO: Received packet PONG data 
+2025-02-23 19:16:01,623 - INFO - -4gVQ3E3gGB9HFcKAAAO: Sending packet PING data None
+2025-02-23 19:16:01,631 - INFO - -4gVQ3E3gGB9HFcKAAAO: Received packet PONG data 
+2025-02-23 19:16:26,636 - INFO - -4gVQ3E3gGB9HFcKAAAO: Sending packet PING data None
+2025-02-23 19:16:26,648 - INFO - -4gVQ3E3gGB9HFcKAAAO: Received packet PONG data 
+2025-02-23 19:16:30,853 - INFO - Client disconnected
+2025-02-23 20:00:47,296 - INFO - BdrfptJOvashKccFAAAQ: Sending packet OPEN data {'sid': 'BdrfptJOvashKccFAAAQ', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 20:00:47,314 - INFO - BdrfptJOvashKccFAAAQ: Received request to upgrade to websocket
+2025-02-23 20:00:47,361 - INFO - BdrfptJOvashKccFAAAQ: Upgrade to websocket successful
+2025-02-23 20:00:49,843 - INFO - BdrfptJOvashKccFAAAQ: Received packet MESSAGE data 0
+2025-02-23 20:00:49,851 - INFO - Client connected
+2025-02-23 20:00:49,854 - INFO - BdrfptJOvashKccFAAAQ: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 20:00:49,856 - INFO - BdrfptJOvashKccFAAAQ: Sending packet MESSAGE data 0{"sid":"yWpGCSCRODrIHvrIAAAR"}
+2025-02-23 20:01:12,378 - INFO - BdrfptJOvashKccFAAAQ: Sending packet PING data None
+2025-02-23 20:01:12,391 - INFO - BdrfptJOvashKccFAAAQ: Received packet PONG data 
+2025-02-23 20:01:37,397 - INFO - BdrfptJOvashKccFAAAQ: Sending packet PING data None
+2025-02-23 20:01:37,428 - INFO - BdrfptJOvashKccFAAAQ: Received packet PONG data 
+2025-02-23 20:02:02,440 - INFO - BdrfptJOvashKccFAAAQ: Sending packet PING data None
+2025-02-23 20:02:02,452 - INFO - BdrfptJOvashKccFAAAQ: Received packet PONG data 
+2025-02-23 20:02:27,462 - INFO - BdrfptJOvashKccFAAAQ: Sending packet PING data None
+2025-02-23 20:02:27,475 - INFO - BdrfptJOvashKccFAAAQ: Received packet PONG data 
+2025-02-23 20:02:52,483 - INFO - BdrfptJOvashKccFAAAQ: Sending packet PING data None
+2025-02-23 20:03:12,515 - INFO - BdrfptJOvashKccFAAAQ: Unexpected error "timed out", closing connection
+2025-02-23 20:03:12,583 - INFO - Client disconnected
+2025-02-23 20:06:53,084 - INFO - SNzgBOLaV6Q-VoCUAAAS: Sending packet OPEN data {'sid': 'SNzgBOLaV6Q-VoCUAAAS', 'upgrades': [], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-02-23 20:06:53,089 - INFO - SNzgBOLaV6Q-VoCUAAAS: Received request to upgrade to websocket
+2025-02-23 20:06:53,133 - INFO - SNzgBOLaV6Q-VoCUAAAS: Upgrade to websocket successful
+2025-02-23 20:06:54,334 - INFO - SNzgBOLaV6Q-VoCUAAAS: Received packet MESSAGE data 0
+2025-02-23 20:06:54,347 - INFO - Client connected
+2025-02-23 20:06:54,349 - INFO - SNzgBOLaV6Q-VoCUAAAS: Sending packet MESSAGE data 2["log",{"message":"WebSocket connection established."}]
+2025-02-23 20:06:54,351 - INFO - SNzgBOLaV6Q-VoCUAAAS: Sending packet MESSAGE data 0{"sid":"omqH3NtwCQhgthJGAAAT"}
+2025-02-23 20:07:18,166 - INFO - SNzgBOLaV6Q-VoCUAAAS: Sending packet PING data None
+2025-02-23 20:07:18,190 - INFO - SNzgBOLaV6Q-VoCUAAAS: Received packet PONG data 
+2025-02-23 20:07:43,197 - INFO - SNzgBOLaV6Q-VoCUAAAS: Sending packet PING data None
+2025-02-23 20:07:43,211 - INFO - SNzgBOLaV6Q-VoCUAAAS: Received packet PONG data 
