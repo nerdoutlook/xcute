@@ -6,6 +6,7 @@ from config import settings
 from websocket_manager import socketio, db, app
 from buy_program import buy_token
 from models import Contract
+import asyncio
 
 logging.basicConfig(
     level=logging.INFO,
@@ -32,7 +33,9 @@ def load_groups():
 
 group_links = load_groups()
 client = TelegramClient(settings.session_name, settings.api_id, settings.api_hash)
-PUMP_FUN_ADDRESS_PATTERN = r"\b[1-9A-Z][1-9A-HJ-NP-Za-km-z]{39}pump\b"
+
+# Updated regex: Match 43-44 char Solana addresses followed by "pump"
+PUMP_FUN_ADDRESS_PATTERN = r"\b[1-9A-HJ-NP-Za-km-z]{42,43}pump\b"
 
 @client.on(events.NewMessage(chats=group_links))
 async def new_message_handler(event):
@@ -46,9 +49,12 @@ async def new_message_handler(event):
     matches = re.findall(PUMP_FUN_ADDRESS_PATTERN, message)
     if not matches:
         logging.info(f"No Pump.fun contract detected in {group_name}.")
+        print(f"No contracts found in {group_name} message: {message}")
         return
 
-    for contract_address in matches:
+    for match in matches:
+        # Extract the address (remove "pump" suffix)
+        contract_address = match[:-4]  # Strip "pump" from the end
         log_message = f"Detected Pump.fun contract in {group_name}: {contract_address}"
         logging.info(log_message)
         print(f"Found contract: {contract_address} in {group_name} at {current_time}")
@@ -76,7 +82,6 @@ async def new_message_handler(event):
                 db.session.rollback()
             logging.error(f"Error processing contract {contract_address} in {group_name}: {e}", exc_info=True)
             print(f"Failed to buy {contract_address}: {e}")
-            # Contract already added as "found" above, no further action needed
 
         await asyncio.sleep(1)
 
