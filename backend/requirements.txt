@@ -10,7 +10,7 @@ telethon==1.28.1
 
 # Solana blockchain interactions
 solders==0.21.0  # Latest as of Feb 2025, replaces solana-py
-
+solana==1.18.25
 # Async HTTP requests
 aiohttp==3.9.5
 
