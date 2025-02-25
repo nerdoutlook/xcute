@@ -23,9 +23,9 @@ export default function Dashboard() {
     const fetchData = async () => {
       try {
         const [contractsRes, transactionsRes, balanceRes] = await Promise.all([
-          axios.get('http://localhost:8000/api/contracts'),
-          axios.get('http://localhost:8000/api/transactions'),
-          axios.get('http://localhost:8000/api/wallet_balance'),
+          axios.get('https://xcute.onrender.com/api/contracts'),
+          axios.get('https://xcute.onrender.com/api/transactions'),
+          axios.get('https://xcute.onrender.com/api/wallet_balance'),
         ]);
         setContracts(contractsRes.data);
         setTransactions(transactionsRes.data);
@@ -33,7 +33,7 @@ export default function Dashboard() {
         updateMetrics(contractsRes.data, transactionsRes.data);
       } catch (error) {
         console.error('Error fetching data:', error);
-      }
+0      }
     };
     fetchData();
 
@@ -87,26 +87,26 @@ export default function Dashboard() {
   };
 
   return (
-    <div className="p-4 max-w-7xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6">Xcute Trading Dashboard</h1>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
-        <div className="bg-white p-4 rounded shadow">
-          <h2 className="text-lg font-semibold">Total Contracts</h2>
-          <p className="text-2xl">{metrics.totalContracts}</p>
+    <div className="p-2 sm:p-4 max-w-full sm:max-w-7xl mx-auto"> {/* Adjusted padding */}
+      <h1 className="text-xl sm:text-3xl font-bold mb-4 sm:mb-6">Xcute Trading Dashboard</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4 mb-4 sm:mb-6"> {/* Responsive grid */}
+        <div className="bg-white p-2 sm:p-4 rounded shadow">
+          <h2 className="text-sm sm:text-lg font-semibold">Total Contracts</h2>
+          <p className="text-lg sm:text-2xl">{metrics.totalContracts}</p>
         </div>
-        <div className="bg-white p-4 rounded shadow">
-          <h2 className="text-lg font-semibold">Successful Trades</h2>
-          <p className="text-2xl">{metrics.successfulBuys + metrics.successfulSells}</p>
+        <div className="bg-white p-2 sm:p-4 rounded shadow">
+          <h2 className="text-sm sm:text-lg font-semibold">Successful Trades</h2>
+          <p className="text-lg sm:text-2xl">{metrics.successfulBuys + metrics.successfulSells}</p>
         </div>
-        <div className="bg-white p-4 rounded shadow">
-          <h2 className="text-lg font-semibold">Profit/Loss</h2>
-          <p className={`text-2xl ${metrics.profit >= 0 ? 'text-green-500' : 'text-red-500'}`}>
+        <div className="bg-white p-2 sm:p-4 rounded shadow">
+          <h2 className="text-sm sm:text-lg font-semibold">Profit/Loss</h2>
+          <p className={`text-lg sm:text-2xl ${metrics.profit >= 0 ? 'text-green-500' : 'text-red-500'}`}>
             ${metrics.profit.toFixed(2)}
           </p>
         </div>
-        <div className="bg-white p-4 rounded shadow">
-          <h2 className="text-lg font-semibold">Wallet Balance</h2>
-          <p className="text-2xl">{balance.toFixed(6)} SOL</p>
+        <div className="bg-white p-2 sm:p-4 rounded shadow">
+          <h2 className="text-sm sm:text-lg font-semibold">Wallet Balance</h2>
+          <p className="text-lg sm:text-2xl">{balance.toFixed(6)} SOL</p>
         </div>
       </div>
       <Charts transactions={transactions} />
