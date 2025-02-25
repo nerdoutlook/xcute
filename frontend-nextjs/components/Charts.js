@@ -20,22 +20,26 @@ export default function Charts({ transactions }) {
     datasets: [{
       label: 'Success Rates',
       data: [
-        transactions.filter(t => t.transaction_type === 'buy').length,
-        transactions.filter(t => t.transaction_type === 'sell').length,
+        transactions.filter(t => t.transaction_type === 'buy' && t.status === 'success').length,
+        transactions.filter(t => t.transaction_type === 'sell' && t.status === 'success').length,
       ],
       backgroundColor: ['rgba(54, 162, 235, 0.6)', 'rgba(255, 99, 132, 0.6)'],
     }],
   };
 
   return (
-    <div className="mb-6">
-      <div className="bg-white p-4 rounded shadow mb-4">
-        <h2 className="text-lg font-semibold mb-2">Profit Trends</h2>
-        <Line data={profitData} options={{ responsive: true }} />
+    <div className="mb-4 sm:mb-6">
+      <div className="bg-white p-2 sm:p-4 rounded shadow mb-2 sm:mb-4">
+        <h2 className="text-base sm:text-lg font-semibold mb-1 sm:mb-2">Profit Trends</h2>
+        <div className="w-full h-48 sm:h-64"> {/* Fixed height for responsiveness */}
+          <Line data={profitData} options={{ responsive: true, maintainAspectRatio: false }} />
+        </div>
       </div>
-      <div className="bg-white p-4 rounded shadow">
-        <h2 className="text-lg font-semibold mb-2">Buy/Sell Success</h2>
-        <Bar data={successData} options={{ responsive: true }} />
+      <div className="bg-white p-2 sm:p-4 rounded shadow">
+        <h2 className="text-base sm:text-lg font-semibold mb-1 sm:mb-2">Buy/Sell Success</h2>
+        <div className="w-full h-48 sm:h-64"> {/* Fixed height for responsiveness */}
+          <Bar data={successData} options={{ responsive: true, maintainAspectRatio: false }} />
+        </div>
       </div>
     </div>
   );
