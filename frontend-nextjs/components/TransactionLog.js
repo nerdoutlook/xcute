@@ -3,24 +3,28 @@ import React from 'react';
 export default function TransactionLog({ transactions }) {
   return (
     <div className="bg-white p-4 rounded shadow">
-      <h2 className="text-lg font-semibold mb-2">Transaction History</h2>
+      <h3 className="text-lg font-semibold mb-2">Transaction Log</h3>
       <div className="overflow-x-auto">
-        <table className="min-w-full divide-y divide-gray-200">
-          <thead className="bg-gray-50">
+        <table className="min-w-full border-collapse">
+          <thead>
             <tr>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Token</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Action</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Amount ($)</th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Timestamp</th>
+              <th className="border-b p-2 text-left">Contract Address</th>
+              <th className="border-b p-2 text-left">Action</th>
+              <th className="border-b p-2 text-left">Amount ($)</th>
+              <th className="border-b p-2 text-left">Timestamp</th>
+              <th className="border-b p-2 text-left">Status</th> {/* Added */}
+              <th className="border-b p-2 text-left">Error</th>  {/* Added */}
             </tr>
           </thead>
-          <tbody className="bg-white divide-y divide-gray-200">
-            {transactions.map((tx, index) => (
-              <tr key={index}>
-                <td className="px-6 py-4 whitespace-nowrap">{tx.token_address || tx.token_sold}</td>
-                <td className="px-6 py-4 whitespace-nowrap">{tx.transaction_type || (tx.token_bought ? 'buy' : 'sell')}</td>
-                <td className="px-6 py-4 whitespace-nowrap">${tx.amount_in_dollars.toFixed(2)}</td>
-                <td className="px-6 py-4 whitespace-nowrap">{new Date(tx.timestamp).toLocaleString()}</td>
+          <tbody>
+            {transactions.map(tx => (
+              <tr key={tx.id}>
+                <td className="border-b p-2">{tx.token_address}</td>
+                <td className="border-b p-2">{tx.transaction_type}</td>
+                <td className="border-b p-2">{tx.amount_in_dollars}</td>
+                <td className="border-b p-2">{tx.timestamp}</td>
+                <td className="border-b p-2">{tx.status}</td> {/* Added */}
+                <td className="border-b p-2">{tx.error || '-'}</td> {/* Added */}
               </tr>
             ))}
           </tbody>

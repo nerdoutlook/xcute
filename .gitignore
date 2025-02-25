@@ -1,43 +1,43 @@
-logs/server.log
-logs/buy.log
-logs/monitor.log
+./logs/server.log
+./logs/buy.log
+./logs/monitor.log
 monitor_bot.session
-backend/instance/
-backend/telegram_monitor.session
-frontend/package.json
-frontend/yarn.lock
-frontend/node_modules/
-frontend/build/
-__pycache__/
+./backend/instance/
+./backend/telegram_monitor.session
+./frontend/package.json
+./frontend/yarn.lock
+./frontend/node_modules/
+./frontend/build/
+./__pycache__/
 
-
+monitor_bot.session
 
 # Node.js / React (Frontend)
-frontend/node_modules/
-frontend/build/
-frontend/.yarn/
-frontend/.yarnrc
-frontend/.pnp.*
-frontend/.yarn-integrity
-frontend/*.log
-frontend/npm-debug.log*
-frontend/yarn-debug.log*
-frontend/yarn-error.log*
+./frontend/node_modules/
+./frontend/build/
+./frontend/.yarn/
+./frontend/.yarnrc
+./frontend/.pnp.*
+./frontend/.yarn-integrity
+./frontend/*.log
+./frontend/npm-debug.log*
+./frontend/yarn-debug.log*
+./frontend/yarn-error.log*
 
 # Python / Flask (Backend)
-backend/__pycache__/
-backend/*.pyc
-backend/*.pyo
-backend/*.pyd
-backend/*.db
-backend/*.sqlite3
-backend/.env
-backend/venv/
-backend/env/
-backend/.venv/
-backend/*.egg-info/
-backend/*.swp
-backend/*.swo
+./backend/__pycache__/
+./backend/*.pyc
+./backend/*.pyo
+./backend/*.pyd
+./backend/*.db
+./backend/*.sqlite3
+./backend/.env
+./backend/venv/
+./backend/env/
+./backend/.venv/
+./backend/*.egg-info/
+./backend/*.swp
+./backend/*.swo
 
 # Logs
 logs/

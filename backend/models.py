@@ -12,6 +12,8 @@ class Contract(db.Model):
     def __repr__(self):
         return f"<Contract {self.address} from {self.group} - {self.status} at {self.timestamp}>"
 
+# ... (previous imports and Contract model remain unchanged)
+
 class Transaction(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     contract_id = db.Column(db.Integer, db.ForeignKey('contract.id'), nullable=True)
@@ -22,6 +24,8 @@ class Transaction(db.Model):
     slippage_tolerance = db.Column(db.Float, nullable=False)
     wallet_balance_after = db.Column(db.Float, nullable=False)
     timestamp = db.Column(db.DateTime, default=datetime.utcnow, index=True)
+    status = db.Column(db.String(10), nullable=False, default="pending")  # Add status
+    error = db.Column(db.Text, nullable=True)  # Add error message for failed attempts
 
     def __repr__(self):
-        return f"<Transaction {self.transaction_type} {self.token_address} for {self.amount_in_dollars} USD at {self.timestamp}>"
+        return f"<Transaction {self.transaction_type} {self.token_address} for {self.amount_in_dollars} USD at {self.timestamp} - {self.status}>"
