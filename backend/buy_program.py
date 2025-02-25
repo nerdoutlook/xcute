@@ -8,10 +8,8 @@ from solders.message import Message
 from solders.pubkey import Pubkey
 from solders.system_program import TransferParams, transfer
 from solders.keypair import Keypair
-from solders.rpc.async_api import AsynClient
-#from solana.rpc.async_api import AsyncClient
-#from solana.rpc.types import TxOpts
-from solders.rpc.types import Tx0pts
+from solana.rpc.async_api import AsyncClient
+from solana.rpc.types import TxOpts
 from config import settings as config_settings
 from websocket_manager import socketio, db
 from models import Transaction, Contract
