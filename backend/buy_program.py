@@ -1,134 +1,150 @@
-import logging
-from datetime import datetime
 import asyncio
+import logging
+import os
+from datetime import datetime
 import aiohttp
-from solders.keypair import Keypair
 from solders.transaction import Transaction
 from solders.message import Message
-from solders.instruction import Instruction, AccountMeta
 from solders.pubkey import Pubkey
 from solders.system_program import TransferParams, transfer
-from solana.rpc.async_api import AsyncClient
-from solana.rpc.types import TxOpts
-from base58 import b58decode
+from solders.keypair import Keypair
+from solders.rpc.async_api import AsynClient
+#from solana.rpc.async_api import AsyncClient
+#from solana.rpc.types import TxOpts
+from solders.rpc.types import Tx0pts
 from config import settings as config_settings
 from websocket_manager import socketio, db
-from models import Contract, Transaction
+from models import Transaction, Contract
+from spl.token.instructions import create_associated_token_account
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[logging.FileHandler(config_settings.log_dir / "buy.log"), logging.StreamHandler()],
-)
+# Constants
+WSOL_MINT = Pubkey.from_string('So11111111111111111111111111111111111111112')
+RAYDIUM_AUTHORITY = Pubkey.from_string('5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVnc2dA9GZwXJD')
+RAYDIUM_POOL = Pubkey.from_string('675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8')
+FEE_DESTINATION = Pubkey.from_string('7YttLkHDoqupeaZiLn99yYZSL3oQ6xxyUcZFKxkyTig1')
 
-RAYDIUM_PROGRAM_ID = Pubkey.from_string("675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8")
-TOKEN_PROGRAM_ID = Pubkey.from_string("TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA")
-SYSTEM_PROGRAM_ID = Pubkey.from_string("11111111111111111111111111111111")
-WSOL_MINT = Pubkey.from_string("So11111111111111111111111111111111111111112")
-
-def load_wallet():
-    try:
-        if not config_settings.wallet_private_key:
-            raise ValueError("Wallet private key is not set in .env file.")
-        private_key = b58decode(config_settings.wallet_private_key)
-        wallet = Keypair.from_bytes(private_key)
-        logging.info(f"Loaded wallet with public key: {wallet.pubkey()}")
-        return wallet
-    except Exception as e:
-        logging.error(f"Error loading wallet: {e}")
-        raise
-
-wallet = load_wallet()
+# Initialize Solana client and wallet
 solana_client = AsyncClient("https://api.mainnet-beta.solana.com")
-active_monitors = set()
+wallet = Keypair.from_base58_string(config_settings.wallet_private_key)  # Ensure WALLET_PRIVATE_KEY is in config.py
 
-def get_ata(wallet_pubkey: Pubkey, mint: Pubkey) -> Pubkey:
+async def get_sol_price():
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get('https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd') as resp:
+                data = await resp.json()
+                return data['solana']['usd']
+    except Exception as e:
+        logging.error(f"Error fetching SOL price: {e}")
+        return 110  # Fallback price
+
+async def get_fee_estimate():
+    try:
+        min_balance = await solana_client.get_minimum_balance_for_rent_exemption(165)  # Typical size for token account
+        return min_balance.value  # Return lamports
+    except Exception as e:
+        logging.error(f"Error estimating fee: {e}")
+        return 1000000  # Fallback fee (1 lamport)
+
+def get_ata(owner: Pubkey, mint: Pubkey):
     return Pubkey.find_program_address(
-        seeds=[bytes(wallet_pubkey), bytes(TOKEN_PROGRAM_ID), bytes(mint)],
-        program_id=TOKEN_PROGRAM_ID
+        seeds=[bytes(owner), bytes(Pubkey.from_string('TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA')), bytes(mint)],
+        program_id=Pubkey.from_string('ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL')
     )[0]
 
-def create_ata_instruction(wallet_pubkey: Pubkey, mint: Pubkey) -> Instruction:
-    ata = get_ata(wallet_pubkey, mint)
-    return Instruction(
-        program_id=TOKEN_PROGRAM_ID,
-        accounts=[
-            AccountMeta(pubkey=wallet_pubkey, is_signer=True, is_writable=True),
-            AccountMeta(pubkey=ata, is_signer=False, is_writable=True),
-            AccountMeta(pubkey=wallet_pubkey, is_signer=False, is_writable=False),
-            AccountMeta(pubkey=mint, is_signer=False, is_writable=False),
-            AccountMeta(pubkey=SYSTEM_PROGRAM_ID, is_signer=False, is_writable=False),
-            AccountMeta(pubkey=TOKEN_PROGRAM_ID, is_signer=False, is_writable=False),
-        ],
-        data=bytes.fromhex("02")
-    )
+def create_ata_instruction(owner: Pubkey, mint: Pubkey):
+    ata = get_ata(owner, mint)
+    return create_associated_token_account(owner, owner, mint)
 
-async def get_sol_price() -> float:
-    async with aiohttp.ClientSession() as session:
-        url = "https://api.coingecko.com/api/v3/simple/price?ids=solana&vs_currencies=usd"
-        async with session.get(url) as response:
-            data = await response.json()
-            return data["solana"]["usd"]
+async def create_swap_instruction(token_address: str, amount_in: int, wallet_pubkey: Pubkey, is_buy=True, slippage_tolerance=0.05):
+    # Placeholder for actual swap instruction creation
+    # This would typically involve interacting with Raydium or another AMM
+    # For now, return a dummy instruction
+    return transfer(TransferParams(from_pubkey=wallet_pubkey, to_pubkey=FEE_DESTINATION, lamports=amount_in))
 
-async def get_token_price_in_sol(token_address: str) -> float:
-    pool_info = await fetch_pool_info(token_address)
-    pool_account = Pubkey.from_string(pool_info["id"])
-    pool_data = (await solana_client.get_account_info(pool_account)).value.data
-    base_reserve = 1000000000  # Placeholder
-    quote_reserve = 1000000000000  # Placeholder
-    return quote_reserve / base_reserve
+async def monitor_token_price(token_address: str, initial_price: float, initial_amount: float, wallet_pubkey: Pubkey, slippage_tolerance: float, contract_id: int):
+    token_ata = get_ata(wallet_pubkey, Pubkey.from_string(token_address))
+    while True:
+        try:
+            balance = (await solana_client.get_token_account_balance(token_ata)).value.ui_amount
+            sol_price = await get_sol_price()
+            current_price = sol_price / balance if balance > 0 else 0
+            price_change = (current_price - initial_price) / initial_price
 
-async def fetch_pool_info(token_address: str):
-    async with aiohttp.ClientSession() as session:
-        url = "https://api.raydium.io/v2/sdk/liquidity/mainnet.json"
-        async with session.get(url) as response:
-            data = await response.json()
-            for pool in data.get("official", []):
-                if pool["baseMint"] == token_address and pool["quoteMint"] == str(WSOL_MINT):
-                    return pool
-            raise ValueError(f"No SOL/{token_address} pool found")
+            if price_change >= config_settings.SELL_PROFIT_THRESHOLD:
+                await sell_token(token_address, wallet_pubkey, balance, contract_id)
+                break
+            elif price_change <= -slippage_tolerance:
+                await sell_token(token_address, wallet_pubkey, balance, contract_id)
+                break
 
-async def get_fee_estimate() -> int:
-    fees = await solana_client.get_recent_prioritization_fees()
-    return max(fees.value[0].prioritization_fee, 5000) if fees.value else 5000
+            await asyncio.sleep(60)  # Check every minute
+        except Exception as e:
+            logging.error(f"Error monitoring token {token_address}: {e}")
+            await asyncio.sleep(60)
 
-async def create_swap_instruction(token_address: str, amount_in_lamports: int, wallet_pubkey: Pubkey, is_buy: bool, slippage_tolerance: float):
-    pool_info = await fetch_pool_info(token_address)
-    pool_account = Pubkey.from_string(pool_info["id"])
-    base_mint = Pubkey.from_string(pool_info["baseMint"])
-    quote_mint = Pubkey.from_string(pool_info["quoteMint"])
-    base_vault = Pubkey.from_string(pool_info["baseVault"])
-    quote_vault = Pubkey.from_string(pool_info["quoteVault"])
+async def sell_token(token_address: str, wallet_pubkey: Pubkey, amount: float, contract_id: int):
+    try:
+        token_ata = get_ata(wallet_pubkey, Pubkey.from_string(token_address))
+        wsol_ata = get_ata(wallet_pubkey, WSOL_MINT)
+        amount_in_lamports = int(amount * 1e6)  # Assuming 6 decimals for token
 
-    token_account_in = get_ata(wallet_pubkey, quote_mint if is_buy else base_mint)
-    token_account_out = get_ata(wallet_pubkey, base_mint if is_buy else quote_mint)
-    authority, _ = Pubkey.find_program_address(seeds=[bytes(pool_account)], program_id=RAYDIUM_PROGRAM_ID)
+        recent_blockhash = await solana_client.get_latest_blockhash()
+        instructions = [
+            await create_swap_instruction(token_address, amount_in_lamports, wallet_pubkey, is_buy=False)
+        ]
 
-    expected_out = amount_in_lamports if is_buy else (amount_in_lamports * await get_token_price_in_sol(token_address))
-    min_amount_out = int(expected_out * (1 - slippage_tolerance))
+        message = Message.new_with_blockhash(instructions, wallet_pubkey, recent_blockhash.value.blockhash)
+        transaction = Transaction([wallet], message)
+        signature = await solana_client.send_transaction(transaction, opts=TxOpts(skip_confirmation=False))
+        logging.info(f"Sell transaction sent with signature: {signature.value}")
+        print(f"Sell transaction sent: {signature.value}")
 
-    accounts = [
-        AccountMeta(pubkey=TOKEN_PROGRAM_ID, is_signer=False, is_writable=False),
-        AccountMeta(pubkey=pool_account, is_signer=False, is_writable=True),
-        AccountMeta(pubkey=authority, is_signer=False, is_writable=False),
-        AccountMeta(pubkey=wallet_pubkey, is_signer=True, is_writable=True),
-        AccountMeta(pubkey=token_account_in, is_signer=False, is_writable=True),
-        AccountMeta(pubkey=base_vault, is_signer=False, is_writable=True),
-        AccountMeta(pubkey=quote_vault, is_signer=False, is_writable=True),
-        AccountMeta(pubkey=token_account_out, is_signer=False, is_writable=True),
-        AccountMeta(pubkey=SYSTEM_PROGRAM_ID, is_signer=False, is_writable=False),
-    ]
+        sol_price = await get_sol_price()
+        dollar_value = amount * sol_price
+        sell_details = {
+            "token_sold": token_address,
+            "dollar_value": dollar_value,
+            "amount_in_sol": amount,
+            "wallet_balance_after": (await solana_client.get_balance(wallet_pubkey)).value / 1e9,
+            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        }
 
-    data = bytes([9]) + amount_in_lamports.to_bytes(8, "little") + min_amount_out.to_bytes(8, "little")
-    return Instruction(program_id=RAYDIUM_PROGRAM_ID, accounts=accounts, data=data)
+        with db.session.begin():
+            contract = Contract.query.get(contract_id)
+            if contract:
+                contract.status = "sold"
+                contract.details = str(sell_details)
+            sell_transaction = Transaction(
+                contract_id=contract_id,
+                token_address=token_address,
+                transaction_type="sell",
+                amount_in_dollars=dollar_value,
+                amount_in_sol=amount,
+                slippage_tolerance=0,
+                wallet_balance_after=(await solana_client.get_balance(wallet_pubkey)).value / 1e9,
+                status="success"
+            )
+            db.session.add(sell_transaction)
+            db.session.commit()
 
-async def check_wallet_balance(min_sol: float = 0.01):
-    balance = (await solana_client.get_balance(wallet.pubkey())).value / 1e9
-    if balance < min_sol:
-        logging.warning(f"Wallet balance low: {balance} SOL. Please fund with at least {min_sol} SOL.")
-    else:
-        logging.info(f"Wallet balance: {balance} SOL")
-    return balance
+        socketio.emit("sell", sell_details)
+    except Exception as e:
+        logging.error(f"Error selling token {token_address}: {e}")
+        with db.session.begin():
+            sell_transaction = Transaction(
+                contract_id=contract_id,
+                token_address=token_address,
+                transaction_type="sell",
+                amount_in_dollars=0,
+                amount_in_sol=amount,
+                slippage_tolerance=0,
+                wallet_balance_after=(await solana_client.get_balance(wallet_pubkey)).value / 1e9 if 'solana_client' in globals() else 0,
+                status="failed",
+                error=str(e)
+            )
+            db.session.add(sell_transaction)
+            db.session.commit()
+        socketio.emit("sell_failed", {"token": token_address, "error": str(e), "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")})
 
 async def buy_token(token_address: str, group: str = None):
     try:
@@ -187,14 +203,12 @@ async def buy_token(token_address: str, group: str = None):
         print(f"Buy completed: {buy_details}")
 
         with db.session.begin():
-            # Update contract status to "bought"
             contract = Contract.query.filter_by(address=token_address, group=group).first()
             if contract:
                 contract.status = "bought"
                 contract.details = str(buy_details)
                 print(f"Updated contract {token_address} to status: bought")
             
-            # Add transaction
             buy_transaction = Transaction(
                 contract_id=contract.id if contract else None,
                 token_address=token_address,
@@ -202,7 +216,8 @@ async def buy_token(token_address: str, group: str = None):
                 amount_in_dollars=dollar_value,
                 amount_in_sol=amount_in_sol,
                 slippage_tolerance=slippage_tolerance * 100,
-                wallet_balance_after=(await solana_client.get_balance(wallet.pubkey())).value / 1e9
+                wallet_balance_after=(await solana_client.get_balance(wallet.pubkey())).value / 1e9,
+                status="success"
             )
             db.session.add(buy_transaction)
             db.session.commit()
@@ -212,101 +227,23 @@ async def buy_token(token_address: str, group: str = None):
         asyncio.create_task(monitor_token_price(token_address, initial_price, initial_token_amount, wallet.pubkey(), slippage_tolerance, contract.id if contract else None))
 
     except Exception as e:
-        db.session.rollback()
         logging.error(f"Error buying token {token_address}: {e}")
         print(f"Buy failed for {token_address}: {e}")
-        # Contract already added as "found" in telegram_monitor.py, no further action needed
-        raise
-
-async def monitor_token_price(token_address: str, initial_price: float, initial_token_amount: float, wallet_pubkey: Pubkey, slippage_tolerance: float, contract_id: int = None):
-    if token_address in active_monitors:
-        logging.info(f"Already monitoring {token_address}, skipping duplicate task")
-        return
-    active_monitors.add(token_address)
-    try:
-        token_ata = get_ata(wallet_pubkey, Pubkey.from_string(token_address))
-        while True:
-            current_price = await get_token_price_in_sol(token_address)
-            price_change = current_price / initial_price
-            logging.info(f"Monitoring {token_address}: Current price {current_price:.8f} SOL, Initial price {initial_price:.8f} SOL, Change {price_change:.2f}x")
-            print(f"Monitoring {token_address}: Price change {price_change:.2f}x")
-
-            if price_change >= config_settings.PROFIT_THRESHOLD:
-                sell_amount = int(initial_token_amount * config_settings.SELL_PROFIT_FACTOR * 1e9)
-                remaining_amount = initial_token_amount * (config_settings.PROFIT_THRESHOLD - config_settings.SELL_PROFIT_FACTOR)
-                await sell_token(token_address, sell_amount, wallet_pubkey, slippage_tolerance, contract_id)
-                logging.info(f"Sold {config_settings.SELL_PROFIT_FACTOR}x ({sell_amount / 1e9} tokens), holding {remaining_amount} tokens")
-                print(f"Sold {sell_amount / 1e9} tokens, holding {remaining_amount}")
-                initial_price = current_price
-                initial_token_amount = remaining_amount
-
-            elif price_change <= config_settings.LOSS_THRESHOLD:
-                sell_amount = (await solana_client.get_token_account_balance(token_ata)).value.amount
-                await sell_token(token_address, int(sell_amount), wallet_pubkey, slippage_tolerance, contract_id)
-                logging.info(f"Sold all tokens due to price drop below {config_settings.LOSS_THRESHOLD*100}%")
-                print(f"Sold all tokens due to {config_settings.LOSS_THRESHOLD*100}% drop")
-                break
-
-            await asyncio.sleep(60)
-
-    except Exception as e:
-        logging.error(f"Error monitoring token price for {token_address}: {e}")
-        print(f"Monitoring error for {token_address}: {e}")
-    finally:
-        active_monitors.remove(token_address)
-
-async def sell_token(token_address: str, amount_to_sell: int, wallet_pubkey: Pubkey, slippage_tolerance: float, contract_id: int = None):
-    try:
-        fee_estimate = await get_fee_estimate()
-        balance = (await solana_client.get_balance(wallet_pubkey)).value
-        if balance < fee_estimate:
-            raise ValueError(f"Insufficient SOL for fees: {balance / 1e9} SOL available, {fee_estimate / 1e9} SOL required")
-
-        recent_blockhash = await solana_client.get_latest_blockhash()
-        sell_instruction = await create_swap_instruction(token_address, amount_to_sell, wallet_pubkey, is_buy=False, slippage_tolerance=slippage_tolerance)
-        
-        message = Message.new_with_blockhash([sell_instruction], wallet_pubkey, recent_blockhash.value.blockhash)
-        transaction = Transaction([wallet], message)
-        signature = await solana_client.send_transaction(transaction, opts=TxOpts(skip_confirmation=False))
-        logging.info(f"Sell transaction sent with signature: {signature.value}")
-        print(f"Sell transaction sent: {signature.value}")
-
-        sol_received = (amount_to_sell / 1e9) * await get_token_price_in_sol(token_address)
-        dollar_value = sol_received * await get_sol_price()
-
-        sell_details = {
-            "token_sold": token_address,
-            "amount_sold": amount_to_sell / 1e9,
-            "amount_in_sol": sol_received,
-            "dollar_value": dollar_value,
-            "slippage_tolerance": slippage_tolerance * 100,
-            "wallet_balance_after": (await solana_client.get_balance(wallet_pubkey)).value / 1e9,
-            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        }
-        logging.info(f"Sell transaction details: {sell_details}")
-        print(f"Sell completed: {sell_details}")
-
         with db.session.begin():
-            sell_transaction = Transaction(
-                contract_id=contract_id,
+            contract = Contract.query.filter_by(address=token_address, group=group).first()
+            failed_transaction = Transaction(
+                contract_id=contract.id if contract else None,
                 token_address=token_address,
-                transaction_type="sell",
+                transaction_type="buy",
                 amount_in_dollars=dollar_value,
-                amount_in_sol=sol_received,
+                amount_in_sol=amount_in_sol if 'amount_in_sol' in locals() else 0,
                 slippage_tolerance=slippage_tolerance * 100,
-                wallet_balance_after=(await solana_client.get_balance(wallet_pubkey)).value / 1e9
+                wallet_balance_after=(await solana_client.get_balance(wallet.pubkey())).value / 1e9 if 'solana_client' in globals() else 0,
+                status="failed",
+                error=str(e)
             )
-            db.session.add(sell_transaction)
+            db.session.add(failed_transaction)
             db.session.commit()
-            print(f"Added sell transaction to database for {token_address}")
-
-        socketio.emit("sell", sell_details)
-
-    except Exception as e:
-        db.session.rollback()
-        logging.error(f"Error selling token {token_address}: {e}")
-        print(f"Sell failed for {token_address}: {e}")
-        raise
-
-if __name__ == "__main__":
-    asyncio.run(check_wallet_balance())
+            print(f"Logged failed buy transaction for {token_address}")
+        socketio.emit("buy_failed", {"token": token_address, "error": str(e), "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")})
+        raise  # Stop execution to avoid misleading "completed" message
