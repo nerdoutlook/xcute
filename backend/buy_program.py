@@ -3,6 +3,7 @@ import logging
 import os
 from datetime import datetime
 import aiohttp
+import base58
 from solders.transaction import Transaction
 from solders.message import Message
 from solders.pubkey import Pubkey
@@ -23,7 +24,21 @@ FEE_DESTINATION = Pubkey.from_string('7YttLkHDoqupeaZiLn99yYZSL3oQ6xxyUcZFKxkyTi
 
 # Initialize Solana client and wallet
 solana_client = AsyncClient("https://api.mainnet-beta.solana.com")
-wallet = Keypair.from_base58_string(config_settings.wallet_private_key)  # Ensure WALLET_PRIVATE_KEY is in config.py
+
+def load_wallet(private_key_str):
+    try:
+        # Try loading as full 64-byte keypair
+        return Keypair.from_base58_string(private_key_str)
+    except ValueError as e:
+        print(f"Failed to load as full keypair: {e}")
+        # Fallback: assume it’s a 32-byte secret key in base58
+        secret_key_bytes = base58.b58decode(private_key_str)
+        if len(secret_key_bytes) == 32:
+            return Keypair.from_seed(secret_key_bytes)
+        raise ValueError("Invalid private key format")
+
+wallet = load_wallet(config_settings.wallet_private_key)
+#wallet = Keypair.from_base58_string(config_settings.wallet_private_key)  # Ensure WALLET_PRIVATE_KEY is in config.py
 
 async def get_sol_price():
     try:
