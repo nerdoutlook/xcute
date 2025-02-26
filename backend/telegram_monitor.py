@@ -3,7 +3,6 @@ import logging
 from telethon import TelegramClient, events
 from datetime import datetime
 from config import settings
-from main import socketio, db, app  # Import from main.py
 from buy_program import buy_token
 from models import Contract
 import asyncio
@@ -29,6 +28,9 @@ def load_groups():
 group_links = load_groups()
 
 async def start_monitoring(session_name="telegram_monitor_session"):
+    # Move imports inside the function to avoid circular import
+    from main import socketio, db, app
+
     client = TelegramClient(session_name, settings.api_id, settings.api_hash)
     if not group_links:
         logging.error("No groups to monitor. Exiting.")
