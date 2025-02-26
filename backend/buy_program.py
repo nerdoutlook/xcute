@@ -12,7 +12,6 @@ from solders.keypair import Keypair
 from solana.rpc.async_api import AsyncClient
 from solana.rpc.types import TxOpts
 from config import settings as config_settings
-from main import socketio, db  # Import from main.py
 from models import Transaction, Contract
 from spl.token.instructions import create_associated_token_account
 
@@ -24,7 +23,7 @@ FEE_DESTINATION = Pubkey.from_string('7YttLkHDoqupeaZiLn99yYZSL3oQ6xxyUcZFKxkyTi
 
 # Initialize Solana client and wallet
 solana_client = AsyncClient("https://api.mainnet-beta.solana.com")
-wallet = Keypair.from_base58_string(config_settings.wallet_private_key)  # Ensure WALLET_PRIVATE_KEY is in config.py
+wallet = Keypair.from_base58_string(config_settings.wallet_private_key)
 
 async def get_sol_price():
     try:
@@ -38,7 +37,7 @@ async def get_sol_price():
 
 async def get_fee_estimate():
     try:
-        min_balance = await solana_client.get_minimum_balance_for_rent_exemption(165)  # Typical size for token account
+        min_balance = await solana_client.get_minimum_balance_for_rent_exemption(165)
         return min_balance.value  # Return lamports
     except Exception as e:
         logging.error(f"Error estimating fee: {e}")
@@ -55,12 +54,11 @@ def create_ata_instruction(owner: Pubkey, mint: Pubkey):
     return create_associated_token_account(owner, owner, mint)
 
 async def create_swap_instruction(token_address: str, amount_in: int, wallet_pubkey: Pubkey, is_buy=True, slippage_tolerance=0.05):
-    # Placeholder for actual swap instruction creation
-    # This would typically involve interacting with Raydium or another AMM
-    # For now, return a dummy instruction
     return transfer(TransferParams(from_pubkey=wallet_pubkey, to_pubkey=FEE_DESTINATION, lamports=amount_in))
 
 async def monitor_token_price(token_address: str, initial_price: float, initial_amount: float, wallet_pubkey: Pubkey, slippage_tolerance: float, contract_id: int):
+    from main import socketio, db  # Import inside function
+
     token_ata = get_ata(wallet_pubkey, Pubkey.from_string(token_address))
     while True:
         try:
@@ -82,6 +80,8 @@ async def monitor_token_price(token_address: str, initial_price: float, initial_
             await asyncio.sleep(60)
 
 async def sell_token(token_address: str, wallet_pubkey: Pubkey, amount: float, contract_id: int):
+    from main import socketio, db  # Import inside function
+
     try:
         token_ata = get_ata(wallet_pubkey, Pubkey.from_string(token_address))
         wsol_ata = get_ata(wallet_pubkey, WSOL_MINT)
@@ -146,6 +146,8 @@ async def sell_token(token_address: str, wallet_pubkey: Pubkey, amount: float, c
         socketio.emit("sell_failed", {"token": token_address, "error": str(e), "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")})
 
 async def buy_token(token_address: str, group: str = None):
+    from main import socketio, db  # Import inside function
+
     try:
         dollar_value = config_settings.BUY_DOLLAR_VALUE
         slippage_tolerance = config_settings.SLIPPAGE_TOLERANCE
@@ -245,4 +247,4 @@ async def buy_token(token_address: str, group: str = None):
             db.session.commit()
             print(f"Logged failed buy transaction for {token_address}")
         socketio.emit("buy_failed", {"token": token_address, "error": str(e), "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")})
-        raise  # Stop execution to avoid misleading "completed" message
+        raise
