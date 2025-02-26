@@ -13,10 +13,16 @@ from models import Contract, Transaction
 import asyncio  # Added missing import
 
 CORS(app, supports_credentials=True)
-
 app.static_folder = os.path.abspath("../frontend/build")
 app.template_folder = os.path.abspath("../frontend/build")
 
+app = Flask(__name__)
+app.config["SQLALCHEMY_DATABASE_URI"] = settings.database_uri
+app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False  # Optional, reduces warnings
+db.init_app(app)
+
+with app.app_context():
+    init_db()
 '''
 logging.basicConfig(
     level=logging.INFO,
