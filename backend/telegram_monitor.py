@@ -8,6 +8,7 @@ from buy_program import buy_token
 from models import Contract
 import asyncio
 
+'''
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
@@ -16,6 +17,7 @@ logging.basicConfig(
         logging.StreamHandler()
     ],
 )
+'''
 
 def load_groups():
     try:
