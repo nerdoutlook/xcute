@@ -12,7 +12,6 @@ from solders.keypair import Keypair
 from solana.rpc.async_api import AsyncClient
 from solana.rpc.types import TxOpts
 from config import settings as config_settings
-from models import Transaction, Contract
 from spl.token.instructions import create_associated_token_account
 
 # Constants
@@ -57,7 +56,7 @@ async def create_swap_instruction(token_address: str, amount_in: int, wallet_pub
     return transfer(TransferParams(from_pubkey=wallet_pubkey, to_pubkey=FEE_DESTINATION, lamports=amount_in))
 
 async def monitor_token_price(token_address: str, initial_price: float, initial_amount: float, wallet_pubkey: Pubkey, slippage_tolerance: float, contract_id: int):
-    from main import socketio, db  # Import inside function
+    from main import socketio, db, Contract, Transaction  # Import inside function
 
     token_ata = get_ata(wallet_pubkey, Pubkey.from_string(token_address))
     while True:
@@ -74,18 +73,18 @@ async def monitor_token_price(token_address: str, initial_price: float, initial_
                 await sell_token(token_address, wallet_pubkey, balance, contract_id)
                 break
 
-            await asyncio.sleep(60)  # Check every minute
+            await asyncio.sleep(60)
         except Exception as e:
             logging.error(f"Error monitoring token {token_address}: {e}")
             await asyncio.sleep(60)
 
 async def sell_token(token_address: str, wallet_pubkey: Pubkey, amount: float, contract_id: int):
-    from main import socketio, db  # Import inside function
+    from main import socketio, db, Contract, Transaction  # Import inside function
 
     try:
         token_ata = get_ata(wallet_pubkey, Pubkey.from_string(token_address))
         wsol_ata = get_ata(wallet_pubkey, WSOL_MINT)
-        amount_in_lamports = int(amount * 1e6)  # Assuming 6 decimals for token
+        amount_in_lamports = int(amount * 1e6)
 
         recent_blockhash = await solana_client.get_latest_blockhash()
         instructions = [
@@ -146,7 +145,7 @@ async def sell_token(token_address: str, wallet_pubkey: Pubkey, amount: float, c
         socketio.emit("sell_failed", {"token": token_address, "error": str(e), "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")})
 
 async def buy_token(token_address: str, group: str = None):
-    from main import socketio, db  # Import inside function
+    from main import socketio, db, Contract, Transaction  # Import inside function
 
     try:
         dollar_value = config_settings.BUY_DOLLAR_VALUE
