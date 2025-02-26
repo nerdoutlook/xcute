@@ -17,6 +17,7 @@ CORS(app, supports_credentials=True)
 app.static_folder = os.path.abspath("../frontend/build")
 app.template_folder = os.path.abspath("../frontend/build")
 
+'''
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
@@ -28,6 +29,7 @@ logging.basicConfig(
 
 logging.info(f"Static folder: {app.static_folder}")
 logging.info(f"Template folder: {app.template_folder}")
+'''
 
 @app.route("/_next/<path:path>")
 def serve_next_static(path):
