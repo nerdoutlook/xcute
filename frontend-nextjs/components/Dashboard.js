@@ -37,7 +37,7 @@ export default function Dashboard() {
     };
     fetchData();
 
-    const socket = io('http://localhost:8000');
+    const socket = io('https://xcute.onrender.com'); //Connect backend to frontend
     socket.on('connect', () => console.log('WebSocket connected'));
     socket.on('contract', (data) => {
       console.log('New contract:', data);
