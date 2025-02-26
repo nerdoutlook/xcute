@@ -12,7 +12,7 @@ from solders.keypair import Keypair
 from solana.rpc.async_api import AsyncClient
 from solana.rpc.types import TxOpts
 from config import settings as config_settings
-from websocket_manager import socketio, db
+from main import socketio, db  # Import from main.py
 from models import Transaction, Contract
 from spl.token.instructions import create_associated_token_account
 
@@ -25,21 +25,6 @@ FEE_DESTINATION = Pubkey.from_string('7YttLkHDoqupeaZiLn99yYZSL3oQ6xxyUcZFKxkyTi
 # Initialize Solana client and wallet
 solana_client = AsyncClient("https://api.mainnet-beta.solana.com")
 wallet = Keypair.from_base58_string(config_settings.wallet_private_key)  # Ensure WALLET_PRIVATE_KEY is in config.py
-
-'''
-def load_wallet(private_key_str):
-    try:
-        # Try loading as full 64-byte keypair
-        return Keypair.from_base58_string(private_key_str)
-    except ValueError as e:
-        print(f"Failed to load as full keypair: {e}")
-        # Fallback: assume it’s a 32-byte secret key in base58
-        secret_key_bytes = base58.b58decode(private_key_str)
-        if len(secret_key_bytes) == 32:
-            return Keypair.from_seed(secret_key_bytes)
-        raise ValueError("Invalid private key format")
-wallet = load_wallet(config_settings.wallet_private_key)
-'''
 
 async def get_sol_price():
     try:
@@ -182,11 +167,11 @@ async def buy_token(token_address: str, group: str = None):
 
         wsol_ata = get_ata(wallet.pubkey(), WSOL_MINT)
         token_ata = get_ata(wallet.pubkey(), Pubkey.from_string(token_address))
-        
+
         if not (await solana_client.get_account_info(wsol_ata)).value:
             instructions.append(create_ata_instruction(wallet.pubkey(), WSOL_MINT))
             instructions.append(transfer(TransferParams(from_pubkey=wallet.pubkey(), to_pubkey=wsol_ata, lamports=amount_in_lamports)))
-        
+
         if not (await solana_client.get_account_info(token_ata)).value:
             instructions.append(create_ata_instruction(wallet.pubkey(), Pubkey.from_string(token_address)))
 
@@ -222,7 +207,7 @@ async def buy_token(token_address: str, group: str = None):
                 contract.status = "bought"
                 contract.details = str(buy_details)
                 print(f"Updated contract {token_address} to status: bought")
-            
+
             buy_transaction = Transaction(
                 contract_id=contract.id if contract else None,
                 token_address=token_address,

@@ -3,21 +3,10 @@ import logging
 from telethon import TelegramClient, events
 from datetime import datetime
 from config import settings
-from websocket_manager import socketio, db, app
+from main import socketio, db, app  # Import from main.py
 from buy_program import buy_token
 from models import Contract
 import asyncio
-
-'''
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler(settings.log_dir / "monitor.log"),
-        logging.StreamHandler()
-    ],
-)
-'''
 
 def load_groups():
     try:
@@ -46,7 +35,7 @@ async def start_monitoring(session_name="telegram_monitor_session"):
         print("No groups to monitor. Exiting.")
         return
     try:
-        await client.start()
+        await client.start(bot_token=settings.bot_token if settings.bot_token else None)
         logging.info("Telegram client connected successfully.")
         print("Telegram client started and connected.")
         async for dialog in client.iter_dialogs():
@@ -64,7 +53,6 @@ async def start_monitoring(session_name="telegram_monitor_session"):
 
             group_name = event.chat.title or f"Group {event.chat_id}"
             current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
             matches = re.findall(PUMP_FUN_ADDRESS_PATTERN, message)
             print(f"Regex matches for '{message}': {matches}")
             if not matches:
@@ -73,36 +61,39 @@ async def start_monitoring(session_name="telegram_monitor_session"):
                 return
 
             for match in matches:
-                contract_address = match[:-4]  # Strip "pump"
+                contract_address = match
                 log_message = f"Detected Pump.fun contract in {group_name}: {contract_address}"
                 logging.info(log_message)
                 print(f"Found contract: {contract_address} in {group_name} at {current_time}")
 
                 try:
                     with app.app_context():
-                        new_contract = Contract(address=contract_address, group=group_name, status="found", timestamp=datetime.now())
+                        new_contract = Contract(
+                            address=contract_address,
+                            group=group_name,
+                            status="found",
+                            timestamp=datetime.now()
+                        )
                         db.session.add(new_contract)
                         db.session.commit()
                         contract_id = new_contract.id
                         print(f"Added contract {contract_address} to database with ID {contract_id}, status: found")
 
-                    socketio.emit("contract", {
-                        "contract": contract_address,
-                        "group": group_name,
-                        "timestamp": current_time
-                    })
+                        socketio.emit("contract", {
+                            "contract": contract_address,
+                            "group": group_name,
+                            "timestamp": current_time
+                        })
 
-                    print(f"Attempting to buy token: {contract_address}")
-                    # Run buy_token within app context
-                    with app.app_context():
+                        print(f"Attempting to buy token: {contract_address}")
                         await buy_token(contract_address, group_name)
-                    print(f"Buy transaction completed for {contract_address}")
+                        print(f"Buy transaction completed for {contract_address}")
 
                 except Exception as e:
                     with app.app_context():
                         db.session.rollback()
-                    logging.error(f"Error processing contract {contract_address} in {group_name}: {e}", exc_info=True)
-                    print(f"Failed to buy {contract_address}: {e}")
+                        logging.error(f"Error processing contract {contract_address} in {group_name}: {e}", exc_info=True)
+                        print(f"Failed to buy {contract_address}: {e}")
 
                 await asyncio.sleep(1)
 

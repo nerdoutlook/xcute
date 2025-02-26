@@ -1,8 +1,4 @@
-from flask_socketio import SocketIO
-from flask_sqlalchemy import SQLAlchemy
-
-socketio = SocketIO()
-db = SQLAlchemy()
+from main import socketio, db
 
 def init_db():
     db.create_all()

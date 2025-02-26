@@ -6,12 +6,14 @@ import signal
 import asyncio
 from flask import Flask, jsonify
 from flask_cors import CORS
-from websocket_manager import socketio, db, init_db
+from flask_socketio import SocketIO
+from flask_sqlalchemy import SQLAlchemy
 from telegram_monitor import start_monitoring
 from config import settings
 from models import Contract, Transaction
 from buy_program import solana_client, wallet
 
+# Initialize Flask app
 app = Flask(__name__)
 app.config["SECRET_KEY"] = settings.secret_key
 app.config["SQLALCHEMY_DATABASE_URI"] = settings.database_uri
@@ -20,11 +22,14 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 # CORS for HTTP API endpoints
 CORS(app, resources={r"/api/*": {"origins": "https://xcute-six.vercel.app"}})
 
-# Initialize DB
-db.init_app(app)
+# Initialize SocketIO and DB
+socketio = SocketIO(app, cors_allowed_origins=["https://xcute.onrender.com", "https://xcute-six.vercel.app"], engineio_logger=True)
+db = SQLAlchemy(app)
 
-# Ensure SocketIO CORS includes Vercel frontend
-socketio.init_app(app, cors_allowed_origins=["https://xcute.onrender.com", "https://xcute-six.vercel.app"], engineio_logger=True)
+def init_db():
+    with app.app_context():
+        db.create_all()
+        logging.info("Database tables created.")
 
 # API Endpoints
 @app.route("/api/contracts")
@@ -111,8 +116,7 @@ if __name__ == "__main__":
     )
     logging.info("Initializing database...")
     print("Initializing database...")
-    with app.app_context():
-        init_db()
+    init_db()
 
     telegram_process = multiprocessing.Process(target=run_telegram_monitoring, name="TelegramMonitor")
     telegram_process.start()
