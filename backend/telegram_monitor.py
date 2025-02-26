@@ -109,6 +109,8 @@ async def start_monitoring(session_name="telegram_monitor_session"):
         print(f"Telegram client failed to start: {e}")
 
 #PUMP_FUN_ADDRESS_PATTERN = r"\b[1-9A-HJ-NP-Za-km-z]{44}\b"  # Match full 44-char Pump.fun address
-PUMP_FUN_ADDRESS_PATTERN = r"\b[1-9A-HJ-NP-Za-km-z]{42,43}pump\b"
+#PUMP_FUN_ADDRESS_PATTERN = r"\b[1-9A-HJ-NP-Za-km-z]{42,43}pump\b"
+PUMP_FUN_ADDRESS_PATTERN = r"\b^[1-9A-HJ-NP-Za-km-z]{32,44}pump$\b"
+
 if __name__ == "__main__":
     asyncio.run(start_monitoring())
