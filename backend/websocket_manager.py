@@ -14,7 +14,8 @@ Session(app)
 
 db = SQLAlchemy(app)
 # Allow CORS for SocketIO, including the Flask server origin
-socketio = SocketIO(app, cors_allowed_origins=["http://127.0.0.1:8000", "http://localhost:8000"], engineio_logger=True)
+socketio = SocketIO(app, cors_allowed_origins=["https://xcute.onrender.com", "http://localhost:8000"], engineio_logger=True)
+#socketio = SocketIO(app, cors_allowed_origins=["http://127.0.0.1:8000", "http://localhost:8000"], engineio_logger=True)
 
 from models import Contract, Transaction
 
