@@ -3,64 +3,30 @@ import multiprocessing
 import os
 import sys
 import signal
-import time
-from flask import Flask, request, jsonify, send_from_directory
+import asyncio
+from flask import Flask, jsonify
 from flask_cors import CORS
-from websocket_manager import socketio, app, db, init_db
+from websocket_manager import socketio, db, init_db
 from telegram_monitor import start_monitoring
 from config import settings
 from models import Contract, Transaction
-import asyncio  # Added missing import
-
-CORS(app, supports_credentials=True)
-app.static_folder = os.path.abspath("../frontend/build")
-app.template_folder = os.path.abspath("../frontend/build")
+from buy_program import solana_client, wallet
 
 app = Flask(__name__)
+app.config["SECRET_KEY"] = settings.secret_key
 app.config["SQLALCHEMY_DATABASE_URI"] = settings.database_uri
-app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False  # Optional, reduces warnings
+app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+
+# CORS for HTTP API endpoints
+CORS(app, resources={r"/api/*": {"origins": "https://xcute-six.vercel.app"}})
+
+# Initialize DB
 db.init_app(app)
 
-with app.app_context():
-    init_db()
-'''
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler(settings.log_dir / "server.log"),
-        logging.StreamHandler()
-    ],
-)
+# Ensure SocketIO CORS includes Vercel frontend
+socketio.init_app(app, cors_allowed_origins=["https://xcute.onrender.com", "https://xcute-six.vercel.app"], engineio_logger=True)
 
-logging.info(f"Static folder: {app.static_folder}")
-logging.info(f"Template folder: {app.template_folder}")
-'''
-
-@app.route("/_next/<path:path>")
-def serve_next_static(path):
-    full_path = os.path.join(app.static_folder, "_next", path)
-    logging.info(f"Serving static file: {full_path}")
-    return send_from_directory(os.path.join(app.static_folder, "_next"), path)
-
-@app.route("/favicon.ico")
-def serve_favicon():
-    full_path = os.path.join(app.static_folder, "favicon.ico")
-    logging.info(f"Serving favicon: {full_path}")
-    return send_from_directory(app.static_folder, "favicon.ico")
-
-@app.route("/", defaults={"path": ""})
-@app.route("/<path:path>")
-def serve_home(path):
-    file_name = f"{path}.html" if path else "index.html"
-    full_path = os.path.join(app.template_folder, file_name)
-    logging.info(f"Serving page: {full_path}")
-    try:
-        return send_from_directory(app.template_folder, file_name)
-    except FileNotFoundError:
-        logging.info(f"Fallback to index.html: {os.path.join(app.template_folder, 'index.html')}")
-        return send_from_directory(app.template_folder, "index.html")
-
+# API Endpoints
 @app.route("/api/contracts")
 def get_contracts():
     with app.app_context():
@@ -93,11 +59,17 @@ def get_transactions():
         } for transaction in transactions])
 
 @app.route("/api/wallet_balance")
-def get_wallet_balance():
-    from buy_program import solana_client, wallet  # Import here to avoid circular import
-    with app.app_context():
-        balance = asyncio.run(solana_client.get_balance(wallet.pubkey())).value / 1e9
+async def get_wallet_balance():
+    try:
+        balance = (await solana_client.get_balance(wallet.pubkey())).value / 1e9
         return jsonify({"balance": balance})
+    except Exception as e:
+        logging.error(f"Wallet balance error: {e}")
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/api/test")
+def test():
+    return jsonify({"status": "Backend is alive"})
 
 @socketio.on("connect")
 def handle_connect():
@@ -112,7 +84,6 @@ def handle_disconnect():
 
 def run_telegram_monitoring():
     """Run Telegram monitoring in a separate process."""
-    import asyncio
     from telegram_monitor import start_monitoring
     sys.stdout = os.fdopen(sys.stdout.fileno(), 'w', 1)
     sys.stderr = os.fdopen(sys.stderr.fileno(), 'w', 1)
@@ -126,22 +97,28 @@ def cleanup_subprocess(process):
         process.terminate()
         process.join(timeout=2)
         if process.is_alive():
-            os.kill(process.pid, signal.SIGKILL)  # Force kill if terminate fails
+            os.kill(process.pid, signal.SIGKILL)
             process.join()
 
 if __name__ == "__main__":
-    # Initialize database in the main process
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s",
+        handlers=[
+            logging.FileHandler(settings.log_dir / "server.log"),
+            logging.StreamHandler()
+        ],
+    )
     logging.info("Initializing database...")
     print("Initializing database...")
-    init_db()
+    with app.app_context():
+        init_db()
 
-    # Start Telegram monitoring in a separate process
     telegram_process = multiprocessing.Process(target=run_telegram_monitoring, name="TelegramMonitor")
     telegram_process.start()
     logging.info("Telegram monitoring process started with PID: %d", telegram_process.pid)
     print(f"Telegram monitoring process started with PID: {telegram_process.pid}")
 
-    # Run Flask-SocketIO in the main thread with eventlet
     logging.info("Starting Flask-SocketIO server...")
     print("Starting Flask server...")
     try:
