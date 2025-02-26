@@ -24,7 +24,9 @@ FEE_DESTINATION = Pubkey.from_string('7YttLkHDoqupeaZiLn99yYZSL3oQ6xxyUcZFKxkyTi
 
 # Initialize Solana client and wallet
 solana_client = AsyncClient("https://api.mainnet-beta.solana.com")
+wallet = Keypair.from_base58_string(config_settings.wallet_private_key)  # Ensure WALLET_PRIVATE_KEY is in config.py
 
+'''
 def load_wallet(private_key_str):
     try:
         # Try loading as full 64-byte keypair
@@ -36,9 +38,8 @@ def load_wallet(private_key_str):
         if len(secret_key_bytes) == 32:
             return Keypair.from_seed(secret_key_bytes)
         raise ValueError("Invalid private key format")
-
 wallet = load_wallet(config_settings.wallet_private_key)
-#wallet = Keypair.from_base58_string(config_settings.wallet_private_key)  # Ensure WALLET_PRIVATE_KEY is in config.py
+'''
 
 async def get_sol_price():
     try:
