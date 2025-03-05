@@ -1,3 +1,4 @@
+
 import { useEffect, useState, useContext } from 'react';
 import { SocketContext } from './SocketProvider';
 import TransactionLog from './TransactionLog';
@@ -33,12 +34,14 @@ export default function Dashboard() {
         updateMetrics(contractsRes.data, transactionsRes.data);
       } catch (error) {
         console.error('Error fetching data:', error);
-0      }
+      }
     };
     fetchData();
 
-    const socket = io('https://xcute.onrender.com'); //Connect backend to frontend
+    // Connect to Render backend WebSocket
+    const socket = io('https://xcute.onrender.com', { transports: ['websocket', 'polling'] });
     socket.on('connect', () => console.log('WebSocket connected'));
+    socket.on('connect_error', (err) => console.error('WebSocket connection error:', err.message));
     socket.on('contract', (data) => {
       console.log('New contract:', data);
       setContracts(prev => [...prev, data]);
@@ -82,14 +85,13 @@ export default function Dashboard() {
       return t.transaction_type === 'buy' && t.status === 'success' ? acc + t.amount_in_dollars : acc;
     }, 0);
     const activeContracts = new Set(transactionsData.filter(t => t.transaction_type === 'buy' && t.status === 'success').map(t => t.token_address)).size;
-
     setMetrics({ totalContracts, successfulBuys, successfulSells, profit, activeContracts });
   };
 
   return (
-    <div className="p-2 sm:p-4 max-w-full sm:max-w-7xl mx-auto"> {/* Adjusted padding */}
+    <div className="p-2 sm:p-4 max-w-full sm:max-w-7xl mx-auto">
       <h1 className="text-xl sm:text-3xl font-bold mb-4 sm:mb-6">Xcute Trading Dashboard</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4 mb-4 sm:mb-6"> {/* Responsive grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4 mb-4 sm:mb-6">
         <div className="bg-white p-2 sm:p-4 rounded shadow">
           <h2 className="text-sm sm:text-lg font-semibold">Total Contracts</h2>
           <p className="text-lg sm:text-2xl">{metrics.totalContracts}</p>
