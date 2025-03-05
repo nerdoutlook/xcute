@@ -135,11 +135,17 @@ def cleanup_subprocess(process):
             process.join()
 
 if __name__ == "__main__":
+    # Ensure logs directory exists
+    log_dir = settings.log_dir
+    if not os.path.exists(log_dir):
+        os.makedirs(log_dir)
+        print(f"Created log directory: {log_dir}")
+
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s - %(levelname)s - %(message)s",
         handlers=[
-            logging.FileHandler(settings.log_dir / "server.log"),
+            logging.FileHandler(log_dir / "server.log"),
             logging.StreamHandler()
         ],
     )
