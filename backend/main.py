@@ -1,3 +1,4 @@
+
 import logging
 import multiprocessing
 import os
@@ -10,8 +11,8 @@ from flask_socketio import SocketIO
 from flask_sqlalchemy import SQLAlchemy
 from telegram_monitor import start_monitoring
 from config import settings
+from models import Contract, Transaction
 from buy_program import solana_client, wallet
-from datetime import datetime
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -26,41 +27,12 @@ CORS(app, resources={r"/api/*": {"origins": "https://xcute-six.vercel.app"}})
 socketio = SocketIO(app, cors_allowed_origins=["https://xcute.onrender.com", "https://xcute-six.vercel.app"], engineio_logger=True)
 db = SQLAlchemy(app)
 
-# Define Models
-class Contract(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    address = db.Column(db.String(44), nullable=False, index=True)
-    group = db.Column(db.String(120), nullable=False)
-    status = db.Column(db.String(10), nullable=False)  # "found", "bought", "sold"
-    timestamp = db.Column(db.DateTime, default=datetime.utcnow, index=True)
-    details = db.Column(db.Text, nullable=True)  # Additional details as JSON string
-
-    transactions = db.relationship('Transaction', backref='contract', lazy=True)
-
-    def __repr__(self):
-        return f"<Contract {self.address} from {self.group} - {self.status} at {self.timestamp}>"
-
-class Transaction(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    contract_id = db.Column(db.Integer, db.ForeignKey('contract.id'), nullable=True)
-    token_address = db.Column(db.String(44), nullable=False, index=True)
-    transaction_type = db.Column(db.String(4), nullable=False)  # "buy", "sell"
-    amount_in_dollars = db.Column(db.Float, nullable=False)
-    amount_in_sol = db.Column(db.Float, nullable=False)
-    slippage_tolerance = db.Column(db.Float, nullable=False)
-    wallet_balance_after = db.Column(db.Float, nullable=False)
-    timestamp = db.Column(db.DateTime, default=datetime.utcnow, index=True)
-    status = db.Column(db.String(10), nullable=False, default="pending")  # "pending", "success", "failed"
-    error = db.Column(db.Text, nullable=True)  # Error message for failed attempts
-
-    def __repr__(self):
-        return f"<Transaction {self.transaction_type} {self.token_address} for {self.amount_in_dollars} USD at {self.timestamp} - {self.status}>"
-
 def init_db():
     with app.app_context():
         db.create_all()
         logging.info("Database tables created.")
 
+# API Endpoints
 @app.route("/api/contracts")
 def get_contracts():
     with app.app_context():
@@ -117,6 +89,7 @@ def handle_disconnect():
     print("WebSocket client disconnected")
 
 def run_telegram_monitoring():
+    """Run Telegram monitoring in a separate process."""
     from telegram_monitor import start_monitoring
     sys.stdout = os.fdopen(sys.stdout.fileno(), 'w', 1)
     sys.stderr = os.fdopen(sys.stderr.fileno(), 'w', 1)
@@ -134,17 +107,11 @@ def cleanup_subprocess(process):
             process.join()
 
 if __name__ == "__main__":
-    # Ensure logs directory exists
-    log_dir = settings.log_dir
-    if not os.path.exists(log_dir):
-        os.makedirs(log_dir)
-        print(f"Created log directory: {log_dir}")
-
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s - %(levelname)s - %(message)s",
         handlers=[
-            logging.FileHandler(log_dir / "server.log"),
+            logging.FileHandler(settings.log_dir / "server.log"),
             logging.StreamHandler()
         ],
     )
