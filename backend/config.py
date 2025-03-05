@@ -8,7 +8,7 @@ print(f"Current Working Directory: {os.getcwd()}")
 class Settings:
     api_id = os.getenv("API_ID")
     api_hash = os.getenv("API_HASH")
-#    bot_token = os.getenv("BOT_TOKEN")  # Added for Telegram bot
+    bot_token = os.getenv("BOT_TOKEN")  # Added for Telegram bot
     secret_key = os.getenv("secret_key")
     database_uri = os.getenv("DATABASE_URI", f"sqlite:///{Path(__file__).parent / 'app.db'}")
     cors_allowed_origins = os.getenv("CORS_ALLOWED_ORIGINS")

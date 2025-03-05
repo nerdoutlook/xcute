@@ -6,6 +6,7 @@ from datetime import datetime
 from config import settings
 from buy_program import buy_token
 import asyncio
+import os
 
 def load_groups():
     try:
@@ -35,8 +36,21 @@ async def start_monitoring(session_name="telegram_monitor_session"):
         logging.error("No groups to monitor. Exiting.")
         print("No groups to monitor. Exiting.")
         return
+
+    session_file = f"{session_name}.session"
+    if not os.path.exists(session_file):
+        logging.error(f"Session file {session_file} not found. Run generate_session.py locally to create it.")
+        print(f"Error: Session file {session_file} not found. Run generate_session.py locally to create it.")
+        return
+
     try:
-        await client.start(bot_token=settings.bot_token if settings.bot_token else None)
+        await client.connect()
+        if not await client.is_user_authorized():
+            logging.error("Client not authorized. Ensure the session file is valid and matches TELEGRAM_PHONE.")
+            print("Error: Client not authorized. Regenerate the session file with generate_session.py.")
+            await client.disconnect()
+            return
+
         logging.info("Telegram client connected successfully.")
         print("Telegram client started and connected.")
         async for dialog in client.iter_dialogs():
@@ -108,8 +122,11 @@ async def start_monitoring(session_name="telegram_monitor_session"):
     except Exception as e:
         logging.error(f"Error starting Telegram client: {e}", exc_info=True)
         print(f"Telegram client failed to start: {e}")
+    finally:
+        await client.disconnect()
 
 PUMP_FUN_ADDRESS_PATTERN = r"\b[1-9A-HJ-NP-Za-km-z]{44}\b"  # Match full 44-char Pump.fun address
 
 if __name__ == "__main__":
     asyncio.run(start_monitoring())
+
