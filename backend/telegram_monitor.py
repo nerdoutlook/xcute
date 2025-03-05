@@ -1,11 +1,8 @@
-
-
 import re
 import logging
 from telethon import TelegramClient, events
 from datetime import datetime
 from config import settings
-from main import socketio, db, app  # Import from main.py
 from buy_program import buy_token
 from models import Contract
 import asyncio
@@ -31,13 +28,15 @@ def load_groups():
 group_links = load_groups()
 
 async def start_monitoring(session_name="telegram_monitor_session"):
+    # Move imports inside the function to avoid circular import
+    from main import socketio, db, app
+
     client = TelegramClient(session_name, settings.api_id, settings.api_hash)
     if not group_links:
         logging.error("No groups to monitor. Exiting.")
         print("No groups to monitor. Exiting.")
         return
     try:
-        # Use bot token if available, otherwise fallback to phone (for dev)
         await client.start(bot_token=settings.bot_token if settings.bot_token else None)
         logging.info("Telegram client connected successfully.")
         print("Telegram client started and connected.")
@@ -64,7 +63,7 @@ async def start_monitoring(session_name="telegram_monitor_session"):
                 return
 
             for match in matches:
-                contract_address = match  # No need to strip "pump" based on your regex
+                contract_address = match
                 log_message = f"Detected Pump.fun contract in {group_name}: {contract_address}"
                 logging.info(log_message)
                 print(f"Found contract: {contract_address} in {group_name} at {current_time}")
@@ -115,3 +114,4 @@ PUMP_FUN_ADDRESS_PATTERN = r"\b[1-9A-HJ-NP-Za-km-z]{44}\b"  # Match full 44-char
 
 if __name__ == "__main__":
     asyncio.run(start_monitoring())
+
