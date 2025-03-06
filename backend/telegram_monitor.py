@@ -66,19 +66,18 @@ async def start_monitoring(session_name="telegram_monitor_session"):
             logging.info(f"Message attributes - text: {event.message.text}, message: {event.message.message}, entities: {event.message.entities}, media: {event.message.media}")
 
             if not message_text:
-                if event.message.entities:
-                    for entity in event.message.entities:
-                        if hasattr(entity, 'url') and entity.url:
-                            message_text = entity.url
-                            print(f"Found URL in entity: {message_text}")
-                            break
-                if not message_text and event.message.media:
-                    if hasattr(event.message.media, 'document') and event.message.media.document:
-                        message_text = event.message.message or ""
-                        print(f"Media message with caption: {message_text}")
-                    elif hasattr(event.message.media, 'webpage') and event.message.media.webpage:
+                if event.message.media:
+                    if hasattr(event.message.media, 'webpage') and event.message.media.webpage:
                         message_text = event.message.media.webpage.url or ""
-                        print(f"Webpage URL: {message_text}")
+                        print(f"Extracted webpage URL: {message_text}")
+                    elif hasattr(event.message.media, 'document') and event.message.media.document:
+                        message_text = event.message.message or ""
+                        print(f"Media caption: {message_text}")
+                    elif str(event.message.media) == 'MessageMediaUnsupported()':
+                        # Fallback: Fetch raw message content via API
+                        full_message = await client.get_messages(event.chat_id, ids=event.message.id)
+                        message_text = full_message[0].message or ""
+                        print(f"Fallback fetch for unsupported media: {message_text}")
                 if not message_text:
                     print(f"Empty message from {event.chat_id}")
                     return
@@ -116,6 +115,8 @@ async def start_monitoring(session_name="telegram_monitor_session"):
                             "group": group_name,
                             "timestamp": current_time
                         })
+                        print(f"Emitted contract event: {contract_address}")
+                        logging.info(f"Emitted contract event: {contract_address}")
 
                         print(f"Attempting to buy token: {contract_address}")
                         await buy_token(contract_address, group_name)
@@ -147,26 +148,30 @@ async def start_monitoring(session_name="telegram_monitor_session"):
 
         async def fetch_recent_messages(client):
             while True:
+                print("Fetching recent messages...")
+                logging.info("Starting recent message fetch cycle")
                 try:
                     for group in group_links:
                         async for message in client.iter_messages(group, limit=5):
-                            if message.text or message.message or message.entities or message.media:
-                                text = message.text or message.message or ""
-                                if message.entities:
-                                    for entity in message.entities:
-                                        if hasattr(entity, 'url') and entity.url:
-                                            text = entity.url
-                                            break
-                                if not text and message.media:
-                                    if hasattr(message.media, 'webpage') and message.media.webpage:
-                                        text = message.media.webpage.url or ""
-                                print(f"Recent message check from {group}: '{text}'")
-                                matches = re.findall(PUMP_FUN_ADDRESS_PATTERN, text)
-                                if matches:
-                                    logging.info(f"Found recent contract: {matches}")
-                                    # Trigger handler logic if needed
+                            text = message.text or message.message or ""
+                            if message.media:
+                                if hasattr(message.media, 'webpage') and message.media.webpage:
+                                    text = message.media.webpage.url or ""
+                                    print(f"Recent message webpage URL: {text}")
+                                elif hasattr(message.media, 'document'):
+                                    text = message.message or ""
+                                    print(f"Recent message media caption: {text}")
+                                elif str(message.media) == 'MessageMediaUnsupported()':
+                                    full_message = await client.get_messages(group, ids=message.id)
+                                    text = full_message[0].message or ""
+                                    print(f"Recent message fallback fetch: {text}")
+                            print(f"Recent message check from {group}: '{text}'")
+                            matches = re.findall(PUMP_FUN_ADDRESS_PATTERN, text)
+                            if matches:
+                                logging.info(f"Found recent contract: {matches}")
                 except Exception as e:
                     logging.error(f"Recent message fetch error: {e}", exc_info=True)
+                    print(f"Recent message fetch error: {e}")
                 await asyncio.sleep(60)
 
         asyncio.create_task(keep_alive(client))
