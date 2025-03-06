@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 
 export const SocketContext = createContext();
 
-const socket = io('http://localhost:8000', { transports: ['websocket'] });
+const socket = io('https://xcute.onrender.com', { transports: ['websocket'] });
 
 const SocketProvider = ({ children }) => {
   const [socketData, setSocketData] = useState({ contracts: [], transactions: [] });
