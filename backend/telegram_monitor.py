@@ -74,9 +74,8 @@ async def start_monitoring(session_name="telegram_monitor_session"):
                         message_text = event.message.message or ""
                         print(f"Media caption: {message_text}")
                     elif str(event.message.media) == 'MessageMediaUnsupported()':
-                        # Fallback: Fetch raw message content via API
                         full_message = await client.get_messages(event.chat_id, ids=event.message.id)
-                        message_text = full_message[0].message or ""
+                        message_text = full_message.message or ""  # Fix: No [0], direct attribute access
                         print(f"Fallback fetch for unsupported media: {message_text}")
                 if not message_text:
                     print(f"Empty message from {event.chat_id}")
@@ -163,7 +162,7 @@ async def start_monitoring(session_name="telegram_monitor_session"):
                                     print(f"Recent message media caption: {text}")
                                 elif str(message.media) == 'MessageMediaUnsupported()':
                                     full_message = await client.get_messages(group, ids=message.id)
-                                    text = full_message[0].message or ""
+                                    text = full_message.message or ""  # Fix: No [0], direct attribute access
                                     print(f"Recent message fallback fetch: {text}")
                             print(f"Recent message check from {group}: '{text}'")
                             matches = re.findall(PUMP_FUN_ADDRESS_PATTERN, text)
