@@ -1,4 +1,3 @@
-
 import re
 import logging
 from telethon import TelegramClient, events
@@ -112,11 +111,25 @@ async def start_monitoring(session_name="telegram_monitor_session"):
 
                 await asyncio.sleep(1)
 
+        async def keep_alive(client):
+            while True:
+                try:
+                    # Fetch dialogs to simulate Telegram activity
+                    dialogs = await client.get_dialogs(limit=1)
+                    logging.info("Keep-alive: Fetched dialogs to maintain Render activity.")
+                    print("Keep-alive: Fetched dialogs.")
+                except Exception as e:
+                    logging.error(f"Keep-alive error: {e}")
+                    print(f"Keep-alive error: {e}")
+                await asyncio.sleep(300)  # Every 5 minutes
+
         async def keepalive():
             while True:
                 print("Telegram client still alive...")
                 await asyncio.sleep(10)
 
+        # Start both tasks
+        asyncio.create_task(keep_alive(client))
         asyncio.create_task(keepalive())
         await client.run_until_disconnected()
     except Exception as e:
@@ -129,4 +142,3 @@ PUMP_FUN_ADDRESS_PATTERN = r"\b[1-9A-HJ-NP-Za-km-z]{44}\b"  # Match full 44-char
 
 if __name__ == "__main__":
     asyncio.run(start_monitoring())
-
