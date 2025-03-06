@@ -61,22 +61,27 @@ async def start_monitoring(session_name="telegram_monitor_session"):
         @client.on(events.NewMessage(chats=group_links))
         async def new_message_handler(event):
             message_text = event.message.text or event.message.message or ""
-            print(f"New message received from {event.chat_id}: '{message_text}'")
+            timestamp = event.message.date
+            print(f"New message received from {event.chat_id} at {timestamp}: '{message_text}'")
             logging.info(f"Raw message content: {repr(event.message)}")
             logging.info(f"Message attributes - text: {event.message.text}, message: {event.message.message}, entities: {event.message.entities}, media: {event.message.media}")
 
-            if not message_text:
-                if event.message.media:
-                    if hasattr(event.message.media, 'webpage') and event.message.media.webpage:
-                        message_text = event.message.media.webpage.url or ""
-                        print(f"Extracted webpage URL: {message_text}")
-                    elif hasattr(event.message.media, 'document') and event.message.media.document:
-                        message_text = event.message.message or ""
-                        print(f"Media caption: {message_text}")
-                    elif str(event.message.media) == 'MessageMediaUnsupported()':
-                        full_message = await client.get_messages(event.chat_id, ids=event.message.id)
-                        message_text = full_message.message or ""  # Fix: No [0], direct attribute access
-                        print(f"Fallback fetch for unsupported media: {message_text}")
+            if not message_text and event.message.media:
+                if hasattr(event.message.media, 'webpage') and event.message.media.webpage:
+                    message_text = event.message.media.webpage.url or ""
+                    print(f"Extracted webpage URL: {message_text}")
+                elif hasattr(event.message.media, 'document') and event.message.media.document:
+                    message_text = event.message.message or ""
+                    print(f"Media caption: {message_text}")
+                elif str(event.message.media) == 'MessageMediaUnsupported()':
+                    full_message = await client.get_messages(event.chat_id, ids=event.message.id)
+                    message_text = full_message.message or ""
+                    if not message_text and full_message.media:
+                        # Debug deeper into media
+                        if hasattr(full_message.media, 'webpage') and full_message.media.webpage:
+                            message_text = full_message.media.webpage.url or ""
+                        print(f"Fallback fetch for unsupported media: '{message_text}', full media: {full_message.media}")
+                        logging.info(f"Fallback fetch media details: {full_message.media}")
                 if not message_text:
                     print(f"Empty message from {event.chat_id}")
                     return
@@ -153,6 +158,7 @@ async def start_monitoring(session_name="telegram_monitor_session"):
                     for group in group_links:
                         async for message in client.iter_messages(group, limit=5):
                             text = message.text or message.message or ""
+                            timestamp = message.date
                             if message.media:
                                 if hasattr(message.media, 'webpage') and message.media.webpage:
                                     text = message.media.webpage.url or ""
@@ -162,9 +168,13 @@ async def start_monitoring(session_name="telegram_monitor_session"):
                                     print(f"Recent message media caption: {text}")
                                 elif str(message.media) == 'MessageMediaUnsupported()':
                                     full_message = await client.get_messages(group, ids=message.id)
-                                    text = full_message.message or ""  # Fix: No [0], direct attribute access
-                                    print(f"Recent message fallback fetch: {text}")
-                            print(f"Recent message check from {group}: '{text}'")
+                                    text = full_message.message or ""
+                                    if not text and full_message.media:
+                                        if hasattr(full_message.media, 'webpage') and full_message.media.webpage:
+                                            text = full_message.media.webpage.url or ""
+                                        print(f"Recent message fallback fetch: '{text}', full media: {full_message.media}")
+                                        logging.info(f"Recent message fallback media details: {full_message.media}")
+                            print(f"Recent message check from {group} at {timestamp}: '{text}'")
                             matches = re.findall(PUMP_FUN_ADDRESS_PATTERN, text)
                             if matches:
                                 logging.info(f"Found recent contract: {matches}")
