@@ -10,6 +10,10 @@ import os
 from solders.keypair import Keypair
 import telegram_monitor
 
+# Ensure log directory exists
+if not os.path.exists(settings.log_dir):
+    os.makedirs(settings.log_dir)
+
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 file_handler = logging.FileHandler(os.path.join(settings.log_dir, 'app.log'))
