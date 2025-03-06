@@ -1,4 +1,3 @@
-
 import re
 import logging
 from telethon import TelegramClient, events
@@ -64,8 +63,7 @@ async def start_monitoring(session_name="telegram_monitor_session"):
             message_text = event.message.text or event.message.message or ""
             print(f"New message received from {event.chat_id}: '{message_text}'")
             logging.info(f"Raw message content: {repr(event.message)}")
-            # Log detailed message attributes
-            logging.info(f"Message attributes - text: {event.message.text}, message: {event.message.message}, entities: {event.message.entities}")
+            logging.info(f"Message attributes - text: {event.message.text}, message: {event.message.message}, entities: {event.message.entities}, media: {event.message.media}")
 
             if not message_text:
                 if event.message.entities:
@@ -78,6 +76,9 @@ async def start_monitoring(session_name="telegram_monitor_session"):
                     if hasattr(event.message.media, 'document') and event.message.media.document:
                         message_text = event.message.message or ""
                         print(f"Media message with caption: {message_text}")
+                    elif hasattr(event.message.media, 'webpage') and event.message.media.webpage:
+                        message_text = event.message.media.webpage.url or ""
+                        print(f"Webpage URL: {message_text}")
                 if not message_text:
                     print(f"Empty message from {event.chat_id}")
                     return
@@ -144,8 +145,33 @@ async def start_monitoring(session_name="telegram_monitor_session"):
                 print("Telegram client still alive...")
                 await asyncio.sleep(10)
 
+        async def fetch_recent_messages(client):
+            while True:
+                try:
+                    for group in group_links:
+                        async for message in client.iter_messages(group, limit=5):
+                            if message.text or message.message or message.entities or message.media:
+                                text = message.text or message.message or ""
+                                if message.entities:
+                                    for entity in message.entities:
+                                        if hasattr(entity, 'url') and entity.url:
+                                            text = entity.url
+                                            break
+                                if not text and message.media:
+                                    if hasattr(message.media, 'webpage') and message.media.webpage:
+                                        text = message.media.webpage.url or ""
+                                print(f"Recent message check from {group}: '{text}'")
+                                matches = re.findall(PUMP_FUN_ADDRESS_PATTERN, text)
+                                if matches:
+                                    logging.info(f"Found recent contract: {matches}")
+                                    # Trigger handler logic if needed
+                except Exception as e:
+                    logging.error(f"Recent message fetch error: {e}", exc_info=True)
+                await asyncio.sleep(60)
+
         asyncio.create_task(keep_alive(client))
         asyncio.create_task(keepalive())
+        asyncio.create_task(fetch_recent_messages(client))
         logging.info("Starting Telegram client event loop.")
         await client.run_until_disconnected()
     except Exception as e:

@@ -1,181 +1,109 @@
-
-import logging
-import multiprocessing
-import os
-import sys
-import signal
-import asyncio
 from flask import Flask, jsonify
-from flask_cors import CORS
 from flask_socketio import SocketIO
 from flask_sqlalchemy import SQLAlchemy
-from telegram_monitor import start_monitoring
+from flask_cors import CORS
 from config import settings
-from buy_program import solana_client, wallet
-from datetime import datetime
+from solana.rpc.async_api import AsyncClient
+import asyncio
+import logging
+import os
+from solders.keypair import Keypair
+import telegram_monitor
 
-# Initialize Flask app
+# Setup logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+file_handler = logging.FileHandler(os.path.join(settings.log_dir, 'app.log'))
+file_handler.setLevel(logging.INFO)
+logging.getLogger('').addHandler(file_handler)
+
 app = Flask(__name__)
-app.config["SECRET_KEY"] = settings.secret_key
-app.config["SQLALCHEMY_DATABASE_URI"] = settings.database_uri
-app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-
-# CORS for HTTP API endpoints
-CORS(app, resources={r"/api/*": {"origins": "https://xcute-six.vercel.app"}})
-
-# Initialize SocketIO and DB
-socketio = SocketIO(app, cors_allowed_origins=["https://xcute.onrender.com", "https://xcute-six.vercel.app"], engineio_logger=True)
+app.config['SQLALCHEMY_DATABASE_URI'] = settings.database_uri
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
+socketio = SocketIO(app, cors_allowed_origins=["https://xcute.onrender.com", "https://xcute-six.vercel.app"])
+CORS(app)
 
-# Define Models
 class Contract(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    address = db.Column(db.String(44), nullable=False, index=True)
-    group = db.Column(db.String(120), nullable=False)
-    status = db.Column(db.String(10), nullable=False)  # "found", "bought", "sold"
-    timestamp = db.Column(db.DateTime, default=datetime.utcnow, index=True)
-    details = db.Column(db.Text, nullable=True)  # Additional details as JSON string
-
-    transactions = db.relationship('Transaction', backref='contract', lazy=True)
-
-    def __repr__(self):
-        return f"<Contract {self.address} from {self.group} - {self.status} at {self.timestamp}>"
+    address = db.Column(db.String(44), nullable=False)
+    group = db.Column(db.String(100), nullable=False)
+    status = db.Column(db.String(20), nullable=False)
+    timestamp = db.Column(db.DateTime, nullable=False)
 
 class Transaction(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    contract_id = db.Column(db.Integer, db.ForeignKey('contract.id'), nullable=True)
-    token_address = db.Column(db.String(44), nullable=False, index=True)
-    transaction_type = db.Column(db.String(4), nullable=False)  # "buy", "sell"
+    token_address = db.Column(db.String(44), nullable=False)
+    transaction_type = db.Column(db.String(20), nullable=False)
     amount_in_dollars = db.Column(db.Float, nullable=False)
     amount_in_sol = db.Column(db.Float, nullable=False)
-    slippage_tolerance = db.Column(db.Float, nullable=False)
-    wallet_balance_after = db.Column(db.Float, nullable=False)
-    timestamp = db.Column(db.DateTime, default=datetime.utcnow, index=True)
-    status = db.Column(db.String(10), nullable=False, default="pending")  # "pending", "success", "failed"
-    error = db.Column(db.Text, nullable=True)  # Error message for failed attempts
+    status = db.Column(db.String(20), nullable=False)
+    error = db.Column(db.String(500))
+    signature = db.Column(db.String(88))
+    timestamp = db.Column(db.DateTime, nullable=False)
 
-    def __repr__(self):
-        return f"<Transaction {self.transaction_type} {self.token_address} for {self.amount_in_dollars} USD at {self.timestamp} - {self.status}>"
-
-def init_db():
-    with app.app_context():
-        db.create_all()
-        logging.info("Database tables created.")
+solana_client = AsyncClient("https://api.mainnet-beta.solana.com")
+wallet = Keypair.from_base58_string(os.getenv("WALLET_PRIVATE_KEY"))
 
 @app.route("/api/contracts")
 def get_contracts():
-    with app.app_context():
-        contracts = Contract.query.order_by(Contract.timestamp.desc()).all()
-        return jsonify([{
-            "id": contract.id,
-            "address": contract.address,
-            "group": contract.group,
-            "status": contract.status,
-            "timestamp": contract.timestamp.isoformat(),
-            "details": contract.details
-        } for contract in contracts])
+    contracts = Contract.query.all()
+    return jsonify([{"contract": c.address, "group": c.group, "timestamp": c.timestamp.isoformat()} for c in contracts])
 
 @app.route("/api/transactions")
 def get_transactions():
-    with app.app_context():
-        transactions = Transaction.query.order_by(Transaction.timestamp.desc()).all()
-        return jsonify([{
-            "id": transaction.id,
-            "contract_id": transaction.contract_id,
-            "token_address": transaction.token_address,
-            "transaction_type": transaction.transaction_type,
-            "amount_in_dollars": transaction.amount_in_dollars,
-            "amount_in_sol": transaction.amount_in_sol,
-            "slippage_tolerance": transaction.slippage_tolerance,
-            "wallet_balance_after": transaction.wallet_balance_after,
-            "timestamp": transaction.timestamp.isoformat(),
-            "status": transaction.status,
-            "error": transaction.error
-        } for transaction in transactions])
+    transactions = Transaction.query.all()
+    return jsonify([{
+        "token_address": t.token_address,
+        "transaction_type": t.transaction_type,
+        "amount_in_dollars": t.amount_in_dollars,
+        "amount_in_sol": t.amount_in_sol,
+        "status": t.status,
+        "error": t.error,
+        "signature": t.signature,
+        "timestamp": t.timestamp.isoformat()
+    } for t in transactions])
 
 @app.route("/api/wallet_balance")
 async def get_wallet_balance():
     try:
-        balance = (await solana_client.get_balance(wallet.pubkey())).value / 1e9
+        async with AsyncClient("https://api.mainnet-beta.solana.com") as client:
+            balance = (await client.get_balance(wallet.pubkey())).value / 1e9
         return jsonify({"balance": balance})
     except Exception as e:
-        logging.error(f"Wallet balance error: {e}")
+        logging.error(f"Wallet balance error: {e}", exc_info=True)
         return jsonify({"error": str(e)}), 500
-
-@app.route("/api/test")
-def test():
-    return jsonify({"status": "Backend is alive"})
 
 @socketio.on("connect")
 def handle_connect():
     logging.info("Client connected")
-    print("WebSocket client connected")
     socketio.emit("log", {"message": "WebSocket connection established."})
 
 @socketio.on("disconnect")
 def handle_disconnect():
     logging.info("Client disconnected")
-    print("WebSocket client disconnected")
 
-def run_telegram_monitoring():
-    from telegram_monitor import start_monitoring
-    sys.stdout = os.fdopen(sys.stdout.fileno(), 'w', 1)
-    sys.stderr = os.fdopen(sys.stderr.fileno(), 'w', 1)
-    print(f"Telegram subprocess started, PID: {os.getpid()}, Session: telegram_monitor_session")
-    asyncio.run(start_monitoring(session_name="telegram_monitor_session"))
-
-def cleanup_subprocess(process):
-    if process and process.is_alive():
-        logging.info("Terminating Telegram subprocess with PID: %d", process.pid)
-        print(f"Terminating Telegram subprocess with PID: {process.pid}")
-        process.terminate()
-        process.join(timeout=2)
-        if process.is_alive():
-            os.kill(process.pid, signal.SIGKILL)
-            process.join()
+def run_telegram_monitor():
+    pid = os.fork()
+    if pid == 0:
+        asyncio.run(telegram_monitor.start_monitoring())
+        os._exit(0)
+    else:
+        logging.info(f"Telegram monitoring process started with PID: {pid}")
+        print(f"Telegram monitoring process started with PID: {pid}")
+        return pid
 
 if __name__ == "__main__":
-    # Ensure logs directory exists
-    log_dir = settings.log_dir
-    if not os.path.exists(log_dir):
-        os.makedirs(log_dir)
-        print(f"Created log directory: {log_dir}")
-
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s - %(levelname)s - %(message)s",
-        handlers=[
-            logging.FileHandler(log_dir / "server.log"),
-            logging.StreamHandler()
-        ],
-    )
     logging.info("Initializing database...")
     print("Initializing database...")
-    init_db()
+    with app.app_context():
+        db.create_all()
+    logging.info("Database tables created.")
 
-    telegram_process = multiprocessing.Process(target=run_telegram_monitoring, name="TelegramMonitor")
-    telegram_process.start()
-    logging.info("Telegram monitoring process started with PID: %d", telegram_process.pid)
-    print(f"Telegram monitoring process started with PID: {telegram_process.pid}")
-
+    telegram_pid = run_telegram_monitor()
     logging.info("Starting Flask-SocketIO server...")
     print("Starting Flask server...")
     try:
-        def signal_handler(sig, frame):
-            cleanup_subprocess(telegram_process)
-            sys.exit(0)
-
-        signal.signal(signal.SIGTERM, signal_handler)
-        signal.signal(signal.SIGINT, signal_handler)
-
-        socketio.run(app, host="0.0.0.0", port=8000, debug=False)
-    except KeyboardInterrupt:
-        logging.info("Server stopped by user.")
-        print("Server stopped.")
-        cleanup_subprocess(telegram_process)
-    except Exception as e:
-        logging.error(f"Server error: {e}", exc_info=True)
-        print(f"Server error: {e}")
-        cleanup_subprocess(telegram_process)
+        socketio.run(app, host="0.0.0.0", port=8000, use_reloader=False)
     finally:
-        cleanup_subprocess(telegram_process)
+        logging.info(f"Terminating Telegram subprocess with PID: {telegram_pid}")
+        os.kill(telegram_pid, 15)
