@@ -1,3 +1,4 @@
+
 import re
 import logging
 from telethon import TelegramClient, events
@@ -59,19 +60,30 @@ async def start_monitoring(session_name="telegram_monitor_session"):
 
         @client.on(events.NewMessage(chats=group_links))
         async def new_message_handler(event):
-            message = event.message.text
-            print(f"New message received from {event.chat_id}: '{message}'")
-            if not message:
-                print(f"Empty message from {event.chat_id}")
-                return
+            # Try both text and message attributes, log raw for debugging
+            message_text = event.message.text or event.message.message or ""
+            print(f"New message received from {event.chat_id}: '{message_text}'")
+            logging.info(f"Raw message content: {repr(event.message)}")
+
+            if not message_text:
+                # Check entities for URLs or hidden text
+                if event.message.entities:
+                    for entity in event.message.entities:
+                        if hasattr(entity, 'url'):
+                            message_text = entity.url or ""
+                            print(f"Found URL in entity: {message_text}")
+                            break
+                if not message_text:
+                    print(f"Empty message from {event.chat_id}")
+                    return
 
             group_name = event.chat.title or f"Group {event.chat_id}"
             current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            matches = re.findall(PUMP_FUN_ADDRESS_PATTERN, message)
-            print(f"Regex matches for '{message}': {matches}")
+            matches = re.findall(PUMP_FUN_ADDRESS_PATTERN, message_text)
+            print(f"Regex matches for '{message_text}': {matches}")
             if not matches:
                 logging.info(f"No Pump.fun contract detected in {group_name}.")
-                print(f"No contracts found in {group_name} message: '{message}'")
+                print(f"No contracts found in {group_name} message: '{message_text}'")
                 return
 
             for match in matches:
@@ -114,7 +126,6 @@ async def start_monitoring(session_name="telegram_monitor_session"):
         async def keep_alive(client):
             while True:
                 try:
-                    # Fetch dialogs to simulate Telegram activity
                     dialogs = await client.get_dialogs(limit=1)
                     logging.info("Keep-alive: Fetched dialogs to maintain Render activity.")
                     print("Keep-alive: Fetched dialogs.")
@@ -128,7 +139,6 @@ async def start_monitoring(session_name="telegram_monitor_session"):
                 print("Telegram client still alive...")
                 await asyncio.sleep(10)
 
-        # Start both tasks
         asyncio.create_task(keep_alive(client))
         asyncio.create_task(keepalive())
         await client.run_until_disconnected()
