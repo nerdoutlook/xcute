@@ -7,6 +7,7 @@ from config import settings
 from buy_program import buy_token
 import asyncio
 import os
+import traceback
 
 def load_groups():
     try:
@@ -29,7 +30,7 @@ def load_groups():
 group_links = load_groups()
 
 async def start_monitoring(session_name="telegram_monitor_session"):
-    from main import socketio, db, app, Contract  # Import inside function
+    from main import socketio, db, app, Contract
 
     client = TelegramClient(session_name, settings.api_id, settings.api_hash)
     if not group_links:
@@ -60,19 +61,23 @@ async def start_monitoring(session_name="telegram_monitor_session"):
 
         @client.on(events.NewMessage(chats=group_links))
         async def new_message_handler(event):
-            # Try both text and message attributes, log raw for debugging
             message_text = event.message.text or event.message.message or ""
             print(f"New message received from {event.chat_id}: '{message_text}'")
             logging.info(f"Raw message content: {repr(event.message)}")
+            # Log detailed message attributes
+            logging.info(f"Message attributes - text: {event.message.text}, message: {event.message.message}, entities: {event.message.entities}")
 
             if not message_text:
-                # Check entities for URLs or hidden text
                 if event.message.entities:
                     for entity in event.message.entities:
-                        if hasattr(entity, 'url'):
-                            message_text = entity.url or ""
+                        if hasattr(entity, 'url') and entity.url:
+                            message_text = entity.url
                             print(f"Found URL in entity: {message_text}")
                             break
+                if not message_text and event.message.media:
+                    if hasattr(event.message.media, 'document') and event.message.media.document:
+                        message_text = event.message.message or ""
+                        print(f"Media message with caption: {message_text}")
                 if not message_text:
                     print(f"Empty message from {event.chat_id}")
                     return
@@ -118,8 +123,8 @@ async def start_monitoring(session_name="telegram_monitor_session"):
                 except Exception as e:
                     with app.app_context():
                         db.session.rollback()
-                        logging.error(f"Error processing contract {contract_address} in {group_name}: {e}", exc_info=True)
-                        print(f"Failed to buy {contract_address}: {e}")
+                    logging.error(f"Error processing contract {contract_address} in {group_name}: {e}", exc_info=True)
+                    print(f"Failed to buy {contract_address}: {e}")
 
                 await asyncio.sleep(1)
 
@@ -130,9 +135,9 @@ async def start_monitoring(session_name="telegram_monitor_session"):
                     logging.info("Keep-alive: Fetched dialogs to maintain Render activity.")
                     print("Keep-alive: Fetched dialogs.")
                 except Exception as e:
-                    logging.error(f"Keep-alive error: {e}")
+                    logging.error(f"Keep-alive error: {e}", exc_info=True)
                     print(f"Keep-alive error: {e}")
-                await asyncio.sleep(300)  # Every 5 minutes
+                await asyncio.sleep(300)
 
         async def keepalive():
             while True:
@@ -141,14 +146,16 @@ async def start_monitoring(session_name="telegram_monitor_session"):
 
         asyncio.create_task(keep_alive(client))
         asyncio.create_task(keepalive())
+        logging.info("Starting Telegram client event loop.")
         await client.run_until_disconnected()
     except Exception as e:
-        logging.error(f"Error starting Telegram client: {e}", exc_info=True)
-        print(f"Telegram client failed to start: {e}")
+        logging.error(f"Critical error in Telegram client: {e}\n{traceback.format_exc()}")
+        print(f"Critical error in Telegram client: {e}")
     finally:
+        logging.info("Disconnecting Telegram client.")
         await client.disconnect()
 
-PUMP_FUN_ADDRESS_PATTERN = r"\b[1-9A-HJ-NP-Za-km-z]{44}\b"  # Match full 44-char Pump.fun address
+PUMP_FUN_ADDRESS_PATTERN = r"\b[1-9A-HJ-NP-Za-km-z]{44}\b"
 
 if __name__ == "__main__":
     asyncio.run(start_monitoring())
