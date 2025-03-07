@@ -7,7 +7,7 @@ from solders.message import MessageV0
 from solders.transaction import VersionedTransaction
 from solders.pubkey import Pubkey
 from spl.token.constants import TOKEN_PROGRAM_ID, ASSOCIATED_TOKEN_PROGRAM_ID
-from spl.token.instructions import get_associated_token_address
+from spl.token.instructions import get_associated_token_address, create_associated_token_account_instruction
 
 async def buy_token(contract_address, group_name):
     try:
@@ -38,7 +38,19 @@ async def buy_token(contract_address, group_name):
         system_program = Pubkey.from_string("11111111111111111111111111111111")
         rent_sysvar = Pubkey.from_string("SysvarRent111111111111111111111111111111111")
 
-        # Accounts (verified order from Pump.fun buy tx)
+        # Check if payer token account exists; create if not
+        account_info = await solana_client.get_account_info(payer_token_account)
+        instructions = []
+        if account_info.value is None:
+            logging.info(f"Creating token account: {payer_token_account}")
+            create_ata_ix = create_associated_token_account_instruction(
+                payer=payer,
+                wallet_address=payer,
+                token_mint=token_mint
+            )
+            instructions.append(create_ata_ix)
+
+        # Accounts (verified order)
         accounts = [
             AccountMeta(pubkey=global_account, is_signer=False, is_writable=True),  # 0: Global
             AccountMeta(pubkey=payer, is_signer=True, is_writable=True),  # 1: Fee recipient (payer)
@@ -56,27 +68,28 @@ async def buy_token(contract_address, group_name):
             AccountMeta(pubkey=pump_fun_program_id, is_signer=False, is_writable=False),  # 13: Program ID
         ]
 
-        # Instruction data: Buy function (verified discriminator)
+        # Instruction data: Correct buy discriminator
         amount_in_lamports = int(amount_in_sol * 1_000_000_000)  # 0.01 SOL
-        min_tokens_out = 1  # Minimum tokens (avoid 0 to enforce output)
+        min_tokens_out = 1  # Minimum tokens
         data = (
-            bytes.fromhex("fb0a1ab7f1d7ddad") +  # Buy discriminator (confirmed via Pump.fun tx)
+            bytes.fromhex("eaffb24407acdda9") +  # Correct buy discriminator
             min_tokens_out.to_bytes(8, byteorder="little") +  # Min tokens out
             amount_in_lamports.to_bytes(8, byteorder="little")  # SOL amount
         )
 
-        # Create instruction
-        instruction = Instruction(
+        # Create buy instruction
+        buy_instruction = Instruction(
             program_id=pump_fun_program_id,
             accounts=accounts,
             data=data
         )
+        instructions.append(buy_instruction)
 
-        # Build transaction
+        # Build and send transaction
         blockhash = (await solana_client.get_latest_blockhash()).value.blockhash
         message = MessageV0.try_compile(
             payer=payer,
-            instructions=[instruction],
+            instructions=instructions,
             address_lookup_table_accounts=[],
             recent_blockhash=blockhash
         )
@@ -85,7 +98,6 @@ async def buy_token(contract_address, group_name):
         # Debug: Log transaction details
         logging.info(f"Transaction details: program_id={pump_fun_program_id}, accounts={[str(acc.pubkey) for acc in accounts]}, data={data.hex()}")
 
-        # Send transaction
         signature = (await solana_client.send_transaction(tx)).value
 
         logging.info(f"Buy transaction completed for {contract_address}, signature: {signature}")
