@@ -1,7 +1,6 @@
 import asyncio
 import logging
 from main import solana_client, wallet, db, Transaction
-from solana.transaction import Transaction as SolanaTransaction
 from solders.instruction import Instruction
 from solders.message import MessageV0
 from solders.transaction import VersionedTransaction
@@ -11,13 +10,13 @@ async def buy_token(contract_address, group_name):
         logging.info(f"Attempting to buy token: {contract_address} in {group_name}")
         print(f"Attempting to buy token: {contract_address} in {group_name}")
 
-        # Placeholder: Replace with actual Solana buy logic
-        # Example: Construct a simple transfer instruction (adjust for Pump.fun)
+        # Placeholder: Replace with actual Pump.fun buy logic
+        # Example: Construct a simple instruction (adjust for Pump.fun swap)
         amount_in_sol = 0.01  # Example amount
         instruction = Instruction(
             program_id="11111111111111111111111111111111",  # System program (replace with Pump.fun program ID)
-            accounts=[],
-            data=b""
+            accounts=[],  # Add relevant account metas for Pump.fun
+            data=b""  # Add swap data
         )
         message = MessageV0.try_compile(
             payer=wallet.pubkey(),
