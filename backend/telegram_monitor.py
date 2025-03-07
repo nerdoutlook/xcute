@@ -42,10 +42,18 @@ async def process_contract(client, message, group_name, is_new=True):
             print(f"Media caption: {message_text}")
         elif str(message.media) == 'MessageMediaUnsupported()':
             message_text = message.raw_text or ""
+            if message.entities:
+                for entity in message.entities:
+                    if entity.__class__.__name__ == 'MessageEntityTextUrl':
+                        message_text = message.get_entity(entity).url or message_text
+                        print(f"Extracted URL from entity: {message_text}")
             if not message_text and message.fwd_from:
-                forwarded = await client.get_messages(message.chat_id, ids=message.fwd_from.message_id)
-                message_text = forwarded.raw_text or forwarded.text or ""
-            print(f"Fallback using raw_text or forwarded: '{message_text}', full media: {message.media}")
+                try:
+                    forwarded = await client.get_messages(message.chat_id, ids=message.fwd_from.message_id)
+                    message_text = forwarded.raw_text or forwarded.text or ""
+                except Exception as e:
+                    logging.error(f"Failed to fetch forwarded message: {e}")
+            print(f"Fallback using raw_text, entities, or forwarded: '{message_text}', full media: {message.media}")
             logging.info(f"Fallback raw_text: {message_text}, full media: {message.media}")
 
     if not message_text:
@@ -68,16 +76,21 @@ async def process_contract(client, message, group_name, is_new=True):
 
         try:
             with app.app_context():
-                new_contract = Contract(
-                    address=contract_address,
-                    group=group_name,
-                    status="found",
-                    timestamp=datetime.now()
-                )
-                db.session.add(new_contract)
-                db.session.commit()
-                contract_id = new_contract.id
-                print(f"Added contract {contract_address} to database with ID {contract_id}, status: found")
+                existing = db.session.query(Contract).filter_by(address=contract_address).first()
+                if not existing:
+                    new_contract = Contract(
+                        address=contract_address,
+                        group=group_name,
+                        status="found",
+                        timestamp=datetime.now()
+                    )
+                    db.session.add(new_contract)
+                    db.session.commit()
+                    contract_id = new_contract.id
+                    print(f"Added contract {contract_address} to database with ID {contract_id}, status: found")
+                else:
+                    contract_id = existing.id
+                    print(f"Contract {contract_address} already in database with ID {contract_id}")
 
                 socketio.emit("contract", {
                     "contract": contract_address,
@@ -87,7 +100,7 @@ async def process_contract(client, message, group_name, is_new=True):
                 print(f"Emitted contract event: {contract_address}")
                 logging.info(f"Emitted contract event: {contract_address}")
 
-                if is_new:  # Only buy on new messages to avoid duplicate buys
+                if is_new and not existing:  # Only buy new contracts on first detection
                     print(f"Attempting to buy token: {contract_address}")
                     await buy_token(contract_address, group_name)
                     print(f"Buy transaction completed for {contract_address}")
@@ -96,7 +109,7 @@ async def process_contract(client, message, group_name, is_new=True):
             with app.app_context():
                 db.session.rollback()
             logging.error(f"Error processing contract {contract_address} in {group_name}: {e}", exc_info=True)
-            print(f"Failed to buy {contract_address}: {e}")
+            print(f"Failed to process {contract_address}: {e}")
 
         await asyncio.sleep(1)
 
