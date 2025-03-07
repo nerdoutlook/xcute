@@ -6,9 +6,8 @@ from solders.instruction import Instruction, AccountMeta
 from solders.message import MessageV0
 from solders.transaction import VersionedTransaction
 from solders.pubkey import Pubkey
-from spl.token.client import Token
 from spl.token.constants import TOKEN_PROGRAM_ID, ASSOCIATED_TOKEN_PROGRAM_ID
-from spl.token.instructions import get_associated_token_address
+from spl.token.instructions import get_associated_token_address, create_associated_token_account_instruction
 
 async def buy_token(contract_address, group_name):
     try:
@@ -39,17 +38,20 @@ async def buy_token(contract_address, group_name):
         system_program = Pubkey.from_string("11111111111111111111111111111111")
         rent_sysvar = Pubkey.from_string("SysvarRent111111111111111111111111111111111")
 
-        # Check and create token account
-        instructions = []
+        # Check if payer token account exists; create if not
         account_info = await solana_client.get_account_info(payer_token_account)
+        logging.info(f"Account info for {payer_token_account}: {account_info}")
+        instructions = []
         if account_info.value is None:
             logging.info(f"Creating token account: {payer_token_account}")
-            token_client = Token(solana_client, token_mint, TOKEN_PROGRAM_ID, wallet)
-            await token_client.create_associated_token_account(payer)
-        else:
-            logging.info(f"Token account {payer_token_account} already exists")
+            create_ata_ix = create_associated_token_account_instruction(
+                payer=payer,
+                wallet_address=payer,
+                token_mint=token_mint
+            )
+            instructions.append(create_ata_ix)
 
-        # Accounts for buy instruction
+        # Accounts (verified order)
         accounts = [
             AccountMeta(pubkey=global_account, is_signer=False, is_writable=True),
             AccountMeta(pubkey=payer, is_signer=True, is_writable=True),
@@ -67,15 +69,16 @@ async def buy_token(contract_address, group_name):
             AccountMeta(pubkey=pump_fun_program_id, is_signer=False, is_writable=False),
         ]
 
-        # Instruction data
-        amount_in_lamports = int(amount_in_sol * 1_000_000_000)
-        min_tokens_out = 1
+        # Instruction data: Correct buy discriminator
+        amount_in_lamports = int(amount_in_sol * 1_000_000_000)  # 0.01 SOL
+        min_tokens_out = 1  # Minimum tokens
         data = (
             bytes.fromhex("eaffb24407acdda9") +
             min_tokens_out.to_bytes(8, byteorder="little") +
             amount_in_lamports.to_bytes(8, byteorder="little")
         )
 
+        # Create buy instruction
         buy_instruction = Instruction(
             program_id=pump_fun_program_id,
             accounts=accounts,
@@ -83,15 +86,29 @@ async def buy_token(contract_address, group_name):
         )
         instructions.append(buy_instruction)
 
-        # Send transaction
-        blockhash = (await solana_client.get_latest_blockhash()).value.blockhash
-        message = MessageV0.try_compile(payer, instructions, [], blockhash)
+        # Build and send transaction
+        blockhash_response = await solana_client.get_latest_blockhash()
+        logging.info(f"Blockhash response: {blockhash_response}")
+        blockhash = blockhash_response.value.blockhash
+        message = MessageV0.try_compile(
+            payer=payer,
+            instructions=instructions,
+            address_lookup_table_accounts=[],
+            recent_blockhash=blockhash
+        )
         tx = VersionedTransaction(message, [wallet])
-        signature = (await solana_client.send_transaction(tx)).value
+
+        # Debug: Log transaction details
+        logging.info(f"Transaction details: program_id={pump_fun_program_id}, accounts={[str(acc.pubkey) for acc in accounts]}, data={data.hex()}")
+
+        tx_response = await solana_client.send_transaction(tx)
+        logging.info(f"Transaction response: {tx_response}")
+        signature = tx_response.value  # This assumes .value is correct; adjust based on logs if needed
 
         logging.info(f"Buy transaction completed for {contract_address}, signature: {signature}")
         print(f"Buy transaction completed for {contract_address}, signature: {signature}")
 
+        # Record in DB
         with db.session() as session:
             new_tx = Transaction(
                 token_address=contract_address,
@@ -123,4 +140,5 @@ async def buy_token(contract_address, group_name):
             )
             session.add(new_tx)
             session.commit()
+
         raise
