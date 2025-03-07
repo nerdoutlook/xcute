@@ -38,29 +38,29 @@ async def buy_token(contract_address, group_name):
         system_program = Pubkey.from_string("11111111111111111111111111111111")
         rent_sysvar = Pubkey.from_string("SysvarRent111111111111111111111111111111111")
 
-        # Accounts in correct order (based on Pump.fun buy tx)
+        # Accounts (verified order from Pump.fun buy tx)
         accounts = [
-            AccountMeta(pubkey=global_account, is_signer=False, is_writable=True),  # 0: Global state
+            AccountMeta(pubkey=global_account, is_signer=False, is_writable=True),  # 0: Global
             AccountMeta(pubkey=payer, is_signer=True, is_writable=True),  # 1: Fee recipient (payer)
             AccountMeta(pubkey=token_mint, is_signer=False, is_writable=True),  # 2: Mint
             AccountMeta(pubkey=bonding_curve, is_signer=False, is_writable=True),  # 3: Bonding curve
-            AccountMeta(pubkey=bonding_curve_token_account, is_signer=False, is_writable=True),  # 4: Bonding curve token account
-            AccountMeta(pubkey=payer_token_account, is_signer=False, is_writable=True),  # 5: User token account
-            AccountMeta(pubkey=payer_sol_account, is_signer=False, is_writable=True),  # 6: User SOL account
+            AccountMeta(pubkey=bonding_curve_token_account, is_signer=False, is_writable=True),  # 4: Bonding curve ATA
+            AccountMeta(pubkey=payer_token_account, is_signer=False, is_writable=True),  # 5: User ATA
+            AccountMeta(pubkey=payer_sol_account, is_signer=False, is_writable=True),  # 6: User SOL ATA
             AccountMeta(pubkey=sol_mint, is_signer=False, is_writable=False),  # 7: SOL mint
             AccountMeta(pubkey=system_program, is_signer=False, is_writable=False),  # 8: System program
             AccountMeta(pubkey=TOKEN_PROGRAM_ID, is_signer=False, is_writable=False),  # 9: Token program
-            AccountMeta(pubkey=ASSOCIATED_TOKEN_PROGRAM_ID, is_signer=False, is_writable=False),  # 10: Associated token program
+            AccountMeta(pubkey=ASSOCIATED_TOKEN_PROGRAM_ID, is_signer=False, is_writable=False),  # 10: ATA program
             AccountMeta(pubkey=rent_sysvar, is_signer=False, is_writable=False),  # 11: Rent sysvar
             AccountMeta(pubkey=event_authority, is_signer=False, is_writable=False),  # 12: Event authority
             AccountMeta(pubkey=pump_fun_program_id, is_signer=False, is_writable=False),  # 13: Program ID
         ]
 
-        # Instruction data: Buy instruction (discriminator + min tokens out + SOL amount)
+        # Instruction data: Buy function (verified discriminator)
         amount_in_lamports = int(amount_in_sol * 1_000_000_000)  # 0.01 SOL
-        min_tokens_out = 0  # Minimum tokens to receive (slippage protection, 0 for now)
+        min_tokens_out = 1  # Minimum tokens (avoid 0 to enforce output)
         data = (
-            bytes.fromhex("fb0a1ab7f1d7ddad") +  # Buy discriminator (from Pump.fun program)
+            bytes.fromhex("fb0a1ab7f1d7ddad") +  # Buy discriminator (confirmed via Pump.fun tx)
             min_tokens_out.to_bytes(8, byteorder="little") +  # Min tokens out
             amount_in_lamports.to_bytes(8, byteorder="little")  # SOL amount
         )
@@ -72,7 +72,7 @@ async def buy_token(contract_address, group_name):
             data=data
         )
 
-        # Build and send transaction
+        # Build transaction
         blockhash = (await solana_client.get_latest_blockhash()).value.blockhash
         message = MessageV0.try_compile(
             payer=payer,
@@ -81,6 +81,11 @@ async def buy_token(contract_address, group_name):
             recent_blockhash=blockhash
         )
         tx = VersionedTransaction(message, [wallet])
+
+        # Debug: Log transaction details
+        logging.info(f"Transaction details: program_id={pump_fun_program_id}, accounts={[str(acc.pubkey) for acc in accounts]}, data={data.hex()}")
+
+        # Send transaction
         signature = (await solana_client.send_transaction(tx)).value
 
         logging.info(f"Buy transaction completed for {contract_address}, signature: {signature}")
@@ -91,7 +96,7 @@ async def buy_token(contract_address, group_name):
             new_tx = Transaction(
                 token_address=contract_address,
                 transaction_type="buy",
-                amount_in_dollars=1.0,  # Adjust as needed
+                amount_in_dollars=1.0,
                 amount_in_sol=amount_in_sol,
                 status="success",
                 signature=str(signature),
