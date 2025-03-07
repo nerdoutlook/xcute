@@ -1,22 +1,25 @@
 import asyncio
 import logging
+from datetime import datetime
 from main import solana_client, wallet, db, Transaction
 from solders.instruction import Instruction
 from solders.message import MessageV0
 from solders.transaction import VersionedTransaction
+from solders.pubkey import Pubkey
 
 async def buy_token(contract_address, group_name):
     try:
         logging.info(f"Attempting to buy token: {contract_address} in {group_name}")
         print(f"Attempting to buy token: {contract_address} in {group_name}")
 
-        # Placeholder: Replace with actual Pump.fun buy logic
-        # Example: Construct a simple instruction (adjust for Pump.fun swap)
+        # Placeholder: Pump.fun swap logic (replace with actual implementation)
         amount_in_sol = 0.01  # Example amount
+        # Use Pump.fun program ID (example placeholder; replace with real ID)
+        pump_fun_program_id = Pubkey.from_string("6EF8rrecthR5Dkzon8Nwu78hRvfH8m3mH6WxsPvaRNW")
         instruction = Instruction(
-            program_id="11111111111111111111111111111111",  # System program (replace with Pump.fun program ID)
-            accounts=[],  # Add relevant account metas for Pump.fun
-            data=b""  # Add swap data
+            program_id=pump_fun_program_id,
+            accounts=[],  # Add relevant account metas (e.g., wallet, token account)
+            data=b""      # Add swap data (e.g., encoded instruction for Pump.fun buy)
         )
         message = MessageV0.try_compile(
             payer=wallet.pubkey(),
