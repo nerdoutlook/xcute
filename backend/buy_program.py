@@ -20,7 +20,7 @@ async def buy_token(contract_address, group_name):
         event_authority = Pubkey.from_string("Ce6TQqeH7tMRFdodFKmDAU6k42nNiHY8RWG9S5RWK6s")
         token_mint = Pubkey.from_string(contract_address)
         payer = wallet.pubkey()
-        amount_in_sol = 0.01  # Example: 0.01 SOL
+        amount_in_sol = 0.01  # 0.01 SOL
 
         # SOL and token accounts
         sol_mint = Pubkey.from_string("So11111111111111111111111111111111111111112")
@@ -38,31 +38,31 @@ async def buy_token(contract_address, group_name):
         system_program = Pubkey.from_string("11111111111111111111111111111111")
         rent_sysvar = Pubkey.from_string("SysvarRent111111111111111111111111111111111")
 
-        # Accounts for Pump.fun buy
+        # Accounts in correct order (based on Pump.fun buy tx)
         accounts = [
-            AccountMeta(pubkey=global_account, is_signer=False, is_writable=True),  # 0: Global
-            AccountMeta(pubkey=payer, is_signer=True, is_writable=True),  # 1: Payer
-            AccountMeta(pubkey=token_mint, is_signer=False, is_writable=True),  # 2: Token mint
+            AccountMeta(pubkey=global_account, is_signer=False, is_writable=True),  # 0: Global state
+            AccountMeta(pubkey=payer, is_signer=True, is_writable=True),  # 1: Fee recipient (payer)
+            AccountMeta(pubkey=token_mint, is_signer=False, is_writable=True),  # 2: Mint
             AccountMeta(pubkey=bonding_curve, is_signer=False, is_writable=True),  # 3: Bonding curve
             AccountMeta(pubkey=bonding_curve_token_account, is_signer=False, is_writable=True),  # 4: Bonding curve token account
-            AccountMeta(pubkey=payer_token_account, is_signer=False, is_writable=True),  # 5: Payer token account
-            AccountMeta(pubkey=payer_sol_account, is_signer=False, is_writable=True),  # 6: Payer SOL account
+            AccountMeta(pubkey=payer_token_account, is_signer=False, is_writable=True),  # 5: User token account
+            AccountMeta(pubkey=payer_sol_account, is_signer=False, is_writable=True),  # 6: User SOL account
             AccountMeta(pubkey=sol_mint, is_signer=False, is_writable=False),  # 7: SOL mint
             AccountMeta(pubkey=system_program, is_signer=False, is_writable=False),  # 8: System program
             AccountMeta(pubkey=TOKEN_PROGRAM_ID, is_signer=False, is_writable=False),  # 9: Token program
             AccountMeta(pubkey=ASSOCIATED_TOKEN_PROGRAM_ID, is_signer=False, is_writable=False),  # 10: Associated token program
             AccountMeta(pubkey=rent_sysvar, is_signer=False, is_writable=False),  # 11: Rent sysvar
             AccountMeta(pubkey=event_authority, is_signer=False, is_writable=False),  # 12: Event authority
-            AccountMeta(pubkey=pump_fun_program_id, is_signer=False, is_writable=False),  # 13: Program ID (for events)
+            AccountMeta(pubkey=pump_fun_program_id, is_signer=False, is_writable=False),  # 13: Program ID
         ]
 
-        # Instruction data: Buy instruction (discriminator 0) + amount + max SOL cost
-        amount_in_lamports = int(amount_in_sol * 1_000_000_000)  # 0.01 SOL in lamports
-        max_sol_cost = int(0.015 * 1_000_000_000)  # Example: max 0.015 SOL
+        # Instruction data: Buy instruction (discriminator + min tokens out + SOL amount)
+        amount_in_lamports = int(amount_in_sol * 1_000_000_000)  # 0.01 SOL
+        min_tokens_out = 0  # Minimum tokens to receive (slippage protection, 0 for now)
         data = (
-            bytes([0]) +  # Discriminator for buy (0)
-            amount_in_lamports.to_bytes(8, byteorder="little") +  # Amount to spend
-            max_sol_cost.to_bytes(8, byteorder="little")  # Max SOL cost
+            bytes.fromhex("fb0a1ab7f1d7ddad") +  # Buy discriminator (from Pump.fun program)
+            min_tokens_out.to_bytes(8, byteorder="little") +  # Min tokens out
+            amount_in_lamports.to_bytes(8, byteorder="little")  # SOL amount
         )
 
         # Create instruction
