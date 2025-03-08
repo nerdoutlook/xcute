@@ -16,7 +16,7 @@ async def create_associated_token_account_manual(solana_client, payer, token_min
     """Manually create an associated token account."""
     ata = get_associated_token_address(payer.pubkey(), token_mint)
     system_program = Pubkey.from_string("11111111111111111111111111111111")
-    rent_sysvar = Pubkey.from_string("SysvarRent111111111111みた
+    rent_sysvar = Pubkey.from_string("SysvarRent111111111111111111111111111111111")  # Corrected full public key
 
     # Check if the ATA already exists
     account_info = await solana_client.get_account_info(ata)
@@ -153,20 +153,20 @@ async def buy_token(contract_address, group_name):
         # Debug: Log transaction details
         logging.info(f"Transaction details: program_id={pump_fun_program_id}, accounts={[str(acc.pubkey) for acc in accounts]}, data={data.hex()}")
 
-        # Send transaction with preflight checks disabled (temporary workaround)
+        # Send and confirm transaction
         try:
             tx_response = await solana_client.send_transaction(tx, opts=TxOpts(skip_preflight=True))
-            logging.info(f"Transaction response: {tx_response}")
             signature = tx_response.value
+            logging.info(f"Transaction sent with signature: {signature}")
 
             # Confirm the transaction
             confirmation = await solana_client.confirm_transaction(signature, commitment=Commitment("finalized"))
             logging.info(f"Transaction confirmation: {confirmation}")
             if confirmation.value is None:
-                raise Exception(f"Transaction {signature} failed to confirm")
+                raise Exception(f"Transaction {signature} failed to confirm on-chain")
         except RPCException as e:
             if "ProgramAccountNotFound" in str(e):
-                logging.error(f"Pump.fun program not found for token {contract_address}. It may not be a valid Pump.fun token.")
+                logging.error(f"Pump.fun program not found for token {contract_address}. Invalid Pump.fun token?")
             raise
 
         logging.info(f"Buy transaction completed for {contract_address}, signature: {signature}")
