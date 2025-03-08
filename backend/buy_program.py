@@ -14,7 +14,7 @@ from solana.rpc.core import RPCException
 from solana.exceptions import SolanaRpcException
 
 async def create_associated_token_account_manual(solana_client, payer, token_mint, blockhash):
-    """Manually create an associated token account with debug logging and blockhash retry."""
+    """Manually create an associated token account with debug logging and relaxed status."""
     ata = get_associated_token_address(payer.pubkey(), token_mint)
     system_program = Pubkey.from_string("11111111111111111111111111111111")
     rent_sysvar = Pubkey.from_string("SysvarRent111111111111111111111111111111111")
@@ -59,11 +59,10 @@ async def create_associated_token_account_manual(solana_client, payer, token_min
                 confirmation = await solana_client.get_signature_statuses([signature])
                 status = confirmation.value[0]
                 logging.info(f"ATA confirmation check for {signature}: status={status}, elapsed={elapsed}s")
-                if status and status.confirmation_status in [Commitment("finalized"), Commitment("confirmed")]:
+                if status and status.confirmation_status in [Commitment("finalized"), Commitment("confirmed"), Commitment("processed")]:
                     logging.info(f"ATA creation confirmed with signature: {signature} (status: {status.confirmation_status})")
                     return ata
                 if elapsed >= 15 and (status is None or status.confirmation_status is None):
-                    # Fallback: Refresh blockhash and retry if not found after 15s
                     logging.warning(f"ATA {signature} not found after {elapsed}s, refreshing blockhash and retrying")
                     blockhash_response = await solana_client.get_latest_blockhash()
                     blockhash = blockhash_response.value.blockhash
@@ -71,8 +70,8 @@ async def create_associated_token_account_manual(solana_client, payer, token_min
                 logging.info(f"ATA {signature} not yet confirmed/finalized, waiting {interval}s (elapsed: {elapsed}s)")
                 await asyncio.sleep(interval)
                 elapsed += interval
-            if elapsed >= timeout:
-                raise Exception(f"ATA creation transaction {signature} not confirmed after {timeout}s")
+            logging.error(f"ATA {signature} failed to confirm after {timeout}s, last status: {status}")
+            raise Exception(f"ATA creation transaction {signature} not confirmed after {timeout}s")
         except SolanaRpcException as e:
             if "429" in str(e):
                 wait_time = 2 ** attempt
@@ -203,8 +202,8 @@ async def buy_token(contract_address, group_name):
                     logging.info(f"Buy {signature} not yet confirmed/finalized, waiting {interval}s (elapsed: {elapsed}s)")
                     await asyncio.sleep(interval)
                     elapsed += interval
-                if elapsed >= timeout:
-                    raise Exception(f"Transaction {signature} not confirmed after {timeout}s")
+                logging.error(f"Buy {signature} failed to confirm after {timeout}s, last status: {status}")
+                raise Exception(f"Transaction {signature} not confirmed after {timeout}s")
             except SolanaRpcException as e:
                 if "429" in str(e):
                     wait_time = 2 ** attempt
