@@ -10,6 +10,51 @@ from spl.token.client import Token
 from spl.token.constants import TOKEN_PROGRAM_ID, ASSOCIATED_TOKEN_PROGRAM_ID
 from spl.token.instructions import get_associated_token_address
 
+async def create_associated_token_account_manual(solana_client, payer, token_mint):
+    """Manually create an associated token account."""
+    ata = get_associated_token_address(payer.pubkey(), token_mint)
+    system_program = Pubkey.from_string("11111111111111111111111111111111")
+    rent_sysvar = Pubkey.from_string("SysvarRent111111111111111111111111111111111")
+
+    # Check if the ATA already exists
+    account_info = await solana_client.get_account_info(ata)
+    if account_info.value is not None:
+        logging.info(f"Associated token account {ata} already exists.")
+        return ata
+
+    # Instruction to create the ATA
+    create_ata_ix = Instruction(
+        program_id=ASSOCIATED_TOKEN_PROGRAM_ID,
+        accounts=[
+            AccountMeta(pubkey=payer.pubkey(), is_signer=True, is_writable=True),  # Payer
+            AccountMeta(pubkey=ata, is_signer=False, is_writable=True),  # ATA
+            AccountMeta(pubkey=payer.pubkey(), is_signer=False, is_writable=False),  # Wallet (owner)
+            AccountMeta(pubkey=token_mint, is_signer=False, is_writable=False),  # Token mint
+            AccountMeta(pubkey=system_program, is_signer=False, is_writable=False),  # System program
+            AccountMeta(pubkey=TOKEN_PROGRAM_ID, is_signer=False, is_writable=False),  # Token program
+            AccountMeta(pubkey=rent_sysvar, is_signer=False, is_writable=False),  # Rent sysvar
+        ],
+        data=bytes([0])  # Instruction discriminator for create ATA
+    )
+
+    # Fetch latest blockhash
+    blockhash_response = await solana_client.get_latest_blockhash()
+    blockhash = blockhash_response.value.blockhash
+
+    # Build and send transaction
+    message = MessageV0.try_compile(
+        payer=payer.pubkey(),
+        instructions=[create_ata_ix],
+        address_lookup_table_accounts=[],
+        recent_blockhash=blockhash
+    )
+    tx = VersionedTransaction(message, [payer])
+    tx_response = await solana_client.send_transaction(tx)
+    signature = tx_response.value
+
+    logging.info(f"Created associated token account {ata} with signature: {signature}")
+    return ata
+
 async def buy_token(contract_address, group_name):
     try:
         logging.info(f"Attempting to buy token: {contract_address} in {group_name}")
@@ -20,13 +65,13 @@ async def buy_token(contract_address, group_name):
         global_account = Pubkey.from_string("4wTV1YmiEkRvAtNtw9NZuPEqXhhX5vEiqWpXhF6bbPSM")
         event_authority = Pubkey.from_string("Ce6TQqeH7tMRFdodFKmDAU6k42nNiHY8RWG9S5RWK6s")
         token_mint = Pubkey.from_string(contract_address)
-        payer = wallet.pubkey()
+        payer = wallet
         amount_in_sol = 0.01  # 0.01 SOL
 
         # SOL and token accounts
         sol_mint = Pubkey.from_string("So11111111111111111111111111111111111111112")
-        payer_sol_account = get_associated_token_address(payer, sol_mint)
-        payer_token_account = get_associated_token_address(payer, token_mint)
+        payer_sol_account = get_associated_token_address(payer.pubkey(), sol_mint)
+        payer_token_account = get_associated_token_address(payer.pubkey(), token_mint)
 
         # Bonding curve and associated token account
         bonding_curve = Pubkey.find_program_address(
@@ -45,8 +90,7 @@ async def buy_token(contract_address, group_name):
         instructions = []
         if account_info.value is None:
             logging.info(f"Creating token account: {payer_token_account}")
-            token_client = Token(solana_client, token_mint, TOKEN_PROGRAM_ID, wallet)
-            await token_client.create_associated_token_account(payer)
+            await create_associated_token_account_manual(solana_client, payer, token_mint)
             logging.info(f"Created token account: {payer_token_account}")
         else:
             logging.info(f"Token account {payer_token_account} already exists")
@@ -54,7 +98,7 @@ async def buy_token(contract_address, group_name):
         # Accounts (verified order)
         accounts = [
             AccountMeta(pubkey=global_account, is_signer=False, is_writable=True),
-            AccountMeta(pubkey=payer, is_signer=True, is_writable=True),
+            AccountMeta(pubkey=payer.pubkey(), is_signer=True, is_writable=True),
             AccountMeta(pubkey=token_mint, is_signer=False, is_writable=True),
             AccountMeta(pubkey=bonding_curve, is_signer=False, is_writable=True),
             AccountMeta(pubkey=bonding_curve_token_account, is_signer=False, is_writable=True),
@@ -91,12 +135,12 @@ async def buy_token(contract_address, group_name):
         logging.info(f"Blockhash response: {blockhash_response}")
         blockhash = blockhash_response.value.blockhash
         message = MessageV0.try_compile(
-            payer=payer,
+            payer=payer.pubkey(),
             instructions=instructions,
             address_lookup_table_accounts=[],
             recent_blockhash=blockhash
         )
-        tx = VersionedTransaction(message, [wallet])
+        tx = VersionedTransaction(message, [payer])
 
         # Debug: Log transaction details
         logging.info(f"Transaction details: program_id={pump_fun_program_id}, accounts={[str(acc.pubkey) for acc in accounts]}, data={data.hex()}")
