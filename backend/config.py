@@ -16,7 +16,7 @@ class Settings:
     groups_file = Path("groups.txt")
     log_dir = Path("logs")
     wallet_private_key = os.getenv("WALLET_PRIVATE_KEY")
-    BUY_DOLLAR_VALUE = 1.0
+    BUY_DOLLAR_VALUE = 0.5
     SLIPPAGE_TOLERANCE = 0.05  # 5%
     PROFIT_THRESHOLD = 2.0  # 2x
     SELL_PROFIT_FACTOR = 1.5  # Sell 1.5x on profit

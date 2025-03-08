@@ -9,13 +9,14 @@ from solders.pubkey import Pubkey
 from spl.token.client import Token
 from spl.token.constants import TOKEN_PROGRAM_ID, ASSOCIATED_TOKEN_PROGRAM_ID
 from spl.token.instructions import get_associated_token_address
-from solana.rpc.types import TxOpts
+from solana.rpc.types import TxOpts, Commitment
+from solana.rpc.core import RPCException
 
 async def create_associated_token_account_manual(solana_client, payer, token_mint):
     """Manually create an associated token account."""
     ata = get_associated_token_address(payer.pubkey(), token_mint)
     system_program = Pubkey.from_string("11111111111111111111111111111111")
-    rent_sysvar = Pubkey.from_string("SysvarRent111111111111111111111111111111111")
+    rent_sysvar = Pubkey.from_string("SysvarRent111111111111みた
 
     # Check if the ATA already exists
     account_info = await solana_client.get_account_info(ata)
@@ -52,6 +53,12 @@ async def create_associated_token_account_manual(solana_client, payer, token_min
     tx = VersionedTransaction(message, [payer])
     tx_response = await solana_client.send_transaction(tx, opts=TxOpts(skip_preflight=True))
     signature = tx_response.value
+
+    # Confirm the transaction
+    confirmation = await solana_client.confirm_transaction(signature, commitment=Commitment("finalized"))
+    logging.info(f"ATA creation confirmation: {confirmation}")
+    if confirmation.value is None:
+        raise Exception(f"ATA creation transaction {signature} failed to confirm")
 
     logging.info(f"Created associated token account {ata} with signature: {signature}")
     return ata
@@ -147,9 +154,20 @@ async def buy_token(contract_address, group_name):
         logging.info(f"Transaction details: program_id={pump_fun_program_id}, accounts={[str(acc.pubkey) for acc in accounts]}, data={data.hex()}")
 
         # Send transaction with preflight checks disabled (temporary workaround)
-        tx_response = await solana_client.send_transaction(tx, opts=TxOpts(skip_preflight=True))
-        logging.info(f"Transaction response: {tx_response}")
-        signature = tx_response.value
+        try:
+            tx_response = await solana_client.send_transaction(tx, opts=TxOpts(skip_preflight=True))
+            logging.info(f"Transaction response: {tx_response}")
+            signature = tx_response.value
+
+            # Confirm the transaction
+            confirmation = await solana_client.confirm_transaction(signature, commitment=Commitment("finalized"))
+            logging.info(f"Transaction confirmation: {confirmation}")
+            if confirmation.value is None:
+                raise Exception(f"Transaction {signature} failed to confirm")
+        except RPCException as e:
+            if "ProgramAccountNotFound" in str(e):
+                logging.error(f"Pump.fun program not found for token {contract_address}. It may not be a valid Pump.fun token.")
+            raise
 
         logging.info(f"Buy transaction completed for {contract_address}, signature: {signature}")
         print(f"Buy transaction completed for {contract_address}, signature: {signature}")
