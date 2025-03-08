@@ -6,8 +6,9 @@ from solders.instruction import Instruction, AccountMeta
 from solders.message import MessageV0
 from solders.transaction import VersionedTransaction
 from solders.pubkey import Pubkey
+from spl.token.client import Token
 from spl.token.constants import TOKEN_PROGRAM_ID, ASSOCIATED_TOKEN_PROGRAM_ID
-from spl.token.instructions import get_associated_token_address, create_associated_token_account_instruction
+from spl.token.instructions import get_associated_token_address
 
 async def buy_token(contract_address, group_name):
     try:
@@ -44,12 +45,11 @@ async def buy_token(contract_address, group_name):
         instructions = []
         if account_info.value is None:
             logging.info(f"Creating token account: {payer_token_account}")
-            create_ata_ix = create_associated_token_account_instruction(
-                payer=payer,
-                wallet_address=payer,
-                token_mint=token_mint
-            )
-            instructions.append(create_ata_ix)
+            token_client = Token(solana_client, token_mint, TOKEN_PROGRAM_ID, wallet)
+            await token_client.create_associated_token_account(payer)
+            logging.info(f"Created token account: {payer_token_account}")
+        else:
+            logging.info(f"Token account {payer_token_account} already exists")
 
         # Accounts (verified order)
         accounts = [
@@ -103,7 +103,7 @@ async def buy_token(contract_address, group_name):
 
         tx_response = await solana_client.send_transaction(tx)
         logging.info(f"Transaction response: {tx_response}")
-        signature = tx_response.value  # This assumes .value is correct; adjust based on logs if needed
+        signature = tx_response.value  # Adjust if logs show a different structure
 
         logging.info(f"Buy transaction completed for {contract_address}, signature: {signature}")
         print(f"Buy transaction completed for {contract_address}, signature: {signature}")
